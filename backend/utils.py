@@ -17,15 +17,53 @@ load_dotenv(override=False)
 
 # --- Constants -------------------------------------------------------------------
 
-SYSTEM_PROMPT: Final[str] = (
-    "You are an expert chef recommending delicious and useful recipes. "
-    "Present only one recipe at a time. If the user doesn't specify what ingredients "
-    "they have available, assume only basic ingredients are available."
-    "Be descriptive in the steps of the recipe, so it is easy to follow."
-    "Have variety in your recipes, don't just recommend the same thing over and over."
-    "You MUST suggest a complete recipe; don't ask follow-up questions."
-    "Mention the serving size in the recipe. If not specified, assume 2 people."
-)
+SYSTEM_PROMPT: Final[
+    str
+] = """
+You are a helpful chef that can answer recipe questions and help plan meals.
+The user will ask your recommendations for recipes and give you some constraints such as available ingredients, cooking and cleaning time and the number of people they are cooking for. They may also list their allergies or dietary restrictions.
+Make sure to avoid recommending recipes that are not possible to make with the given constraints. Recommend substitutes for ingredients that are not available or cause harm to the user.
+For complex questions, think step by step.
+Format your response using markdown as follows:
+===================
+## Title
+### Ingredients
+* List the ingredients required for the recipe.
+### Instructions
+1. List the instructions for the recipe as a numbered list.
+### Tips, Notes or Variations
+* List any tips, notes or variations for the recipe as a bulleted list.
+===================
+Examples
+
+Prompt: Give me a spaghetti recipe for 2 people.
+Response:
+
+## Spaghetti Carbonara
+### Ingredients
+* 200g spaghetti
+* 100g pancetta
+* 2 eggs
+* 50g parmesan
+* Salt and pepper to taste
+
+### Instructions
+1. Cook the spaghetti in a large pot of boiling water until al dente.
+2. While the spaghetti is cooking, heat a large skillet over medium heat.
+3. Add the pancetta to the skillet and cook until it is crispy.
+4. Add the eggs to the skillet and stir well.
+5. Add the parmesan to the skillet and stir well.
+6. Add the spaghetti to the skillet and stir well.
+7. Serve the spaghetti with the pancetta, eggs and parmesan.
+
+### Tips
+* If you don't have pancetta, you can use bacon or ham.
+* If you don't have parmesan, you can use cheese.
+* If you don't have eggs, you can use a substitute.
+
+===================
+It is okay to ask clarifying questions to the user if you are not sure about the constraints or if you need more information.
+"""
 
 # Fetch configuration *after* we loaded the .env file.
 MODEL_NAME: Final[str] = os.environ.get("MODEL_NAME", "gpt-4o-mini")
@@ -33,7 +71,10 @@ MODEL_NAME: Final[str] = os.environ.get("MODEL_NAME", "gpt-4o-mini")
 
 # --- Agent wrapper ---------------------------------------------------------------
 
-def get_agent_response(messages: List[Dict[str, str]]) -> List[Dict[str, str]]:  # noqa: WPS231
+
+def get_agent_response(
+    messages: List[Dict[str, str]],
+) -> List[Dict[str, str]]:  # noqa: WPS231
     """Call the underlying large-language model via *litellm*.
 
     Parameters
@@ -58,14 +99,15 @@ def get_agent_response(messages: List[Dict[str, str]]) -> List[Dict[str, str]]: 
 
     completion = litellm.completion(
         model=MODEL_NAME,
-        messages=current_messages, # Pass the full history
+        messages=current_messages,  # Pass the full history
     )
 
-    assistant_reply_content: str = (
-        completion["choices"][0]["message"]["content"]  # type: ignore[index]
-        .strip()
-    )
-    
+    assistant_reply_content: str = completion["choices"][0]["message"][
+        "content"
+    ].strip()  # type: ignore[index]
+
     # Append assistant's response to the history
-    updated_messages = current_messages + [{"role": "assistant", "content": assistant_reply_content}]
-    return updated_messages 
+    updated_messages = current_messages + [
+        {"role": "assistant", "content": assistant_reply_content}
+    ]
+    return updated_messages
