@@ -8,3 +8,7 @@ pandas
 numpy
 scikit-learn
 judgy
+arize-phoenix[evals]
+opentelemetry-sdk
+opentelemetry-exporter-otlp
+openinference-instrumentation

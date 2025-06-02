@@ -1,4 +1,15 @@
 from __future__ import annotations
+from collections import namedtuple
+import logging
+import os
+from typing import Final, List, Dict
+
+import litellm  # type: ignore
+from dotenv import load_dotenv
+from backend.instrumentation import start_instrumentation
+from opentelemetry import trace as trace_api
+
+tracer = trace_api.get_tracer(__name__)
 
 """Utility helpers for the recipe chatbot backend.
 
@@ -6,11 +17,8 @@ This module centralises the system prompt, environment loading, and the
 wrapper around litellm so the rest of the application stays decluttered.
 """
 
-import os
-from typing import Final, List, Dict
-
-import litellm  # type: ignore
-from dotenv import load_dotenv
+logger = logging.getLogger(__name__)
+start_instrumentation(logger)
 
 # Ensure the .env file is loaded as early as possible.
 load_dotenv(override=False)
@@ -68,6 +76,19 @@ It is okay to ask clarifying questions to the user if you are not sure about the
 # Fetch configuration *after* we loaded the .env file.
 MODEL_NAME: Final[str] = os.environ.get("MODEL_NAME", "gpt-4o-mini")
 
+# Define the RecipeRequest namedtuple with all our dimensions
+RecipeRequest = namedtuple(
+    "RecipeRequest",
+    [
+        "available_ingredients",
+        "party_size",
+        "dietary_restrictions",
+        "cuisine_type",
+        "available_kitchen_equipment",
+        "meal_prep_time",
+        "natural_language_query",
+    ],
+)
 
 # --- Agent wrapper ---------------------------------------------------------------
 
@@ -111,3 +132,27 @@ def get_agent_response(
         {"role": "assistant", "content": assistant_reply_content}
     ]
     return updated_messages
+
+
+def get_agent_response_with_metadata(
+    recipe_request: RecipeRequest,
+) -> List[Dict[str, str]]:
+    with tracer.start_as_current_span("generate") as span:
+        span.set_attribute(
+            "available_ingredients", recipe_request.available_ingredients
+        )
+        span.set_attribute("party_size", recipe_request.party_size)
+        span.set_attribute("dietary_restrictions", recipe_request.dietary_restrictions)
+        span.set_attribute("cuisine_type", recipe_request.cuisine_type)
+        span.set_attribute(
+            "available_kitchen_equipment", recipe_request.available_kitchen_equipment
+        )
+        span.set_attribute("meal_prep_time", recipe_request.meal_prep_time)
+        span.set_attribute(
+            "natural_language_query", recipe_request.natural_language_query
+        )
+        return get_agent_response(
+            messages=[
+                {"role": "user", "message": recipe_request.natural_language_query}
+            ]
+        )

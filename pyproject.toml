@@ -1,0 +1,25 @@
+[project]
+name = "recipe-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "python-dotenv",
+  "fastapi",
+  "uvicorn",
+  "litellm",
+  "python-dotenv",
+  "httpx",
+  "rich",
+  "pandas",
+  "numpy",
+  "scikit-learn",
+  "judgy",
+  "arize-phoenix[evals]",
+  "opentelemetry-sdk",
+  "opentelemetry-exporter-otlp",
+  "openinference-instrumentation",
+  "openinference-instrumentation-litellm>=0.1.21",
+  "arize-otel>=0.8.1",
+]
