@@ -12,3 +12,5 @@ arize-phoenix[evals]
 opentelemetry-sdk
 opentelemetry-exporter-otlp
 openinference-instrumentation
+rank-bm25
+tqdm
