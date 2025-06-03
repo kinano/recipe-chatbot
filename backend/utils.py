@@ -143,6 +143,7 @@ def get_agent_response_with_metadata(
         "dietary_restrictions": recipe_request.dietary_restrictions,
         "cuisine_type": recipe_request.cuisine_type,
         "natural_language_query": recipe_request.natural_language_query,
+        "experiment": os.environ.get("EXPERIMENT", "N/A"),
     }
     with using_metadata(metadata):
         return get_agent_response(
