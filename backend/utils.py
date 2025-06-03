@@ -8,6 +8,8 @@ import litellm  # type: ignore
 from dotenv import load_dotenv
 from backend.instrumentation import start_instrumentation
 from opentelemetry import trace as trace_api
+from openinference.instrumentation import using_metadata
+
 
 tracer = trace_api.get_tracer(__name__)
 
@@ -80,12 +82,11 @@ MODEL_NAME: Final[str] = os.environ.get("MODEL_NAME", "gpt-4o-mini")
 RecipeRequest = namedtuple(
     "RecipeRequest",
     [
-        "available_ingredients",
         "party_size",
         "dietary_restrictions",
         "cuisine_type",
-        "available_kitchen_equipment",
-        "meal_prep_time",
+        "user_persona",
+        "scenario",
         "natural_language_query",
     ],
 )
@@ -137,16 +138,28 @@ def get_agent_response(
 def get_agent_response_with_metadata(
     recipe_request: RecipeRequest,
 ) -> List[Dict[str, str]]:
-    span = trace_api.get_current_span()
-    span.set_attribute("available_ingredients", recipe_request.available_ingredients)
-    span.set_attribute("party_size", recipe_request.party_size)
-    span.set_attribute("dietary_restrictions", recipe_request.dietary_restrictions)
-    span.set_attribute("cuisine_type", recipe_request.cuisine_type)
-    span.set_attribute(
-        "available_kitchen_equipment", recipe_request.available_kitchen_equipment
-    )
-    span.set_attribute("meal_prep_time", recipe_request.meal_prep_time)
-    span.set_attribute("natural_language_query", recipe_request.natural_language_query)
-    return get_agent_response(
-        messages=[{"role": "user", "content": recipe_request.natural_language_query}]
-    )
+    metadata = {
+        "party_size": recipe_request.party_size,
+        "dietary_restrictions": recipe_request.dietary_restrictions,
+        "cuisine_type": recipe_request.cuisine_type,
+        "natural_language_query": recipe_request.natural_language_query,
+    }
+    with using_metadata(metadata):
+        return get_agent_response(
+            messages=[
+                {"role": "user", "content": recipe_request.natural_language_query}
+            ]
+        )
+
+    # # span.set_attribute("available_ingredients", recipe_request.available_ingredients)
+    # # span.set_attribute("party_size", recipe_request.party_size)
+    # # span.set_attribute("dietary_restrictions", recipe_request.dietary_restrictions)
+    # # span.set_attribute("cuisine_type", recipe_request.cuisine_type)
+    # # span.set_attribute(
+    # #     "available_kitchen_equipment", recipe_request.available_kitchen_equipment
+    # # )
+    # # span.set_attribute("meal_prep_time", recipe_request.meal_prep_time)
+    # # span.set_attribute("natural_language_query", recipe_request.natural_language_query)
+    # return get_agent_response(
+    #     messages=[{"role": "user", "content": recipe_request.natural_language_query}]
+    # )
