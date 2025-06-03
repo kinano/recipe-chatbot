@@ -137,22 +137,16 @@ def get_agent_response(
 def get_agent_response_with_metadata(
     recipe_request: RecipeRequest,
 ) -> List[Dict[str, str]]:
-    with tracer.start_as_current_span("generate") as span:
-        span.set_attribute(
-            "available_ingredients", recipe_request.available_ingredients
-        )
-        span.set_attribute("party_size", recipe_request.party_size)
-        span.set_attribute("dietary_restrictions", recipe_request.dietary_restrictions)
-        span.set_attribute("cuisine_type", recipe_request.cuisine_type)
-        span.set_attribute(
-            "available_kitchen_equipment", recipe_request.available_kitchen_equipment
-        )
-        span.set_attribute("meal_prep_time", recipe_request.meal_prep_time)
-        span.set_attribute(
-            "natural_language_query", recipe_request.natural_language_query
-        )
-        return get_agent_response(
-            messages=[
-                {"role": "user", "message": recipe_request.natural_language_query}
-            ]
-        )
+    span = trace_api.get_current_span()
+    span.set_attribute("available_ingredients", recipe_request.available_ingredients)
+    span.set_attribute("party_size", recipe_request.party_size)
+    span.set_attribute("dietary_restrictions", recipe_request.dietary_restrictions)
+    span.set_attribute("cuisine_type", recipe_request.cuisine_type)
+    span.set_attribute(
+        "available_kitchen_equipment", recipe_request.available_kitchen_equipment
+    )
+    span.set_attribute("meal_prep_time", recipe_request.meal_prep_time)
+    span.set_attribute("natural_language_query", recipe_request.natural_language_query)
+    return get_agent_response(
+        messages=[{"role": "user", "content": recipe_request.natural_language_query}]
+    )

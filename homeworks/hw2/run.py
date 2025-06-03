@@ -218,4 +218,6 @@ recipe_requests: List[RecipeRequest] = [
 
 if __name__ == "__main__":
     for recipe_request in recipe_requests:
-        get_agent_response_with_metadata(recipe_request=recipe_request)
+        print(
+            f"#####\nresponse: {get_agent_response_with_metadata(recipe_request=recipe_request)}\n#####"
+        )
