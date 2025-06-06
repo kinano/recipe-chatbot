@@ -14,3 +14,8 @@ opentelemetry-exporter-otlp
 openinference-instrumentation
 rank-bm25
 tqdm
+pydantic
+typing-extensions
+matplotlib
+seaborn
+plotly
