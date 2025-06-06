@@ -154,6 +154,31 @@ wheels = [
 ]
 
 [[package]]
+name = "arize"
+version = "7.43.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "googleapis-common-protos" },
+    { name = "pandas" },
+    { name = "protobuf" },
+    { name = "pyarrow" },
+    { name = "pydantic" },
+    { name = "requests-futures" },
+    { name = "tqdm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a0/37/460ff097bf69699d2192011259a36c5d5230957ec4d24f94c51c49fc5e26/arize-7.43.1.tar.gz", hash = "sha256:0f4f76aa3c75ead3d984c111db35664e7c563b2665d3adc21e5151adaffafa4b", size = 185962 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/55/ff/57fa57f5125b38f673de8b5f51c997828576be1224d159245e3542ca1a29/arize-7.43.1-py3-none-any.whl", hash = "sha256:dbe304459f37fa81d714d83742a39eca865a5b2f3c9632e4a4ca3cc25d6df348", size = 234731 },
+]
+
+[package.optional-dependencies]
+tracing = [
+    { name = "deprecated" },
+    { name = "openinference-semantic-conventions" },
+    { name = "opentelemetry-semantic-conventions" },
+]
+
+[[package]]
 name = "arize-otel"
 version = "0.8.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1723,6 +1748,7 @@ name = "recipe-chatbot"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "arize", extra = ["tracing"] },
     { name = "arize-otel" },
     { name = "arize-phoenix" },
     { name = "fastapi" },
@@ -1743,6 +1769,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "arize", extras = ["tracing"], specifier = ">=7.1.0" },
     { name = "arize-otel", specifier = ">=0.8.1" },
     { name = "arize-phoenix", extras = ["evals"] },
     { name = "fastapi" },
@@ -1841,6 +1868,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/63/70/2bf7780ad2d390a8d301ad0b550f1581eadbd9a20f896afe06353c2a2913/requests-2.32.3.tar.gz", hash = "sha256:55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760", size = 131218 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl", hash = "sha256:70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6", size = 64928 },
+]
+
+[[package]]
+name = "requests-futures"
+version = "1.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/47/c4/fd48d1ac5110a5457c71ac7cc4caa93da10a80b8de71112430e439bdee22/requests-futures-1.0.0.tar.gz", hash = "sha256:35547502bf1958044716a03a2f47092a89efe8f9789ab0c4c528d9c9c30bc148", size = 10897 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/63/9e/7b986554f6de56f1d43f9fdc410631009af6034027efa31f90867d264319/requests_futures-1.0.0-py2.py3-none-any.whl", hash = "sha256:633804c773b960cef009efe2a5585483443c6eac3c39cc64beba2884013bcdd9", size = 7448 },
 ]
 
 [[package]]
