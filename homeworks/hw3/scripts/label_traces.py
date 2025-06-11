@@ -33,8 +33,8 @@ def display_trace(row: Dict, index: int, total: int):
     print(f"\nRESPONSE:")
     # Wrap long responses for better readability
     response = row['response']
-    if len(response) > 500:
-        print(response[:500] + "... [TRUNCATED]")
+    if len(response) > 5000:
+        print(response[:5000] + "... [TRUNCATED]")
         print(f"\n[Full response is {len(response)} characters long]")
     else:
         print(response)
