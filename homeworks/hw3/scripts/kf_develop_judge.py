@@ -55,43 +55,160 @@ IMPORTANT: You must respond with a valid JSON object in the following format:
     "confidence": "low", "medium", or "high"
 }
 
-EXAMPLES OF GOOD EVALUATION:
+EXAMPLES:
+[
+  {
+    "user_query": "I'm flexitarian leaning vegan",
+    "dietary_restriction": "vegan",
+    "application_response": "Great choice! Here's a flavorful and nutritious recipe for **Chickpea and Spinach Curry**. It’s vegan, hearty, and perfect for a cozy dinner for two.
 
-Example 1 - Low-carb query:
-User Query: "I want something light but filling"
-Dietary Restriction: "low-carb"
-Recipe Response: Contains quinoa (high-carb grain)
-Correct Evaluation: FAIL - Quinoa is a clear high-carb violation for low-carb diet
+### Chickpea and Spinach Curry
 
-Example 2 - Vegan query:
-User Query: "I'm flexitarian leaning vegan"
-Dietary Restriction: "vegan"
-Recipe Response: All ingredients are plant-based (chickpeas, spinach, coconut milk, etc.)
-Correct Evaluation: PASS - Recipe is fully vegan-compliant
+#### Ingredients:
+- 1 tablespoon olive oil
+- 1 medium onion, finely chopped
+- 3 cloves garlic, minced
+- 1-inch piece ginger, grated
+- 1 teaspoon ground cumin
+- 1 teaspoon ground coriander
+- 1/2 teaspoon turmeric
+- 1/2 teaspoon paprika
+- 1/4 teaspoon cayenne pepper (optional for heat)
+- 1 can (15 oz) chickpeas, drained and rinsed
+- 1 can (14 oz) diced tomatoes
+- 1 cup coconut milk (or any plant-based milk for a lighter version)
+- 4 cups fresh spinach, chopped
+- Salt and pepper to taste
+- Fresh cilantro for garnish (optional)
+- Cooked rice or naan for serving
 
-Example 3 - Borderline case:
-User Query: "I need gluten-free options"
-Dietary Restriction: "gluten-free"
-Recipe Response: Uses oats (potentially cross-contaminated but often acceptable)
-Correct Evaluation: FAIL - Oats are generally not acceptable for gluten-free diets unless specifically noted.
+#### Instructions:
 
-Example 4 - Good faith attempt:
-User Query: "I'm trying to eat keto"
-Dietary Restriction: "keto"
-Recipe Response: Suggests cauliflower rice instead of regular rice, includes high-fat ingredients
-Correct Evaluation: PASS - Shows clear attempt to accommodate keto requirements
+1. **Sauté the Aromatics:**
+   - Heat the olive oil in a large skillet or saucepan over medium heat.
+   - Add the chopped onion and cook for about 5 minutes, until it becomes translucent and soft.
+   - Stir in the minced garlic and grated ginger; cook for another 1 minute until fragrant.
 
-Example 5 - Good adherence to user constraints:
-User Query: "I am pescatarian and I hate fish"
-Dietary Restriction: "pescatarian"
-Recipe Response: Uses fish
-Correct Evaluation: FAIL - User has expressed a constraint against fish.
+2. **Add Spices:**
+   - Sprinkle in the cumin, coriander, turmeric, paprika, and cayenne (if using).
+   - Stir well, letting the spices toast for about 30 seconds to activate their flavors.
 
-Example 6 - Good adherence to user constraints:
-User Query: "I am pescatarian and I hate fish"
-Dietary Restriction: "pescatarian"
-Recipe Response: Uses shellfish
-Correct Evaluation: PASS - User has expressed a constraint against fish and the application respected that.
+3. **Incorporate Chickpeas and Tomatoes:**
+   - Add the drained chickpeas and diced tomatoes (including juices).
+   - Mix everything thoroughly, and let it simmer for 10 minutes, allowing flavors to meld.
+
+4. **Pour in Coconut Milk:**
+   - Stir in the coconut milk, bring to a gentle simmer, and cook for another 10 minutes until the sauce thickens slightly.
+   - Season with salt and pepper to taste.
+
+5. **Add Spinach:**
+   - Stir in the chopped spinach and cook for about 2-3 minutes until wilted.
+   
+6. **Serve:**
+   - Ladle the curry over cooked rice or serve with warm naan.
+   - Garnish with fresh cilantro if desired.
+
+Enjoy your vibrant Chickpea and Spinach Curry—nutritious, comforting, and perfect for a flexitarian, vegan-friendly meal!",
+    "llm_judge_label": "pass",
+    "reason": "The recipe for Chickpea and Spinach Curry adheres to the vegan dietary restriction. All ingredients listed are plant-based, including olive oil, onion, garlic, ginger, spices, chickpeas, diced tomatoes, coconut milk, spinach, and cilantro. The recipe does not include any animal products such as meat, dairy, eggs, or honey. The preparation methods also do not introduce any non-vegan elements. The suggestion to serve with rice or naan is appropriate as long as the naan is vegan, which is not specified but can be assumed given the context.",
+    "confidence": "high"
+  },
+  {
+    "user_query": "I want to make a birthday cake but I'm diabetic. Something that still tastes good?",
+    "dietary_restriction": "diabetic-friendly",
+    "application_response": "Absolutely! I recommend making a **Low-Carb Almond Flour Birthday Cake**. It's moist, flavorful, and suitable for diabetics since it uses almond flour and natural sweeteners. Here's a detailed recipe for a 2-layer cake that serves 8 slices.
+
+### Ingredients:
+- 2 cups almond flour
+- 1/2 cup erythritol or monk fruit sweetener (granular form)
+- 1 teaspoon baking powder
+- 1/2 teaspoon salt
+- 4 large eggs
+- 1/2 cup unsweetened almond milk
+- 1/4 cup melted coconut oil or butter
+- 1 teaspoon vanilla extract
+- Optional: fresh berries for decoration
+
+### For the frosting:
+- 1 cup cream cheese, softened
+- 1/2 cup unsweetened whipped heavy cream
+- 2 tbsp erythritol or monk fruit sweetener
+- 1 teaspoon vanilla extract
+
+---
+
+### Instructions:
+
+**1. Preheat your oven:**  
+Set it to 350°F (175°C). Grease two 8-inch round cake pans with butter or coconut oil and line the bottoms with parchment paper for easy removal.
+
+**2. Mix dry ingredients:**  
+In a large bowl, whisk together almond flour, erythritol, baking powder, and salt until well combined.
+
+**3. Combine wet ingredients:**  
+In another bowl, beat the eggs lightly. Add almond milk, melted coconut oil, and vanilla extract. Whisk until smooth.
+
+**4. Mix everything:**  
+Pour the wet ingredients into the dry ingredients. Stir gently until the batter is uniform and smooth. Do not overmix.
+
+**5. Bake:**  
+Divide the batter evenly between the two prepared pans. Tap the pans lightly to remove air bubbles. Place in the oven and bake for 20-25 minutes, or until a toothpick inserted into the center comes out clean.
+
+**6. Cool:**  
+Remove from the oven and cool in the pans for 10 minutes, then transfer to a wire rack to cool completely.
+
+**7. Make the frosting:**  
+In a bowl, beat the softened cream cheese until smooth. Add erythritol and vanilla, then beat again. In a separate bowl, whip the heavy cream until soft peaks form. Gently fold the whipped cream into the cream cheese mixture until well combined.
+
+**8. Assemble the cake:**  
+Place one cake layer on a serving plate. Spread a generous layer of frosting on top. Place the second layer on top and frost the top and sides of the cake.
+
+**9. Decorate:**  
+Optional: Garnish with fresh berries or sugar-free sprinkles.
+
+**10. Serve:**  
+Slice into 8 pieces and enjoy a delicious, diabetic-friendly birthday cake!
+
+Would you like tips on decorating or a specific flavor variation?",
+    "llm_judge_label": "pass",
+    "reason": "The recipe for the Low-Carb Almond Flour Birthday Cake is designed to be diabetic-friendly. It uses almond flour, which is low in carbohydrates and has a low glycemic index, making it suitable for managing blood sugar levels. The sweeteners used, erythritol or monk fruit, are both low-glycemic and do not significantly impact blood sugar, which is ideal for diabetics. The recipe avoids high-sugar ingredients and uses unsweetened almond milk and unsweetened whipped heavy cream, further reducing the carbohydrate content. The use of cream cheese and coconut oil or butter provides healthy fats, which can help in moderating blood sugar spikes. Overall, the recipe adheres to the diabetic-friendly dietary restriction by focusing on low-glycemic ingredients and controlled carbohydrate content.",
+    "confidence": "high"
+  },
+  {
+    "user_query": "I avoid processed foods but I'm lazy",
+    "dietary_restriction": "paleo",
+    "application_response": "Great! How about a simple, wholesome Spaghetti Aglio e Olio? It’s quick, requires minimal ingredients, and is free of processed foods. Perfect for a lazy day!
+
+### Spaghetti Aglio e Olio (Serves 2)
+
+#### Ingredients:
+- 200g (7 oz) spaghetti
+- 4 cloves garlic, thinly sliced
+- 1/4 cup extra virgin olive oil
+- 1/2 teaspoon chili flakes (optional, for a bit of heat)
+- Salt, to taste
+- Fresh parsley, chopped (about 2 tablespoons)
+- Freshly ground black pepper
+- Grated Parmesan cheese (optional, but not processed if you have good quality)
+
+#### Instructions:
+
+1. **Cook the Pasta:** Bring a large pot of salted water to a boil. Add the spaghetti and cook according to the package instructions until al dente (about 8-10 minutes). Once cooked, reserve 1/4 cup of pasta water and then drain the pasta.
+
+2. **Prepare the Flavored Oil:** While the pasta cooks, heat the olive oil in a large skillet over medium heat. Add the sliced garlic and chili flakes (if using). Sauté gently, stirring constantly, for about 2-3 minutes until the garlic turns golden and fragrant. Be careful not to burn it, as burnt garlic becomes bitter.
+
+3. **Combine Pasta and Flavored Oil:** Add the drained spaghetti directly into the skillet with the garlic oil. Toss well to coat all strands. If it seems dry, add a splash of the reserved pasta water to loosen it up.
+
+4. **Finish and Serve:** Remove from heat. Stir in chopped parsley, a pinch of salt, and freshly ground black pepper to taste. If you like, sprinkle with some grated Parmesan cheese and give it another toss.
+
+5. **Plate and Enjoy:** Serve immediately with a fresh salad or some crusty bread on the side.
+
+This dish is all about flavor with minimal effort—perfect for a lazy but wholesome meal!",
+    "llm_judge_label": "fail",
+    "reason": "The recipe for Spaghetti Aglio e Olio does not adhere to the paleo dietary restriction. The primary ingredient, spaghetti, is made from wheat, which is a grain and not allowed on a paleo diet. Additionally, the optional use of Parmesan cheese is a dairy product, which is also not permitted in paleo. The recipe also suggests serving with crusty bread, another grain-based product. While the recipe avoids processed foods, it does not meet the paleo criteria due to the inclusion of grains and dairy.",
+    "confidence": "high"
+  }
+]
 """
 
     def __init__(self, model_name: Optional[str] = None):

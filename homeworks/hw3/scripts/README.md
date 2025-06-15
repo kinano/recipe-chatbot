@@ -46,11 +46,12 @@ uv run --env-file .env python kf_develop_judge.py ../data/kf_dev_set.csv --debug
 Optional arguments:
 
 - `--model`: Override the model specified in .env (e.g., `--model ollama/mistral`)
+- `--debug`: Enable debug logging for troubleshooting
 
 Example with custom model:
 
 ```bash
-uv run python scripts/kf_develop_judge.py data/kf_dev_set.csv --model ollama/llama3
+uv run --env-file .env python kf_develop_judge.py ../data/kf_dev_set.csv --model ollama/llama3
 ```
 
 ## Input CSV Format
@@ -96,6 +97,51 @@ Note:
 ## Dependencies
 
 All dependencies are managed in the project's `pyproject.toml`.
+
+# Judge Performance Evaluation
+
+## kf_evaluate_judge.py
+
+This script evaluates LLM judge performance using the `judgy` library to calculate corrected metrics.
+
+### Features
+
+- Calculates raw pass rate (p_obs) from judge predictions
+- Estimates corrected true success rate (θ̂) accounting for judge errors
+- Provides 95% Confidence Interval (CI) for the true success rate
+- Interprets results for Recipe Bot dietary adherence assessment
+- Evaluates judge performance metrics (accuracy, precision, recall, etc.)
+
+### Usage
+
+```bash
+# Basic evaluation
+uv run python kf_evaluate_judge.py ../data/llm_eval_runs/llm_as_judge_eval_run_2025-06-15-16-55-17.csv
+
+# With debug logging
+uv run python kf_evaluate_judge.py ../data/llm_eval_runs/results.csv --debug
+```
+
+### Required CSV Format
+
+The input CSV file must contain:
+- `label`: Ground truth labels ("pass" or "fail")
+- `llm_judge_label`: Judge predictions ("pass" or "fail")
+
+### Output
+
+The script provides:
+1. **Recipe Bot Assessment**: How well the bot adheres to dietary preferences
+2. **Confidence Level**: How confident we are in the assessment
+3. **Judge Performance**: Accuracy, precision, recall, and F1-score of the judge
+4. **Detailed Breakdown**: Confusion matrix components
+
+### Dependencies
+
+Requires the `judgy` library:
+```bash
+pip install judgy
+```
 
 ## Iterations (with Claude)
 
