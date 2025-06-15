@@ -41,7 +41,7 @@ I want something light but filling,low-carb,"I recommend trying a **Lemon Herb C
 5. **Serve Immediately:**
    - Enjoy this fresh, flavorful light but filling salad perfect for a nutritious lunch or dinner.
 
-Would you like a different recipe or more options?",pass,,42_22,42,fail,"The recipe includes feta cheese, which is high in carbohydrates and may not align with a strict low-carb diet. Although the recipe does not explicitly mention quinoa or other high-carb ingredients, the inclusion of feta cheese makes it unsuitable for a low-carb dietary restriction.",high
+Would you like a different recipe or more options?",pass,,42_22,42,fail,"The recipe contains mixed salad greens, which are likely high in carbs. While the recipe does not explicitly mention the carb content of the greens, it is a common ingredient that can contribute significantly to the overall carb count.",high
 I'm trying to eat clean but I want pizza,whole30,"Great choice! Here's a delicious and healthy homemade **Cauliflower Crust Pizza** that serves 2 people. It's low in carbs, rich in nutrients, and perfect for a clean eating goal.
 
 ### Ingredients:
@@ -86,7 +86,7 @@ I'm trying to eat clean but I want pizza,whole30,"Great choice! Here's a delicio
 
 **Tip:** Pair it with a fresh side salad for a complete, nourishing meal.
 
-Enjoy your guilt-free pizza! Would you like a different recipe or ideas for toppings?",fail,,40_5,40,fail,"The recipe includes mozzarella cheese, which is not compliant with a Whole30 diet. The Whole30 program eliminates all dairy products, including cheese, for 30 days to promote healing and improve overall health.",high
+Enjoy your guilt-free pizza! Would you like a different recipe or ideas for toppings?",fail,,40_5,40,fail,"The recipe response contains dairy (mozzarella cheese) which is not allowed in a Whole30 diet. The response also mentions 'clean eating' and 'healthy', but these terms do not necessarily imply adherence to the specific dietary restrictions of Whole30.",high
 I want something light but filling,low-carb,"I recommend trying a **Chickpea and Spinach Salad with Lemon-Tahini Dressing**. It's light yet satisfying, packed with protein and fresh greens, perfect for a nutritious meal for two.
 
 ### Ingredients:
@@ -115,7 +115,7 @@ I want something light but filling,low-carb,"I recommend trying a **Chickpea and
    - Squeeze the remaining lemon juice over the top, add a touch of salt and pepper to taste, and sprinkle with herbs if using.
    - Divide evenly between two plates and serve immediately, or chill for 10-15 minutes for extra refreshment.
 
-This salad is rich in protein and fiber, making it hearty enough to satisfy without feeling heavy. Enjoy!",fail,,42_31,42,fail,"The recipe includes chickpeas, which are high in carbohydrates. Although the salad is described as light and filling, it still contains a significant amount of carbs from the chickpeas. This does not align with a low-carb dietary restriction.",high
+This salad is rich in protein and fiber, making it hearty enough to satisfy without feeling heavy. Enjoy!",fail,,42_31,42,fail,"The recipe contains chickpeas, which are high in carbs and violate the low-carb dietary restriction. While the salad is described as light and satisfying, the presence of chickpeas makes it unsuitable for a low-carb diet.",high
 Keto breakfast that I can meal prep for the week,keto,"Certainly! Here's a flavorful and satisfying keto breakfast recipe that you can prepare in advance for the week: **Keto Egg muffins with Spinach and Cheddar**. These muffins are easy to make, convenient to store, and packed with healthy fats and proteins.
 
 ### Keto Egg Muffins with Spinach and Cheddar  
@@ -160,7 +160,7 @@ Keto breakfast that I can meal prep for the week,keto,"Certainly! Here's a flavo
 ### To Serve:
 Reheat in the microwave for about 30-40 seconds until warmed through. They’re perfect for a quick breakfast on busy mornings!
 
-Enjoy your week of delicious, keto-friendly egg muffins! Would you like me to suggest a side dish or a different breakfast recipe?",pass,,3_25,3,pass,"The recipe response is keto-friendly, using ingredients such as eggs, heavy cream, and cheddar cheese that are high in fat but low in carbohydrates. The serving size of 2 muffins per person also aligns with a typical keto diet plan. However, it's worth noting that the recipe does not explicitly state the macronutrient breakdown or provide specific guidance on portion control for a strict keto diet.",medium
+Enjoy your week of delicious, keto-friendly egg muffins! Would you like me to suggest a side dish or a different breakfast recipe?",pass,,3_25,3,fail,"The recipe contains cheddar cheese, which is high in carbs and not compliant with a strict keto diet. While the response mentions 'keto-friendly', it does not provide an alternative that meets the keto requirements.",high
 I'm vegan but I really want to make something with honey - is there a good substitute? i am craving a yogurt breakfast,vegan,"Absolutely! Since you're vegan and craving a honey-sweetened breakfast, I recommend making a **Vegan Coconut Chia Yogurt Parfait**. Instead of honey, we'll use maple syrup or agave nectar to add that touch of sweetness. This creamy, satisfying parfait is perfect for breakfast and can be easily customized.
 
 ### Vegan Coconut Chia Yogurt Parfait (Serves 2)
@@ -192,7 +192,7 @@ I'm vegan but I really want to make something with honey - is there a good subst
    - Top each parfait with granola or chopped nuts for crunch.
    - Serve immediately, or refrigerate for up to a few hours for a chilled, refreshing breakfast.
 
-Enjoy your creamy, sweet, and nutritious vegan breakfast parfait!",pass,,1_30,1,fail,"The recipe response suggests using maple syrup or agave nectar as a substitute for honey, but it does not address the vegan dietary restriction. Honey is an animal byproduct and cannot be used in a vegan diet. The response should have suggested a different sweetener that is inherently vegan.",high
+Enjoy your creamy, sweet, and nutritious vegan breakfast parfait!",pass,,1_30,1,pass,"The recipe response suggests a clear vegan-compliant substitute for honey (maple syrup or agave nectar) and uses plant-based yogurt, making it suitable for a vegan diet.",high
 Keto breakfast that I can meal prep for the week,keto,"A perfect keto breakfast meal prep that you can enjoy throughout the week is **Bacon & Egg Muffins**. These portable, protein-packed bites are easy to make in bulk, refrigerate or freeze, and reheat quickly. Here's how to prepare enough for 2 people for the week:
 
 ### Ingredients:
@@ -231,7 +231,7 @@ Keto breakfast that I can meal prep for the week,keto,"A perfect keto breakfast 
 ### To Serve:
 Reheat in the microwave for 30-40 seconds until warmed through. Serve with a side of avocado slices or a dollop of sour cream for extra flavor.
 
-Enjoy these flavorful, low-carb breakfast muffins that keep you full and energized all week long!",pass,,3_20,3,pass,"The recipe response is a keto-friendly breakfast meal prep option that adheres to the user's dietary restriction. The ingredients, such as eggs, bacon, and cheddar cheese, are all low in carbohydrates and high in fat, making them suitable for a ketogenic diet. Additionally, the recipe provides clear instructions on how to prepare and store the muffins, ensuring they remain keto-friendly throughout the week.",high
+Enjoy these flavorful, low-carb breakfast muffins that keep you full and energized all week long!",pass,,3_20,3,fail,"The recipe contains eggs and bacon, which are high in protein but also contain some carbohydrates. However, the main issue is that it does not meet the keto dietary restriction because it doesn't provide a very low carb count (under 20-30g) as required for a keto diet.",high
 I want to make a birthday cake but I'm diabetic. Something that still tastes good?,diabetic-friendly,"Absolutely! A great option is a **Keto Chocolate Almond Mug Cake**—it's quick, delicious, and friendly for diabetics. Here's how to make it for 2 servings:
 
 ### Ingredients:
@@ -258,7 +258,7 @@ I want to make a birthday cake but I'm diabetic. Something that still tastes goo
 - This cake is best enjoyed warm.
 - You can double the ingredients if you'd like larger portions.
 
-Enjoy a rich, satisfying, and diabetic-friendly birthday treat! Would you like a different type of dessert next?",pass,,7_1,7,pass,"The recipe response is diabetic-friendly because it uses erythritol, a sugar substitute that does not raise blood glucose levels. Additionally, almond flour and unsweetened cocoa powder are low-carb ingredients that should not significantly impact blood sugar levels. The recipe also avoids adding refined sugars or high-carb ingredients, making it suitable for diabetics.",high
+Enjoy a rich, satisfying, and diabetic-friendly birthday treat! Would you like a different type of dessert next?",pass,,7_1,7,pass,"The recipe response suggests a keto-friendly mug cake, which is low in carbs and suitable for diabetics. The use of almond flour, erythritol, and unsweetened almond milk indicates an attempt to accommodate the diabetic-friendly dietary restriction.",high
 I'm vegan and gluten-free and also hate vegetables. What can I eat?,vegan,"Great! I have a delicious vegan and gluten-free recipe that minimizes vegetables but still delivers on flavor: **Coconut Chickpea Curry**. It's hearty, creamy, and packed with flavor—plus, it’s perfect for 2 servings. Let’s get started!
 
 ### Coconut Chickpea Curry
@@ -296,7 +296,7 @@ I'm vegan and gluten-free and also hate vegetables. What can I eat?,vegan,"Great
 
 **Serves:** 2
 
-This dish is rich and satisfying without relying heavily on vegetables, and it's both vegan and gluten-free! Would you like me to suggest a side or dessert to go with it?",fail,,29_25,29,fail,"The recipe response does not fully address the user's request to minimize vegetables. While it reduces the amount of vegetables, it still includes a small onion and garlic in the ingredients list.",high
+This dish is rich and satisfying without relying heavily on vegetables, and it's both vegan and gluten-free! Would you like me to suggest a side or dessert to go with it?",fail,,29_25,29,fail,"The recipe response contains a clear violation of the vegan dietary restriction due to the presence of honey in the lemon juice (optional) ingredient. Although the main ingredients are plant-based, this minor but significant detail compromises the overall vegan compliance.",high
 Paleo lunch that doesn't involve any nuts. but i can eat almonds - I'm allergic,paleo,"Certainly! Here's a tasty and healthy Paleo-friendly Almond Chicken Salad Lettuce Wraps recipe that excludes nuts (except almonds, which you're allergic to).
 
 ### Almond Chicken Salad Lettuce Wraps (Serves 2)
@@ -334,7 +334,7 @@ Paleo lunch that doesn't involve any nuts. but i can eat almonds - I'm allergic,
 
 **Tip:** For a little extra flavor, you can sprinkle some chopped fresh herbs like parsley or cilantro on top before serving.
 
-Enjoy your Paleo Almond Chicken Salad Lettuce Wraps — a light, satisfying, nut-free lunch!",fail,,6_10,6,fail,"The recipe includes almonds, which are nuts and should be avoided according to the user's query. Although the user is allergic to other types of nuts, they specifically mentioned that they can eat almonds but want a nut-free recipe.",high
+Enjoy your Paleo Almond Chicken Salad Lettuce Wraps — a light, satisfying, nut-free lunch!",fail,,6_10,6,fail,"The recipe response includes almonds, which are not paleo-compliant due to being a type of nut. Although the user is allergic to nuts and mentions they can eat almonds, this does not change the fact that almonds themselves are not paleo-friendly.",high
 Need a quick gluten-free breakfast. I hate eggs though.,gluten-free,"Certainly! How about a delicious **Chia Seed Overnight Pudding**? It's quick, gluten-free, egg-free, and perfect for a nutritious breakfast for two. Plus, it can be prepared the night before for instant enjoyment in the morning.
 
 ### Chia Seed Overnight Pudding (Serves 2)
@@ -361,7 +361,7 @@ Need a quick gluten-free breakfast. I hate eggs though.,gluten-free,"Certainly! 
 4. **Serve:**  
    Divide the pudding into two bowls or glasses. Top with fresh fruits, nuts, or shredded coconut for added flavor and texture.
 
-### Enjoy your healthy, egg-free, gluten-free breakfast!",pass,,2_16,2,pass,"The recipe response is gluten-free, which aligns with the user's query. Additionally, it does not include eggs, as requested by the user. The chia seed overnight pudding is a suitable breakfast option for someone who needs a quick gluten-free meal without eggs.",high
+### Enjoy your healthy, egg-free, gluten-free breakfast!",pass,,2_16,2,pass,"The recipe response suggests a Chia Seed Overnight Pudding, which is gluten-free and does not include any high-carb ingredients that would violate the low-carb dietary restriction. The use of almond milk instead of dairy products also aligns with the gluten-free requirement.",high
 Halal pasta recipe - is that even a thing?,halal,"Absolutely! Halal pasta is a delicious and versatile dish that can be made to suit various taste preferences while adhering to halal dietary guidelines. Here’s a flavorful **Halal Chicken and Vegetable Pasta** recipe perfect for 2 servings.
 
 ### Ingredients:
@@ -414,7 +414,7 @@ Halal pasta recipe - is that even a thing?,halal,"Absolutely! Halal pasta is a d
    - Garnish with freshly chopped parsley or basil.
    - Serve hot and enjoy your flavorful halal pasta!
 
-This dish is quick, nutritious, and perfect for a satisfying dinner. Would you like another recipe idea?",pass,,28_37,28,pass,"The recipe response includes halal chicken and vegetables, which are permissible in a halal diet. The pasta is also not explicitly forbidden in halal dietary guidelines, as long as it's made from permitted ingredients. However, the recipe does not specify the source of the pasta or whether it contains any non-halal animal by-products. Nevertheless, given that the user query only asks for a 'halal pasta recipe,' and assuming the pasta used is standard and halal-friendly, this response should be considered acceptable.",medium
+This dish is quick, nutritious, and perfect for a satisfying dinner. Would you like another recipe idea?",pass,,28_37,28,fail,"The recipe contains pasta, which is not halal-compliant due to the use of wheat. While the user has specified a halal dietary restriction, this recipe does not accommodate it.",high
 Healthy dessert that doesn't taste healthy,sugar-free,"I recommend making **Chocolate Avocado Mousse**. It's rich, creamy, and indulgent, yet made with wholesome ingredients, making it a perfect healthy dessert that doesn't taste healthy. Here's how to prepare it for 2 servings:
 
 ### Ingredients:
@@ -446,7 +446,7 @@ Transfer the mousse into small bowls or ramekins and refrigerate for at least 30
 6. **Serve:**  
 Garnish with fresh berries or a sprig of mint if desired. Serve chilled for a luxurious, healthy chocolate treat.
 
-Enjoy your **Chocolate Avocado Mousse**—a decadent dessert that’s good for you!",fail,,41_12,41,fail,"The recipe includes honey and maple syrup as sweeteners, which are high in sugar. Although they are labeled as unsweetened, their primary function is to add sweetness. The presence of these ingredients violates the dietary restriction of being sugar-free.",high
+Enjoy your **Chocolate Avocado Mousse**—a decadent dessert that’s good for you!",fail,,41_12,41,fail,"The recipe contains honey and maple syrup, which are high in sugar and violate the user's sugar-free dietary restriction. Although the recipe suggests using unsweetened cocoa powder, the presence of these sweeteners outweighs this positive aspect.",high
 Whole30 comfort food that actually comforts,whole30,"Here's a delightful Whole30-friendly recipe for **Creamy Cauliflower Chicken Soup**—a comforting, velvety soup that feels indulgent but is entirely compliant. It’s perfect for cozy nights and serves 2 people generously.
 
 ### Creamy Cauliflower Chicken Soup (Whole30)
@@ -490,7 +490,7 @@ Whole30 comfort food that actually comforts,whole30,"Here's a delightful Whole30
    - Ladle the hot soup into bowls.
    - Garnish with chopped fresh parsley if desired.
    
-Enjoy this creamy, hearty, and Whole30-compliant comfort food that warms you from the inside out!",pass,,56_19,56,pass,"The recipe response is Whole30-compliant, as it does not include any forbidden ingredients such as grains, dairy, added sugars, or processed foods. The use of chicken broth, olive oil, and fresh herbs aligns with the dietary restrictions specified in the user query.",high
+Enjoy this creamy, hearty, and Whole30-compliant comfort food that warms you from the inside out!",pass,,56_19,56,pass,"The recipe response is Whole30-compliant, as it does not include any grains, legumes, dairy, sugar, or processed foods. The use of chicken broth and olive oil also aligns with the dietary restriction.",high
 I don't like vegetables but I want to eat healthy,vegetarian,"A great, healthy dish that minimizes vegetables but still delivers flavor and nutrition is Lemon Herb Chicken with Roasted Garlic Potatoes. It’s hearty, delicious, and easy to prepare for two servings.
 
 **Lemon Herb Chicken with Roasted Garlic Potatoes**
@@ -537,7 +537,7 @@ I don't like vegetables but I want to eat healthy,vegetarian,"A great, healthy d
 
 **Serving size:** 2 servings
 
-This meal is rich in protein and healthy carbs, with the lemon and herbs adding fresh flavor without relying heavily on vegetables. Enjoy your healthy, satisfying dinner!",fail,,38_1,38,fail,"The recipe response does not comply with the vegetarian dietary restriction because it includes chicken, which is an animal product. Although the dish minimizes vegetables and focuses on protein-rich ingredients like chicken and potatoes, the presence of chicken makes it unsuitable for a strict vegetarian diet.",high
+This meal is rich in protein and healthy carbs, with the lemon and herbs adding fresh flavor without relying heavily on vegetables. Enjoy your healthy, satisfying dinner!",fail,,38_1,38,fail,"The recipe contains potatoes, which are high in carbs and not suitable for a vegetarian diet. While the user has a vegetarian restriction, this recipe does not meet that requirement due to the presence of potatoes.",high
 Need a quick gluten-free breakfast. I hate eggs though.,gluten-free,"Let's make a delicious gluten-free Banana Almond Oatmeal! It’s quick, satisfying, and egg-free.
 
 **Ingredients (serves 2):**
@@ -564,7 +564,7 @@ Need a quick gluten-free breakfast. I hate eggs though.,gluten-free,"Let's make 
 4. **Serve:**  
    Divide the oatmeal into two bowls. Top with sliced almonds or your favorite chopped nuts, and add fresh berries or banana slices for extra flavor and nutrition.
 
-**Enjoy your hearty, egg-free gluten-free breakfast!**",pass,,2_4,2,pass,"The recipe response is gluten-free, which aligns with the user's query. The ingredients used are all gluten-free, and there's no mention of any gluten-containing items in the instructions.",high
+**Enjoy your hearty, egg-free gluten-free breakfast!**",pass,,2_4,2,fail,"The recipe contains oats, which are a high-carb ingredient and can be contaminated with gluten. While the recipe specifies 'gluten-free rolled oats', this does not guarantee complete absence of gluten due to potential cross-contamination during processing or storage.",high
 I'm pescatarian but I hate fish. Can you give me a seafood pasta recipe?,pescatarian,"Certainly! Here's a delicious and satisfying **Lemon Garlic Shrimp Pasta** that feels like seafood but doesn’t include fish, perfect for a pescatarian who prefers to skip fish. It’s flavorful, quick to prepare, and serves 2.
 
 ### Lemon Garlic Shrimp Pasta
@@ -608,7 +608,7 @@ I'm pescatarian but I hate fish. Can you give me a seafood pasta recipe?,pescata
    - Plate the pasta, garnish with chopped parsley, and sprinkle with Parmesan if desired.
    - Serve immediately while hot, with extra lemon wedges on the side.
 
-Enjoy your bright, flavorful Lemon Garlic Shrimp Pasta—perfect with a simple green salad and crusty bread!",pass,,10_4,10,fail,"The recipe includes shrimp, which is a type of seafood. Although the user query specifies 'I hate fish', it does not exclude other types of seafood. The inclusion of shrimp in the recipe may still be problematic for someone who dislikes fish but allows other seafood.",high
+Enjoy your bright, flavorful Lemon Garlic Shrimp Pasta—perfect with a simple green salad and crusty bread!",pass,,10_4,10,fail,"The recipe contains shrimp, which is a seafood ingredient. While the user specified they are pescatarian and prefer to skip fish, this does not exclude other types of seafood. The response also explicitly mentions 'seafood pasta', implying that it may include other seafood ingredients.",high
 Nut-free lunch that's safe for my kid's school,nut-free,"Certainly! Here's a delicious and nut-free school-safe lunch idea: **Turkey and Veggie Wraps**.
 
 **Ingredients (for 2 servings):**
@@ -648,7 +648,7 @@ Nut-free lunch that's safe for my kid's school,nut-free,"Certainly! Here's a del
 **Serving Size:**  
 2 wraps (enough for 2 children or 1 adult and 1 child).  
 
-This lunch is colorful, nutritious, and completely nut-free—perfect for school!",pass,,59_38,59,pass,"The recipe response clearly states that it is nut-free and safe for school, which aligns with the user's query. The ingredients listed do not include any nuts or common allergens like peanuts, tree nuts, or soy. However, I would like to note that while the recipe itself is nut-free, the deli-style turkey breast and cream cheese are processed foods that may have potential cross-contamination risks in a factory setting. Nevertheless, this does not violate the explicit dietary restriction of being nut-free.",high
+This lunch is colorful, nutritious, and completely nut-free—perfect for school!",pass,,59_38,59,fail,"The recipe contains whole wheat tortillas, which are a clear high-carb ingredient and not nut-free. While the rest of the ingredients are nut-free, this significant carb content makes it unsuitable for a nut-free diet.",high
 I want a cheeseburger but I'm dairy-free and vegetarian. I know this sounds impossible but I'm really craving the taste and texture of a classic American cheeseburger and I haven't had one in 3 years since I went vegetarian and developed lactose intolerance,vegetarian,"Absolutely, you can enjoy a delicious dairy-free, vegetarian cheeseburger that captures the classic taste and texture! Here’s a flavorful recipe for a **Vegan Lentil & Mushroom ""Meat"" Cheeseburger** that will satisfy your cravings:
 
 ### Ingredients (Serves 2):
@@ -693,7 +693,7 @@ I want a cheeseburger but I'm dairy-free and vegetarian. I know this sounds impo
 5. **Serve:**
    - Serve immediately with your favorite side, such as crispy sweet potato fries or a side salad.
 
-Enjoy your hearty, cheesy, vegetarian, dairy-free cheeseburger that hits all the right notes!",pass,,24_10,24,pass,"The recipe response successfully accommodates both dairy-free and vegetarian dietary restrictions. It uses lentils as a protein source, which is suitable for vegetarians, and replaces traditional cheese with dairy-free alternatives. The use of vegan burger buns and condiments further ensures compliance with the dairy-free requirement.",high
+Enjoy your hearty, cheesy, vegetarian, dairy-free cheeseburger that hits all the right notes!",pass,,24_10,24,pass,"The recipe response suggests a vegan lentil and mushroom 'meat' cheeseburger, which is vegetarian-compliant. The use of dairy-free cheese and vegan burger buns further accommodates the user's dairy-free requirement.",high
 Nut-free lunch that's safe for my kid's school,nut-free,"Certainly! Here's a tasty and nut-free lunch idea perfect for your child's school day: **Turkey and Veggie Wraps**.
 
 ### Ingredients (Serves 2):
@@ -724,7 +724,7 @@ Nut-free lunch that's safe for my kid's school,nut-free,"Certainly! Here's a tas
 - Feel free to add other safe vegetables your child enjoys!
 - Always double-check the labels for nut-free certification, especially in processed ingredients.
 
-These wraps are delicious, easy to eat, and safe for school! Would you like another recipe?",pass,,59_33,59,pass,"The recipe response clearly states that it is nut-free and provides guidance on how to ensure the ingredients used are safe for a child's school. The use of flour tortillas, turkey breast, cucumber, carrot, bell pepper, lettuce, cream cheese or hummus, and black pepper or herbs all comply with the nut-free dietary restriction.",high
+These wraps are delicious, easy to eat, and safe for school! Would you like another recipe?",pass,,59_33,59,fail,"The recipe contains flour tortillas, which are a common source of nut cross-contamination. While the response mentions looking for 'nut-free certification', this does not guarantee that the tortillas have been processed in a dedicated nut-free facility.",high
 I'm pescatarian but I hate fish. Can you give me a seafood pasta recipe?,pescatarian,"Absolutely! Since you're pescatarian but dislike fish, I recommend trying a delicious **Lemon Garlic Shrimp Pasta**. It's rich, flavorful, and doesn't feature fish chunks, but uses shrimp for that seafood touch. Here's a detailed recipe for 2 servings:
 
 ### Lemon Garlic Shrimp Pasta
@@ -764,7 +764,7 @@ I'm pescatarian but I hate fish. Can you give me a seafood pasta recipe?,pescata
    - Stir in chopped parsley and adjust seasoning with salt and pepper.
    - Serve hot, garnished with grated Parmesan cheese if desired.
 
-Enjoy your bright, flavorful Lemon Garlic Shrimp Pasta—perfect for a quick yet elegant pescatarian meal!",pass,,10_21,10,pass,"The recipe response is suitable for a pescatarian diet, as it features shrimp as the seafood component. The inclusion of shrimp aligns with the pescatarian dietary preference, which excludes fish but allows other types of seafood.",high
+Enjoy your bright, flavorful Lemon Garlic Shrimp Pasta—perfect for a quick yet elegant pescatarian meal!",pass,,10_21,10,fail,"The recipe response contains shrimp, which is a clear violation of the pescatarian dietary restriction. Pescatarians do not eat fish or seafood, and shrimp falls under this category.",high
 Vegan cheese recipe but it should taste good. i can have cashews but no other nuts. i don't like nutritional yeast,vegan,"Certainly! Here's a delicious and creamy vegan cashew cheese spread that skips nutritional yeast but still delivers a rich, cheesy flavor. It's perfect for crackers, sandwiches, or dipping vegetables. Makes about 1 cup, serving 2-3 people.
 
 **Vegan Cashew Cheese (No Nutritional Yeast)**
@@ -794,7 +794,7 @@ Vegan cheese recipe but it should taste good. i can have cashews but no other nu
 
 **Serving Suggestions:** Spread on crackers, use as a dip for vegetables, or spread on bread for a delicious vegan sandwich.
 
-Enjoy your flavorful, nutty vegan cheese!",pass,,23_27,23,pass,"The recipe response is vegan, which aligns with the user's query. It also specifically mentions that it skips nutritional yeast and only uses cashews as a nut, which meets the user's constraints.",high
+Enjoy your flavorful, nutty vegan cheese!",pass,,23_27,23,pass,"The recipe response is fully vegan-compliant, using plant-based ingredients such as cashews, lemon juice, olive oil, garlic, Dijon mustard, smoked paprika, and salt. It does not include any animal products or by-products that would violate the vegan dietary restriction.",high
 Gluten-light recipe - I'm not celiac just sensitive,gluten-free,"Let's make a delicious **Quinoa and Vegetable Stir-Fry**—a gluten-light, healthy, and satisfying dish perfect for two people. It’s packed with colorful veggies and protein-rich quinoa, all cooked with flavorful seasonings.
 
 ### Ingredients:
@@ -837,7 +837,7 @@ Gluten-light recipe - I'm not celiac just sensitive,gluten-free,"Let's make a de
    - Divide the stir-fry between two plates.
    - Garnish with sprinkled sesame seeds and chopped green onions for added flavor and presentation.
 
-Enjoy your flavorful, gluten-light quinoa and vegetable stir-fry—healthy, quick, and customizable!",fail,,48_40,48,pass,"The recipe response clearly states that it's a 'gluten-light' and 'healthy' dish, which implies consideration for gluten-free diets. The ingredients used are mostly gluten-free, with quinoa being the primary source of carbohydrates. Although soy sauce is mentioned as an option, coconut aminos (a gluten-free alternative) can be used instead, ensuring compliance with the dietary restriction.",high
+Enjoy your flavorful, gluten-light quinoa and vegetable stir-fry—healthy, quick, and customizable!",fail,,48_40,48,fail,"The recipe contains quinoa, which is a high-carb grain and not suitable for gluten-free diets. Although the recipe mentions being 'gluten-light', this does not compensate for the presence of quinoa.",high
 I avoid processed foods but I'm lazy,paleo,"Great! I have a simple and wholesome recipe that requires minimal effort yet is bursting with flavor: **Garlic and Herb Sheet Pan Salmon with Roasted Vegetables**. It’s perfect for a quick, healthy dinner for two, with minimal prep and cleanup.
 
 ---
@@ -882,7 +882,7 @@ I avoid processed foods but I'm lazy,paleo,"Great! I have a simple and wholesome
 - If you have extra time, marinate the salmon in a mixture of lemon juice, garlic, and herbs for 15 minutes before baking.
 - Serve with a side of steamed rice, quinoa, or crusty bread if desired.
 
-This recipe is nutrient-rich, simple, and requires just a handful of ingredients. It’s perfect for lazy days but nourishing enough for a healthy meal!",pass,,46_20,46,pass,"The recipe response is paleo-compliant as it does not include any processed foods, grains (such as rice and quinoa), or dairy products. The ingredients used are wholesome and align with a paleo diet.",high
+This recipe is nutrient-rich, simple, and requires just a handful of ingredients. It’s perfect for lazy days but nourishing enough for a healthy meal!",pass,,46_20,46,fail,"The recipe contains salmon, which is not paleo-compliant due to the presence of fish. Additionally, serving with steamed rice or quinoa as suggested in the tips also violates the paleo diet.",high
 I'm vegan and gluten-free and also hate vegetables. What can I eat?,vegan,"Certainly! How about trying a **Vegan Sweet Potato & Black Bean Tacos**? They are flavorful, satisfying, and simple to make. Since you dislike vegetables, I'll keep it minimal but delicious—focused on the sweet potatoes and beans to give you a hearty, veggie-free experience.
 
 ### Vegan Sweet Potato & Black Bean Tacos (Serves 2)
@@ -922,7 +922,7 @@ I'm vegan and gluten-free and also hate vegetables. What can I eat?,vegan,"Certa
 
 6. **Serve immediately** and enjoy your flavorful, veggie-free vegan tacos!
 
-This dish is hearty and flavorful with minimal vegetables, perfect for your preferences. Would you like a dessert or a different type of meal next?",fail,,29_10,29,fail,"The recipe response includes sweet potatoes, which are a type of vegetable. Although it's mentioned that the dish is 'veggie-free', this statement is misleading as it doesn't account for the presence of vegetables in the form of sweet potatoes.",high
+This dish is hearty and flavorful with minimal vegetables, perfect for your preferences. Would you like a dessert or a different type of meal next?",fail,,29_10,29,fail,"The recipe contains sweet potatoes, which are a type of vegetable and violate the user's preference for no vegetables. Additionally, while the dish is vegan-compliant, it does not address the gluten-free requirement.",high
 Paleo lunch that doesn't involve any nuts. but i can eat almonds - I'm allergic,paleo,"Certainly! Here's a delicious Paleo Almond-Crusted Chicken Lettuce Wraps recipe that avoids nuts (excluding almonds) and is perfect for a light but satisfying lunch for two.
 
 ### Paleo Almond-Crusted Chicken Lettuce Wraps
@@ -973,7 +973,7 @@ Paleo lunch that doesn't involve any nuts. but i can eat almonds - I'm allergic,
 7. **Serve:**
    - Wrap the lettuce around the filling and enjoy immediately.
 
-This dish provides a delightful crunch from the almonds, juicy chicken, and fresh vegetables—all Paleo-friendly and nut-free (except almonds, which you're safe to eat). It’s light, tasty, and perfect for a healthy lunch for two!",pass,,6_21,6,fail,"The recipe includes almonds, which are nuts and should be avoided according to the user's query. Although the user is allergic to other types of nuts, this does not exempt almonds from being a nut that should be excluded in a paleo diet.",high
+This dish provides a delightful crunch from the almonds, juicy chicken, and fresh vegetables—all Paleo-friendly and nut-free (except almonds, which you're safe to eat). It’s light, tasty, and perfect for a healthy lunch for two!",pass,,6_21,6,fail,"The recipe response contains almonds, which are not allowed in a paleo diet. The user specifically mentioned being allergic to nuts and excluding almonds from their dietary restrictions.",high
 I'm dairy-free and also can't stand the taste of coconut milk. What dessert can I make?,dairy-free,"I recommend making a **Berry Lemon Parfait** — a refreshing, dairy-free dessert that’s completely coconut-free and perfect for 2 people. It’s light, tangy, and layered with fresh berries and a lovely citrusy flavor.
 
 ### Ingredients:
@@ -1010,7 +1010,7 @@ I'm dairy-free and also can't stand the taste of coconut milk. What dessert can 
    - Refrigerate the parfaits for at least 30 minutes to allow flavors to meld.
    - Serve chilled, maybe with a mint sprig for extra freshness.
 
-Enjoy this vibrant, dairy-free, coconut-free dessert — it’s bright, flavorful, and perfect for a light finish to your meal!",pass,,4_7,4,pass,"The recipe response is dairy-free, which aligns with the user's query. The use of unsweetened almond milk and cashew milk as alternatives to traditional milk ensures that the dessert remains free from dairy products.",high
+Enjoy this vibrant, dairy-free, coconut-free dessert — it’s bright, flavorful, and perfect for a light finish to your meal!",pass,,4_7,4,pass,"The recipe response is dairy-free compliant, using unsweetened almond milk and avoiding coconut milk as requested. The ingredients and instructions provided do not contain any dairy products.",high
 I want to make a birthday cake but I'm diabetic. Something that still tastes good?,diabetic-friendly,"Absolutely! I recommend making a **Low-Carb Almond Flour Chocolate Cake**. It's rich, moist, and sweetened with natural, low-glycemic ingredients, making it suitable for a diabetic diet while still being delicious.
 
 ### Ingredients (serves 2):
@@ -1042,7 +1042,7 @@ I want to make a birthday cake but I'm diabetic. Something that still tastes goo
 
 **Serving suggestion:** Serve with a dollop of unsweetened whipped cream or Greek yogurt if desired.
 
-This cake is perfect for a birthday celebration and is gentle on blood sugar while satisfying your sweet tooth!",pass,,7_40,7,pass,"The recipe response uses almond flour, which is low in carbohydrates and a good substitute for traditional wheat flour. The use of unsweetened cocoa powder, erythritol or monk fruit sweetener (adjust to taste), and unsweetened almond milk also helps keep the sugar content low. Additionally, the recipe suggests serving with unsweetened whipped cream or Greek yogurt, which are both low-carb options. This cake is designed to be diabetic-friendly by using natural, low-glycemic ingredients.",high
+This cake is perfect for a birthday celebration and is gentle on blood sugar while satisfying your sweet tooth!",pass,,7_40,7,pass,"The recipe response suggests a Low-Carb Almond Flour Chocolate Cake, which is suitable for a diabetic diet. The use of almond flour, unsweetened cocoa powder, and low-glycemic sweeteners like erythritol or monk fruit sweetener aligns with diabetic-friendly dietary restrictions.",high
 Raw vegan salad that doesn't taste like grass,raw vegan,"Certainly! Here's a delicious and refreshing raw vegan salad that’s flavorful without tasting grassy—try a **Citrus Avocado Salad with Cherry Tomatoes and Cilantro**. It’s bright, satisfying, and perfect for two servings.
 
 ### Ingredients:
@@ -1069,7 +1069,7 @@ Raw vegan salad that doesn't taste like grass,raw vegan,"Certainly! Here's a del
 
 6. **Serve immediately:** Plate the salad in two bowls and enjoy instantly, appreciating the vibrant, fresh flavors that aren't grassy but full of citrus brightness and creamy avocado.
 
-This salad is bursting with flavor, textures, and natural sweetness, making it a delightful raw vegan option that's far from grassy!",fail,,9_10,9,pass,"The recipe response is a raw vegan salad that doesn't contain any animal products, by-products, or processed ingredients. It's made with fresh fruits and vegetables, which aligns with the raw vegan dietary restriction. The use of honey or agave syrup as an optional ingredient does not violate the raw vegan requirement since it's derived from plants.",high
+This salad is bursting with flavor, textures, and natural sweetness, making it a delightful raw vegan option that's far from grassy!",fail,,9_10,9,pass,"The recipe response is fully compliant with the raw vegan dietary restriction, using only plant-based ingredients such as avocado, citrus fruits, cherry tomatoes, red onion, cilantro, olive oil, lemon juice, and honey or agave syrup. There are no animal products or by-products present in the recipe.",high
 I'm dairy-free and also can't stand the taste of coconut milk. What dessert can I make?,dairy-free,"Let's make a luscious Mango Lime Sorbet! It's dairy-free, coconut-free, refreshing, and incredibly easy to prepare. Here's the recipe for 2 servings:
 
 **Ingredients:**
@@ -1093,7 +1093,7 @@ I'm dairy-free and also can't stand the taste of coconut milk. What dessert can 
 
 **Enjoy:** This sorbet is perfect for a light, dairy-free, coconut-free dessert. It's lively, tangy, and sweet—ideal for warm days or a special treat!
 
-Would you like a different dessert idea or tips on customizing this one?",pass,,4_2,4,pass,"The recipe response is dairy-free, which aligns with the user's specified dietary restriction. Additionally, it explicitly states that the sorbet is coconut-free, addressing another potential concern.",high
+Would you like a different dessert idea or tips on customizing this one?",pass,,4_2,4,pass,"The recipe response is dairy-free compliant, and the user has explicitly mentioned they can't stand coconut milk. The use of honey or agave syrup as a sweetener also meets the dairy-free requirement.",high
 Low-carb dinner that doesn't require any cooking skills,low-carb,"Here's a simple and delicious low-carb dinner that requires no cooking skills: **Tuna Avocado Salad Wraps**. This recipe is quick, healthy, and perfect for 2 servings.
 
 ### Ingredients:
@@ -1122,7 +1122,7 @@ Low-carb dinner that doesn't require any cooking skills,low-carb,"Here's a simpl
 ### Serving:
 Plate the wraps and enjoy immediately. These are perfect with a side of cherry tomatoes or sliced bell peppers for a colorful, fresh dinner.
 
-**Serves 2.** Enjoy your effortless, low-carb dinner!",pass,,36_8,36,pass,"The recipe response is a low-carb dinner that doesn't require any cooking skills, as requested. It consists of tuna, avocado, cucumber, lettuce leaves, and mayonnaise or Greek yogurt, which are all relatively low in carbohydrates. The ingredients used do not contain significant amounts of grains, sugars, or starchy vegetables that would violate the low-carb dietary restriction.",high
+**Serves 2.** Enjoy your effortless, low-carb dinner!",pass,,36_8,36,fail,"The recipe contains lettuce leaves, which are high in carbs and not suitable for a low-carb diet. Although the ingredients list does not explicitly mention bread or other obvious high-carb sources, the use of lettuce as a wrap is a clear violation of the low-carb dietary restriction.",high
 I'm vegan but I really want to make something with honey - is there a good substitute? i am craving a yogurt breakfast,vegan,"Absolutely! For a vegan ""yogurt"" breakfast with a touch of sweetness similar to honey, I recommend making **Vegan Coconut Chia Pudding with Maple Syrup and Fresh Fruit**. Maple syrup is a perfect plant-based sweetener that mimics the sweetness of honey.
 
 ### Vegan Coconut Chia Pudding with Maple Syrup and Fruit (Serves 2)
@@ -1147,7 +1147,7 @@ I'm vegan but I really want to make something with honey - is there a good subst
 
 5. **Enjoy:** Serve immediately and enjoy your delicious, satisfying vegan breakfast with natural sweetness and creamy texture.
 
-This recipe is not only wholesome and easy to prepare but also incredibly versatile, allowing you to customize it with whatever fruits or toppings you like.",pass,,1_34,1,fail,"The recipe response suggests using maple syrup as a substitute for honey, which is vegan-friendly. However, it also includes dairy-free yogurt alternatives in the user query, and the provided recipe does not address this aspect of the dietary restriction. The recipe uses coconut milk instead of yogurt, but it doesn't explicitly state that it's suitable for vegans who might be looking for a yogurt-based breakfast.",high
+This recipe is not only wholesome and easy to prepare but also incredibly versatile, allowing you to customize it with whatever fruits or toppings you like.",pass,,1_34,1,pass,"The recipe response suggests a vegan-friendly alternative to honey, using maple syrup instead. It also avoids any animal-derived ingredients, making it suitable for a vegan diet.",high
 I'm dairy-free and also can't stand the taste of coconut milk. What dessert can I make?,dairy-free,"Certainly! How about making a luscious **Chocolate Avocado Mousse**? It's dairy-free, coconut-milk free, rich, creamy, and perfect for two servings. Here's how to prepare it:
 
 ### Ingredients:
@@ -1173,7 +1173,7 @@ I'm dairy-free and also can't stand the taste of coconut milk. What dessert can 
 
 6. **Serve:** Garnish with fresh berries or a sprig of mint if desired. Serve chilled and enjoy the rich, guilt-free dessert!
 
-This recipe yields about 2 servings. The avocado gives it a naturally creamy texture, and the cocoa provides that classic chocolate flavor without any dairy or coconut milk.",pass,,4_19,4,pass,"The recipe response is dairy-free, which aligns with the user's specified dietary restriction. Additionally, it explicitly states that the recipe does not include coconut milk, addressing another potential concern.",high
+This recipe yields about 2 servings. The avocado gives it a naturally creamy texture, and the cocoa provides that classic chocolate flavor without any dairy or coconut milk.",pass,,4_19,4,pass,"The recipe response suggests a dairy-free dessert using avocado, unsweetened almond milk, and no coconut milk, which meets the user's dietary restriction. The use of maple syrup as a sweetener is also acceptable.",high
 I'm vegan but I really want to make something with honey - is there a good substitute? i am craving a yogurt breakfast,vegan,"Absolutely! While honey is a popular natural sweetener, there are excellent vegan substitutes like maple syrup, agave nectar, or coconut nectar—each providing a lovely sweetness with a slightly different flavor profile.
 
 Here's a delicious vegan **Coconut-Carrot Yogurt Parfait** for breakfast, serving 2 people. It’s creamy, sweet, and satisfying, with a hint of tropical flavor and the crunch of fresh carrots. Plus, it’s entirely plant-based and uses a honey substitute.
@@ -1205,7 +1205,7 @@ Here's a delicious vegan **Coconut-Carrot Yogurt Parfait** for breakfast, servin
 4. **Serve Immediately:**  
    Enjoy your vibrant, nutritious vegan yogurt parfait for a delicious breakfast that hits all the right sweet notes without honey!
 
-Would you like more variations or additional toppings?",pass,,1_7,1,pass,"The recipe response acknowledges the vegan dietary restriction and provides a suitable substitute for honey, ensuring that all ingredients used are plant-based. The inclusion of unsweetened coconut yogurt, maple syrup (or agave nectar) as a honey substitute, and granola (preferably gluten-free) aligns with vegan requirements.",high
+Would you like more variations or additional toppings?",pass,,1_7,1,pass,"The recipe response suggests a honey substitute (maple syrup or agave nectar) and explicitly states the dish is 'entirely plant-based', which aligns with vegan dietary restrictions. The use of coconut yogurt, granola, and nuts also complies with vegan requirements.",high
 Vegetarian pizza but I don't like mushrooms or bell peppers,vegetarian,"Certainly! Here's a flavorful vegetarian pizza that skips mushrooms and bell peppers, focusing on rich flavors and fresh ingredients: 
 
 **Tomato, Spinach, and Feta Vegetarian Pizza**
@@ -1252,7 +1252,7 @@ Vegetarian pizza but I don't like mushrooms or bell peppers,vegetarian,"Certainl
 8. **Finish and Serve:**  
    Remove from the oven, let it cool for a couple of minutes, then slice and serve hot. Enjoy your delicious vegetarian pizza!
 
-Feel free to pair with a fresh green salad for a complete meal. Would you like another recipe?",pass,,5_40,5,pass,"The recipe response is vegetarian, which aligns with the user's query. It also excludes mushrooms and bell peppers as requested. The ingredients used are all suitable for a vegetarian diet.",high
+Feel free to pair with a fresh green salad for a complete meal. Would you like another recipe?",pass,,5_40,5,pass,"The recipe response is fully vegetarian-compliant, using plant-based ingredients such as spinach, tomato sauce, feta cheese (which is acceptable for vegetarians), and black olives. There are no meat or fish products in the recipe.",high
 I avoid processed foods but I'm lazy,paleo,"Here's a simple, delicious, and wholesome recipe perfect for a lazy day: **Vegetable Stir-Fry with Garlic and Ginger**. It’s quick, nutritious, and uses minimal processed ingredients.
 
 ### Ingredients (serves 2):
@@ -1284,7 +1284,7 @@ I avoid processed foods but I'm lazy,paleo,"Here's a simple, delicious, and whol
 - Feel free to add scrambled eggs or cooked chicken for extra protein, if desired.
 - This meal takes about 15 minutes total — perfect for lazy days but still healthy.
 
-Enjoy a quick, wholesome, and delicious vegetable stir-fry!",fail,,46_40,46,fail,"The recipe includes soy sauce, which is a processed ingredient. While it's mentioned as 'preferably low sodium', the presence of any processed ingredient violates the paleo dietary restriction. Additionally, cooked rice or noodles are suggested for serving, which also contain refined carbohydrates and are not paleo-compliant.",high
+Enjoy a quick, wholesome, and delicious vegetable stir-fry!",fail,,46_40,46,fail,"The recipe contains cooked rice and noodles, which are not paleo-compliant. These ingredients are high-carb and made from grains, violating the paleo dietary restriction.",high
 Whole30 compliant dinner that my non-Whole30 husband will actually eat,whole30,"Certainly! Here's a flavorful and satisfying Whole30-compliant chicken stir-fry that your husband will enjoy. It's packed with colorful vegetables and tender chicken, all cooked in a delicious homemade sauce. This recipe serves 2.
 
 ### **Whole30 Chicken and Veggie Stir-Fry**
@@ -1341,7 +1341,7 @@ Whole30 compliant dinner that my non-Whole30 husband will actually eat,whole30,"
 ---
 
 ### **Enjoy!**  
-This vibrant stir-fry is Whole30 friendly, satisfying, and also super adaptable. Feel free to swap in your favorite vegetables or add in additional spices like crushed red pepper for a bit of heat. Your husband will love the flavors, and you'll appreciate the wholesome ingredients!",fail,,11_12,11,pass,"The recipe response is Whole30 compliant, as it does not include any prohibited ingredients such as added sugars (besides honey which can be omitted), grains, legumes, dairy products, or processed foods. The use of coconut aminos instead of soy sauce also aligns with the Whole30 guidelines.",high
+This vibrant stir-fry is Whole30 friendly, satisfying, and also super adaptable. Feel free to swap in your favorite vegetables or add in additional spices like crushed red pepper for a bit of heat. Your husband will love the flavors, and you'll appreciate the wholesome ingredients!",fail,,11_12,11,pass,"The recipe response is Whole30 compliant, as it does not include any grains, legumes, dairy, sugar, or processed foods. The ingredients used are all acceptable for a Whole30 diet, and the cooking instructions do not involve any prohibited substances.",high
 Need a quick gluten-free breakfast. I hate eggs though.,gluten-free,"Certainly! For a quick, gluten-free breakfast without eggs, I recommend making **Banana Almond Oat Smoothie**. It's nutritious, quick to prepare, and perfect for a satisfying start to your day. Serves 2.
 
 ### Ingredients:
@@ -1363,7 +1363,7 @@ Need a quick gluten-free breakfast. I hate eggs though.,gluten-free,"Certainly! 
 
 4. **Serve:** Pour the smoothie into two glasses, sprinkle lightly with cinnamon if desired, and enjoy immediately for maximum freshness.
 
-This smoothie is filling, naturally sweet, and packed with fiber and healthy fats!",pass,,2_7,2,pass,"The recipe response is gluten-free, which aligns with the user's query. The ingredients used are all naturally gluten-free, and there's no mention of any gluten-containing products in the instructions.",high
+This smoothie is filling, naturally sweet, and packed with fiber and healthy fats!",pass,,2_7,2,fail,"The recipe contains gluten-free rolled oats, but also includes honey which is not allowed in a strict gluten-free diet. Additionally, while the user explicitly stated they hate eggs, there's no clear indication that the recipe avoids cross-contamination with gluten-containing ingredients.",high
 Gluten-free pizza dough that actually tastes good and isn't cardboard,gluten-free,"Certainly! Here's a delicious gluten-free pizza dough recipe that’s flavorful, satisfying, and not cardboard-like. It’s perfect for a crispy yet tender crust and serves 2 people.
 
 **Ingredients:**
@@ -1398,7 +1398,7 @@ Gluten-free pizza dough that actually tastes good and isn't cardboard,gluten-fre
 
 10. **Serve:** Slice and enjoy your freshly baked gluten-free pizza!
 
-This crust is flavorful thanks to the herbs and olive oil, and it stays crisp on the edges while tender in the middle. Perfect for a satisfying gluten-free pizza experience!",pass,,14_14,14,pass,"The recipe response provides a gluten-free pizza dough recipe that uses gluten-free all-purpose flour, which is specifically designed for individuals with gluten intolerance or sensitivity. The ingredients and instructions are clear, and the use of xanthan gum (if not already present in the flour) ensures proper texture and structure. This meets the dietary restriction requirement.",high
+This crust is flavorful thanks to the herbs and olive oil, and it stays crisp on the edges while tender in the middle. Perfect for a satisfying gluten-free pizza experience!",pass,,14_14,14,fail,"The recipe contains gluten-free all-purpose flour, which is a clear attempt to accommodate the gluten-free dietary restriction. However, upon closer inspection, it's noted that this type of flour can still contain gluten due to cross-contamination or not being processed in a dedicated gluten-free facility. Furthermore, the addition of xanthan gum does not guarantee the absence of gluten. A more explicit statement about the gluten-free status of the ingredients would be necessary for a PASS evaluation.",high
 Need a quick gluten-free breakfast. I hate eggs though.,gluten-free,"Absolutely! I recommend making **Banana Oat Pancakes** — a delicious, quick, gluten-free breakfast that doesn’t include eggs. They're naturally sweet, hearty, and perfect for a satisfying start to your day. Let's get started!
 
 ### Banana Oat Pancakes (Serves 2)
@@ -1434,7 +1434,7 @@ Need a quick gluten-free breakfast. I hate eggs though.,gluten-free,"Absolutely!
    - Plate the pancakes warm.
    - Top with fresh fruit, a drizzle of honey or maple syrup, or any toppings of your choice.
 
-Enjoy your fluffy, egg-free, gluten-free breakfast! Perfect for a quick start to your day.",pass,,2_21,2,pass,"The recipe response is gluten-free, which aligns with the user's query. The use of gluten-free oats and no mention of gluten-containing ingredients ensures compliance with the dietary restriction.",high
+Enjoy your fluffy, egg-free, gluten-free breakfast! Perfect for a quick start to your day.",pass,,2_21,2,fail,"The recipe contains gluten-free rolled oats, but also includes wheat-based baking powder. This is a clear violation of the gluten-free dietary restriction.",high
 I want to make a birthday cake but I'm diabetic. Something that still tastes good?,diabetic-friendly,"Certainly! I recommend making a **Low-Carb Almond Flour Chocolate Mug Cake**—a quick, delicious, and diabetic-friendly birthday treat for two, perfect for satisfying your sweet tooth without spiking blood sugar.
 
 ### Ingredients:
@@ -1466,7 +1466,7 @@ I want to make a birthday cake but I'm diabetic. Something that still tastes goo
 ### Serving:
 - Divide and enjoy warm. One mug makes a satisfying dessert for two people.
 
-This cake is moist, chocolatey, and satisfies your birthday craving without excess carbs. Happy birthday and enjoy your special treat!",pass,,7_6,7,pass,"The recipe response is diabetic-friendly because it uses almond flour, erythritol (a sugar substitute), and unsweetened cocoa powder. These ingredients are low in carbohydrates and do not contain added sugars, making the cake suitable for a diabetic diet.",high
+This cake is moist, chocolatey, and satisfies your birthday craving without excess carbs. Happy birthday and enjoy your special treat!",pass,,7_6,7,pass,"The recipe response suggests a diabetic-friendly Low-Carb Almond Flour Chocolate Mug Cake, using sugar substitutes like erythritol and avoiding high-carb ingredients. This shows an attempt to accommodate the user's dietary restriction.",high
 Whole30 compliant dinner that my non-Whole30 husband will actually eat,whole30,"Let's prepare a flavorful **Garlic Herb Chicken with Roasted Vegetables**—a Whole30-compliant dinner that even a non-Whole30 eater will enjoy!
 
 ### Serves: 2
@@ -1517,7 +1517,7 @@ Whole30 compliant dinner that my non-Whole30 husband will actually eat,whole30,"
 - This dish pairs beautifully with a side of cauliflower rice or sautéed spinach for extra greens.
 - Feel free to swap in your favorite vegetables; root vegetables like sweet potatoes can also work well, just adjust roasting time.
 
-Enjoy a colorful, hearty, and Whole30-friendly dinner that will satisfy everyone at the table!",pass,,11_17,11,pass,"The recipe response is Whole30 compliant as it does not include any forbidden ingredients such as added sugars, grains, legumes, dairy products, or processed foods. The use of olive oil, garlic, thyme, rosemary, paprika, salt, and pepper are all acceptable in a Whole30 diet. Additionally, the roasted vegetables and chicken breast provide a balanced meal that aligns with the dietary requirements.",high
+Enjoy a colorful, hearty, and Whole30-friendly dinner that will satisfy everyone at the table!",pass,,11_17,11,pass,"The recipe response is Whole30-compliant, as it does not include any grains, legumes, dairy, sugar, or processed foods. The ingredients used are all acceptable for a Whole30 diet.",high
 Whole30 compliant dinner that my non-Whole30 husband will actually eat,whole30,"Let's prepare **Garlic Herb Chicken Thighs with Roasted Vegetables**, a flavorful Whole30-compliant dish that your husband will enjoy even if he's not following the plan! This dish is savory, satisfying, and perfect for two servings.
 
 ### Ingredients:
@@ -1557,7 +1557,7 @@ Let the chicken rest for 5 minutes. Garnish with chopped fresh parsley if desire
 - For extra flavor, add a squeeze of lemon juice over the chicken before serving.
 - You can substitute or add other vegetables like carrots or broccoli if you have them on hand.
 
-This hearty, flavorful dish is Whole30 compliant and will impress your non-Whole30 husband with its satisfying taste!",pass,,11_31,11,pass,"The recipe response is Whole30 compliant as it does not include any prohibited ingredients such as added sugars, grains, legumes, dairy products, or processed foods. The dish consists of chicken thighs, olive oil, garlic, herbs, and vegetables, all of which are allowed on the Whole30 diet.",high
+This hearty, flavorful dish is Whole30 compliant and will impress your non-Whole30 husband with its satisfying taste!",pass,,11_31,11,pass,"The recipe response is Whole30 compliant as it does not include any grains, legumes, dairy, sugar, or processed foods. The ingredients used are all acceptable for a Whole30 diet.",high
 I'm vegan but I really want to make something with honey - is there a good substitute? i am craving a yogurt breakfast,vegan,"Absolutely! For a vegan breakfast similar to a yogurt bowl, you can use plant-based yogurt such as coconut, almond, or soy yogurt. Instead of honey, I recommend using maple syrup or agave nectar, both of which are natural, vegan sweeteners that will add that touch of sweetness without compromising your dietary choices.
 
 Here's a delicious vegan ""Yogurt and Fruit Parfait"" recipe (serves 2):
@@ -1584,4 +1584,4 @@ Here's a delicious vegan ""Yogurt and Fruit Parfait"" recipe (serves 2):
 
 4. **Finish and Serve:** Garnish with chopped nuts and optional seeds for added crunch and nutrients. Serve immediately for a fresh, delicious breakfast.
 
-Enjoy your vibrant, nutritious vegan yogurt parfait that satisfies your breakfast craving without honey!",pass,,1_14,1,pass,"The recipe response correctly identifies the need for a vegan substitute for honey and provides suitable alternatives in maple syrup and agave nectar. It also ensures that all other ingredients, such as plant-based yogurt, granola, nuts, and seeds, are vegan-friendly. The instructions provided are clear and detailed, making it easy to follow and prepare the 'Yogurt and Fruit Parfait' without compromising on dietary choices.",high
+Enjoy your vibrant, nutritious vegan yogurt parfait that satisfies your breakfast craving without honey!",pass,,1_14,1,pass,"The recipe response suggests plant-based yogurt and natural sweeteners like maple syrup or agave nectar as alternatives to honey, which is a clear violation of the vegan dietary restriction. The substitution options provided are suitable for vegans.",high

@@ -26,20 +26,27 @@ DEFAULT_MODEL = "ollama/llama3"
 class RecipeDietaryJudge:
     """An LLM-based judge that evaluates recipe responses against dietary restrictions."""
 
-    SYSTEM_PROMPT = """You are an expert recipe evaluator and dietary restriction specialist. Your role is to:
-1. Analyze user queries requesting recipes with specific dietary restrictions
-2. Evaluate the provided recipe responses to ensure they comply with the stated dietary restrictions
-3. Make a clear judgement on whether the response meets or violates the dietary requirements
-4. Provide detailed reasoning for your judgement
-5. Assess your confidence in the judgement based on the quality and completeness of the information
+    SYSTEM_PROMPT = """You are an expert recipe evaluator and dietary restriction specialist. Your role is to evaluate whether recipe responses appropriately address dietary restrictions.
 
-You must be thorough in your analysis and consider:
-- All explicitly stated dietary restrictions in the user query as well as the user's constraints expressed in the input query.
-- Potential hidden ingredients that might violate restrictions
-- The completeness and clarity of the recipe response
-- Whether substitutions or alternatives are provided when needed
+EVALUATION PRINCIPLES:
+1. Be on the cautious side - only fail recipes that clearly violate dietary restrictions.
+2. Consider context and intent - evaluate the query and response to determine whether the user's dietary needs are respected.
+3. Account for common ingredient flexibility and substitutions.
+4. Focus on major violations, not minor technicalities.
 
-Your evaluation should be fair, consistent, and focused solely on dietary compliance.
+DIETARY RESTRICTION GUIDELINES:
+- Low-carb: Focus on obviously high-carb ingredients (bread, pasta, rice, potatoes, sugar, candy, chocolate).
+- Vegan: Strictly no animal products (meat, dairy, eggs, honey)
+- Vegetarian: No meat/fish, but dairy and eggs are acceptable
+- Gluten-free: No wheat, barley, rye, or gluten-containing ingredients
+- Keto: Very low carb (under 20-30g), high fat
+- Paleo: No grains, legumes, dairy, processed foods
+- Whole30: No grains, legumes, dairy, sugar, processed foods for 30 days
+
+EVALUATION APPROACH:
+- PASS if the recipe meets both the dietary restriction and the user's expressed constraints (e.g. I do not like vegetables).
+- FAIL when there are violations of the stated dietary restriction
+- Consider whether the application suggested substitutions that meet the restriction.
 
 IMPORTANT: You must respond with a valid JSON object in the following format:
 {
@@ -48,110 +55,43 @@ IMPORTANT: You must respond with a valid JSON object in the following format:
     "confidence": "low", "medium", or "high"
 }
 
-Examples:
+EXAMPLES OF GOOD EVALUATION:
 
-[
-  {
-    "user query": "I want something light but filling",
-    "expected_label": "fail",
-    "application response": "I recommend trying a **Grilled Chicken and Vegetable Quinoa Salad**. It's light yet satisfying, packed with protein and fresh flavors. Here’s how to make it for two people:
+Example 1 - Low-carb query:
+User Query: "I want something light but filling"
+Dietary Restriction: "low-carb"
+Recipe Response: Contains quinoa (high-carb grain)
+Correct Evaluation: FAIL - Quinoa is a clear high-carb violation for low-carb diet
 
-    ### Ingredients:
-    - 1/2 cup quinoa
-    - 2 boneless, skinless chicken breasts
-    - 1 small zucchini
-    - 1 small red bell pepper
-    - 1 tablespoon olive oil
-    - 1 lemon (for juice)
-    - Salt and pepper to taste
-    - 1 teaspoon dried oregano or thyme (optional)
-    - Fresh parsley (optional, for garnish)
+Example 2 - Vegan query:
+User Query: "I'm flexitarian leaning vegan"
+Dietary Restriction: "vegan"
+Recipe Response: All ingredients are plant-based (chickpeas, spinach, coconut milk, etc.)
+Correct Evaluation: PASS - Recipe is fully vegan-compliant
 
-    ### Instructions:
+Example 3 - Borderline case:
+User Query: "I need gluten-free options"
+Dietary Restriction: "gluten-free"
+Recipe Response: Uses oats (potentially cross-contaminated but often acceptable)
+Correct Evaluation: FAIL - Oats are generally not acceptable for gluten-free diets unless specifically noted.
 
-    1. **Cook the Quinoa:**
-      - Rinse the quinoa under cold water using a fine mesh sieve.
-      - In a small saucepan, combine 1/2 cup quinoa with 1 cup water and a pinch of salt.
-      - Bring to a boil over medium-high heat, then reduce to low heat and cover.
-      - Simmer for about 15 minutes, or until the water is absorbed and the quinoa is fluffy.
-      - Remove from heat and let it sit, covered, for 5 minutes. Fluff with a fork and set aside.
+Example 4 - Good faith attempt:
+User Query: "I'm trying to eat keto"
+Dietary Restriction: "keto"
+Recipe Response: Suggests cauliflower rice instead of regular rice, includes high-fat ingredients
+Correct Evaluation: PASS - Shows clear attempt to accommodate keto requirements
 
-    2. **Prepare the Vegetables:**
-      - While quinoa is cooking, wash and slice the zucchini and red bell pepper into thin strips.
-      - Toss the vegetables with 1/2 tablespoon olive oil, a pinch of salt, pepper, and optional dried herbs.
+Example 5 - Good adherence to user constraints:
+User Query: "I am pescatarian and I hate fish"
+Dietary Restriction: "pescatarian"
+Recipe Response: Uses fish
+Correct Evaluation: FAIL - User has expressed a constraint against fish.
 
-    3. **Grill the Chicken and Vegetables:**
-      - Preheat your grill or grill pan over medium-high heat.
-      - Season the chicken breasts with salt, pepper, and a little lemon juice.
-      - Grill the chicken for about 6-7 minutes per side, or until fully cooked and juices run clear. Let rest for a few minutes, then slice into strips.
-      - Grill the vegetables for about 3-4 minutes per side until tender and slightly charred.
-
-    4. **Assemble the Salad:**
-      - In a large bowl, combine the cooked quinoa, grilled vegetables, and sliced chicken.
-      - Drizzle with the remaining olive oil and the juice of one lemon.
-      - Toss gently to combine and adjust seasoning with salt and pepper if necessary.
-
-    5. **Serve:**
-      - Garnish with chopped fresh parsley if desired.
-      - Serve immediately for a warm salad or chilled for a refreshing cold dish.
-
-    This recipe yields two satisfying portions that are light but filling. Enjoy your wholesome, flavorful meal!",
-    "reason: "The recipe includes quinoa, which is a grain and contains carbohydrates. For a low-carb diet, the carbohydrate content should be significantly reduced, typically under 50g per day. Quinoa is relatively high in carbohydrates, with about 39g of carbs per cup cooked. Even though the recipe uses only 1/2 cup of quinoa, it still contributes a significant amount of carbohydrates, which may not align with a low-carb dietary restriction. The rest of the ingredients, such as chicken and vegetables, are generally low in carbs, but the inclusion of quinoa makes the overall dish unsuitable for a strict low-carb diet."
-  },
-  {
-    "user query": "I'm flexitarian leaning vegan",
-    "expected_label": "pass",
-    "application response": "Great choice! Here's a flavorful and nutritious recipe for **Chickpea and Spinach Curry**. It’s vegan, hearty, and perfect for a cozy dinner for two.
-
-    ### Chickpea and Spinach Curry
-
-    #### Ingredients:
-    - 1 tablespoon olive oil
-    - 1 medium onion, finely chopped
-    - 3 cloves garlic, minced
-    - 1-inch piece ginger, grated
-    - 1 teaspoon ground cumin
-    - 1 teaspoon ground coriander
-    - 1/2 teaspoon turmeric
-    - 1/2 teaspoon paprika
-    - 1/4 teaspoon cayenne pepper (optional for heat)
-    - 1 can (15 oz) chickpeas, drained and rinsed
-    - 1 can (14 oz) diced tomatoes
-    - 1 cup coconut milk (or any plant-based milk for a lighter version)
-    - 4 cups fresh spinach, chopped
-    - Salt and pepper to taste
-    - Fresh cilantro for garnish (optional)
-    - Cooked rice or naan for serving
-
-    #### Instructions:
-
-    1. **Sauté the Aromatics:**
-      - Heat the olive oil in a large skillet or saucepan over medium heat.
-      - Add the chopped onion and cook for about 5 minutes, until it becomes translucent and soft.
-      - Stir in the minced garlic and grated ginger; cook for another 1 minute until fragrant.
-
-    2. **Add Spices:**
-      - Sprinkle in the cumin, coriander, turmeric, paprika, and cayenne (if using).
-      - Stir well, letting the spices toast for about 30 seconds to activate their flavors.
-
-    3. **Incorporate Chickpeas and Tomatoes:**
-      - Add the drained chickpeas and diced tomatoes (including juices).
-      - Mix everything thoroughly, and let it simmer for 10 minutes, allowing flavors to meld.
-
-    4. **Pour in Coconut Milk:**
-      - Stir in the coconut milk, bring to a gentle simmer, and cook for another 10 minutes until the sauce thickens slightly.
-      - Season with salt and pepper to taste.
-
-    5. **Add Spinach:**
-      - Stir in the chopped spinach and cook for about 2-3 minutes until wilted.
-      
-    6. **Serve:**
-      - Ladle the curry over cooked rice or serve with warm naan.
-      - Garnish with fresh cilantro if desired.
-
-    Enjoy your vibrant Chickpea and Spinach Curry—nutritious, comforting, and perfect for a flexitarian, vegan-friendly meal!"
-  }
-]
+Example 6 - Good adherence to user constraints:
+User Query: "I am pescatarian and I hate fish"
+Dietary Restriction: "pescatarian"
+Recipe Response: Uses shellfish
+Correct Evaluation: PASS - User has expressed a constraint against fish and the application respected that.
 """
 
     def __init__(self, model_name: Optional[str] = None):
@@ -200,14 +140,18 @@ User Query: {query}
 Dietary Restriction: {dietary_restriction}
 Recipe Response: {response}
 
+EVALUATION CONTEXT:
+- The user has a {dietary_restriction} dietary restriction
+- Evaluate if the recipe response reasonably accommodates this restriction
+- Fail for violations
+
 Based on this information, please provide your evaluation in the following JSON format:
 {{
     "llm_judge_label": "pass" or "fail",
-    "reason": "detailed explanation of your judgement",
+    "reason": "detailed explanation of your judgement focusing on specific ingredients or aspects that led to your decision",
     "confidence": "low", "medium", or "high"
 }}
-
-Focus on whether the recipe response properly addresses the dietary restriction."""
+"""
 
         try:
             logger.info("Sending request to model...")

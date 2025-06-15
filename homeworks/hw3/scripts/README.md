@@ -96,3 +96,7 @@ Note:
 ## Dependencies
 
 All dependencies are managed in the project's `pyproject.toml`.
+
+## Iterations (with Claude)
+
+https://claude.ai/artifacts/99123cd4-0a07-46b1-8498-09be82db1f84
