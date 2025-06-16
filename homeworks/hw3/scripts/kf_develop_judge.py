@@ -5,8 +5,8 @@ import logging
 from datetime import datetime
 from typing import Dict, List, Optional
 from litellm import completion
-from pathlib import Path
 from dotenv import load_dotenv
+import argparse
 
 # Configure logging
 logging.basicConfig(
@@ -407,7 +407,6 @@ Based on this information, please provide your evaluation in the following JSON 
 
 def main():
     """Command line interface for the recipe dietary judge."""
-    import argparse
 
     parser = argparse.ArgumentParser(
         description="Evaluate recipe responses against dietary restrictions"
