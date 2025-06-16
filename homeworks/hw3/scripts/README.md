@@ -34,7 +34,7 @@ Run the script using `uv run` with the `.env` file:
 
 ```bash
 # Basic usage with .env file
-uv run --env-file .env python kf_develop_judge.py ../data/kf_dev_set.csv --output-dir ../data/llm_eval_runs/
+uv run --env-file .env python kf_develop_judge.py ../data/kf_dev_set.csv --output-dir ../results/llm_eval_runs/
 
 # Override model from .env
 uv run --env-file .env python kf_develop_judge.py ../data/kf_dev_set.csv --model ollama/llama3:latest
@@ -125,12 +125,14 @@ uv run python kf_evaluate_judge.py ../data/llm_eval_runs/results.csv --debug
 ### Required CSV Format
 
 The input CSV file must contain:
+
 - `label`: Ground truth labels ("pass" or "fail")
 - `llm_judge_label`: Judge predictions ("pass" or "fail")
 
 ### Output
 
 The script provides:
+
 1. **Recipe Bot Assessment**: How well the bot adheres to dietary preferences
 2. **Confidence Level**: How confident we are in the assessment
 3. **Judge Performance**: Accuracy, precision, recall, and F1-score of the judge
@@ -139,6 +141,7 @@ The script provides:
 ### Dependencies
 
 Requires the `judgy` library:
+
 ```bash
 pip install judgy
 ```

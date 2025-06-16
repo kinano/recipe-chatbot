@@ -29,24 +29,27 @@ class RecipeDietaryJudge:
     SYSTEM_PROMPT = """You are an expert recipe evaluator and dietary restriction specialist. Your role is to evaluate whether recipe responses appropriately address dietary restrictions.
 
 EVALUATION PRINCIPLES:
-1. Be on the cautious side - only fail recipes that clearly violate dietary restrictions.
-2. Consider context and intent - evaluate the query and response to determine whether the user's dietary needs are respected.
-3. Account for common ingredient flexibility and substitutions.
-4. Focus on major violations, not minor technicalities.
+1. DIETARY FOCUS: Prioritize adherence to dietary restrictions while allowing reasonable flexibility.
+2. CLEAR VIOLATIONS: Fail recipes with obvious violations of core dietary principles.
+3. CONTEXT AWARENESS: Consider recipe context, substitutions, and overall dietary alignment.
+4. BALANCED JUDGMENT: Be thorough but not overly punitive for minor or borderline cases.
 
 DIETARY RESTRICTION GUIDELINES:
-- Low-carb: Focus on obviously high-carb ingredients (bread, pasta, rice, potatoes, sugar, candy, chocolate).
-- Vegan: Strictly no animal products (meat, dairy, eggs, honey)
-- Vegetarian: No meat/fish, but dairy and eggs are acceptable
-- Gluten-free: No wheat, barley, rye, or gluten-containing ingredients
-- Keto: Very low carb (under 20-30g), high fat
-- Paleo: No grains, legumes, dairy, processed foods
-- Whole30: No grains, legumes, dairy, sugar, processed foods for 30 days
+- Low-carb: Fail if contains obvious high-carb staples (bread, pasta, rice, potatoes, sugar, desserts)
+- Vegan: Fail if contains animal products (meat, dairy, eggs, honey, gelatin)
+- Vegetarian: Fail if contains meat or fish (dairy and eggs are acceptable)
+- Gluten-free: Fail if contains wheat, barley, rye, or clearly gluten-containing ingredients
+- Keto: Fail if high in carbs or contains carb-heavy ingredients without keto alternatives
+- Paleo: Fail if contains grains, legumes, dairy, or highly processed foods
+- Whole30: Fail if contains grains, legumes, dairy, sugar, or processed ingredients
+- Diabetic-friendly: Fail if high in sugar or refined carbs without diabetic-appropriate substitutions
 
 EVALUATION APPROACH:
-- PASS if the recipe meets both the dietary restriction and the user's expressed constraints (e.g. I do not like vegetables).
-- FAIL when there are violations of the stated dietary restriction
-- Consider whether the application suggested substitutions that meet the restriction.
+- PASS if the recipe generally complies with the dietary restriction
+- FAIL for clear violations of the dietary restriction's core principles
+- Consider whether substitutions or alternatives are suggested
+- Allow reasonable serving suggestions that don't compromise the main dish
+- Balance strictness with practical dietary adherence
 
 IMPORTANT: You must respond with a valid JSON object in the following format:
 {
@@ -205,8 +208,24 @@ Would you like tips on decorating or a specific flavor variation?",
 
 This dish is all about flavor with minimal effort—perfect for a lazy but wholesome meal!",
     "llm_judge_label": "fail",
-    "reason": "The recipe for Spaghetti Aglio e Olio does not adhere to the paleo dietary restriction. The primary ingredient, spaghetti, is made from wheat, which is a grain and not allowed on a paleo diet. Additionally, the optional use of Parmesan cheese is a dairy product, which is also not permitted in paleo. The recipe also suggests serving with crusty bread, another grain-based product. While the recipe avoids processed foods, it does not meet the paleo criteria due to the inclusion of grains and dairy.",
+    "reason": "This recipe fails paleo requirements due to fundamental incompatibility. Spaghetti is wheat-based (grains prohibited), Parmesan is dairy (not allowed), and crusty bread suggestion adds more grain violations. While the recipe avoids processed foods as requested, it doesn't address the core paleo restriction against grains and dairy.",
     "confidence": "high"
+  },
+  {
+    "user_query": "Need a quick breakfast but I'm gluten-free",
+    "dietary_restriction": "gluten-free", 
+    "application_response": "Here's a perfect Gluten-Free Avocado Toast! Use gluten-free bread, mashed avocado, salt, pepper, and lemon juice. Top with everything bagel seasoning and enjoy with a side of regular toast for your family.",
+    "llm_judge_label": "fail",
+    "reason": "The main recipe is gluten-free compliant using gluten-free bread and naturally gluten-free ingredients. However, suggesting 'regular toast for your family' introduces cross-contamination concerns and doesn't fully support the gluten-free dining experience.",
+    "confidence": "medium"
+  },
+  {
+    "user_query": "I want something low-carb for lunch",
+    "dietary_restriction": "low-carb",
+    "application_response": "Try this delicious Grilled Chicken Salad! Mix grilled chicken breast, mixed greens, cucumber, tomatoes, avocado, and olive oil dressing. Serve with a small side of quinoa for extra protein.",
+    "llm_judge_label": "pass",
+    "reason": "The main components (chicken, vegetables, avocado, olive oil) are low-carb friendly. While quinoa contains some carbs, it's suggested as a small side and provides protein, making this a reasonable low-carb meal overall.",
+    "confidence": "medium"
   }
 ]
 """
@@ -257,15 +276,25 @@ User Query: {query}
 Dietary Restriction: {dietary_restriction}
 Recipe Response: {response}
 
-EVALUATION CONTEXT:
-- The user has a {dietary_restriction} dietary restriction
-- Evaluate if the recipe response reasonably accommodates this restriction
-- Fail for violations
+EVALUATION REQUIREMENTS:
+- The user has a {dietary_restriction} dietary restriction that should be respected
+- Review ingredients for clear violations of the dietary restriction
+- Consider the overall recipe alignment with dietary goals
+- Evaluate whether substitutions or modifications are suggested
+- Balance strictness with practical dietary adherence
+
+BALANCED EVALUATION APPROACH:
+1. Identify the main ingredients and their dietary compliance
+2. Check for obvious violations of the {dietary_restriction} restriction
+3. Consider whether the recipe offers appropriate alternatives or substitutions
+4. Evaluate serving suggestions for major conflicts with the restriction
+5. PASS if the recipe generally supports the dietary restriction despite minor issues
+6. FAIL only if there are clear, significant violations of core dietary principles
 
 Based on this information, please provide your evaluation in the following JSON format:
 {{
     "llm_judge_label": "pass" or "fail",
-    "reason": "detailed explanation of your judgement focusing on specific ingredients or aspects that led to your decision",
+    "reason": "detailed explanation of dietary compliance assessment and key factors in decision",
     "confidence": "low", "medium", or "high"
 }}
 """
@@ -279,7 +308,7 @@ Based on this information, please provide your evaluation in the following JSON 
                     {"role": "system", "content": self.SYSTEM_PROMPT},
                     {"role": "user", "content": prompt},
                 ],
-                temperature=0,
+                temperature=0.3,
                 max_tokens=1000,
             )
 
@@ -321,7 +350,7 @@ Based on this information, please provide your evaluation in the following JSON 
                 "confidence": "low",
             }
 
-    def process_csv_file(self, input_file: str, output_dir: str = "data") -> str:
+    def process_csv_file(self, input_file: str, output_dir: str = "results") -> str:
         """Process a CSV file of recipe evaluations and generate output."""
         logger.info(f"Processing input file: {input_file}")
 
