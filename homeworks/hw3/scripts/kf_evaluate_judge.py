@@ -17,7 +17,7 @@ import argparse
 from typing import Dict, List, Tuple
 import pandas as pd
 import numpy as np
-from judgy import BinaryJudgeEvaluator
+from judgy import estimate_success_rate
 
 # Configure logging
 logging.basicConfig(
@@ -32,7 +32,7 @@ class JudgePerformanceEvaluator:
     """Evaluates LLM judge performance using the judgy library."""
 
     def __init__(self):
-        self.evaluator = BinaryJudgeEvaluator()
+        pass
 
     def load_data(self, csv_file: str) -> pd.DataFrame:
         """Load judge results from CSV file."""
@@ -64,8 +64,8 @@ class JudgePerformanceEvaluator:
         """Convert data to format expected by judgy library."""
 
         # Convert labels to boolean (True = pass, False = fail)
-        true_labels = (df["label"] == "pass").tolist()
-        judge_labels = (df["llm_judge_label"] == "pass").tolist()
+        true_labels = (df["label"].str.lower() == "pass").tolist()
+        judge_labels = (df["llm_judge_label"].str.lower() == "pass").tolist()
 
         logger.info(
             f"Ground truth distribution: {sum(true_labels)} pass, {len(true_labels) - sum(true_labels)} fail"
@@ -116,11 +116,19 @@ class JudgePerformanceEvaluator:
 
         # Use judgy to estimate corrected success rate
         try:
+            # Convert boolean labels to 0/1 for judgy
+            test_labels = [int(label) for label in true_labels]
+            test_preds = [int(pred) for pred in judge_labels]
+
+            # For this evaluation, we'll treat all data as "unlabeled" predictions
+            # since we want to estimate the corrected success rate
+            unlabeled_preds = test_preds.copy()
+
             # Estimate the corrected true success rate (θ̂) and confidence interval
-            theta_hat, ci_lower, ci_upper = self.evaluator.estimate_true_success_rate(
-                observed_success_rate=p_obs,
-                true_positive_rate=tpr,
-                true_negative_rate=tnr,
+            theta_hat, ci_lower, ci_upper = estimate_success_rate(
+                test_labels=test_labels,
+                test_preds=test_preds,
+                unlabeled_preds=unlabeled_preds,
                 confidence_level=0.95,
             )
 

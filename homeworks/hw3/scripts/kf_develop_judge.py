@@ -53,7 +53,7 @@ EVALUATION APPROACH:
 
 IMPORTANT: You must respond with a valid JSON object in the following format:
 {
-    "llm_judge_label": "pass" or "fail",
+    "llm_judge_label": "PASS" or "FAIL",
     "reason": "detailed explanation of your judgement",
     "confidence": "low", "medium", or "high"
 }
