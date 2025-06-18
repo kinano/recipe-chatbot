@@ -185,6 +185,28 @@ python scripts/evaluate_judge.py
 python scripts/run_full_evaluation.py
 ```
 
+### Interactive Manual Labeling Tool
+For manually labeling traces instead of using automated labeling:
+
+```bash
+# From project root directory
+python homeworks/hw3/scripts/label_traces.py
+```
+
+This interactive script will:
+- Load unlabeled traces from `kf_labeled_traces.csv`
+- Randomly select 200 traces for annotation
+- Display each trace with query, dietary restriction, and response
+- Allow you to label each trace as pass/fail
+- Save your labels back to the CSV file
+- Allow you to quit and resume labeling later
+
+**Usage instructions:**
+- Enter `pass` or `p` for responses that correctly adhere to dietary restrictions
+- Enter `fail` or `f` for responses that violate dietary restrictions  
+- Enter `skip` or `s` to skip a trace without labeling
+- Enter `quit` or `q` to exit and save your progress
+
 ### Our Final Results
 Here were our final results from running the complete reference implementation:
 

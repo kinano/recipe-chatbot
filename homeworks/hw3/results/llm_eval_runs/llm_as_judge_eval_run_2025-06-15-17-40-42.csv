@@ -1,0 +1,1587 @@
+query,dietary_restriction,response,label,error,trace_id,query_id,llm_judge_label,reason,confidence
+I want something light but filling,low-carb,"I recommend trying a **Lemon Herb Chicken Salad**. It's light yet satisfying, perfect for a healthy meal for two. Here’s how to prepare it:
+
+### Lemon Herb Chicken Salad (Serves 2)
+
+#### Ingredients:
+- 2 boneless, skinless chicken breasts
+- 1 tbsp olive oil
+- Salt and freshly ground black pepper
+- 1 lemon (zest and juice)
+- 1 tsp dried oregano or thyme
+- Mixed salad greens (about 4 cups)
+- 1/2 cucumber, sliced
+- 10 cherry tomatoes, halved
+- 1/4 red onion, thinly sliced
+- 2 tbsp crumbled feta cheese (optional)
+- 1 tbsp olive oil (for dressing)
+- 1 tbsp balsamic vinegar or lemon juice (for dressing)
+
+#### Instructions:
+
+1. **Prepare the Chicken:**
+   - Pat the chicken breasts dry with paper towels.
+   - In a small bowl, combine lemon zest, lemon juice, 1 tbsp olive oil, dried oregano (or thyme), salt, and pepper.
+   - Rub this marinade evenly over both chicken breasts. Let it sit for about 10 minutes.
+
+2. **Cook the Chicken:**
+   - Heat a skillet over medium heat. Once hot, add the chicken breasts.
+   - Cook for 6-7 minutes on each side or until fully cooked (internal temperature should reach 165°F/75°C).
+   - Remove from heat and let rest for 5 minutes, then slice thinly.
+
+3. **Assemble the Salad:**
+   - On two plates, divide the mixed greens.
+   - Top each with cucumber slices, cherry tomatoes, red onion slices, and feta (if using).
+   - Arrange the sliced chicken on top.
+
+4. **Make the Dressing:**
+   - In a small bowl, whisk together 1 tbsp olive oil and 1 tbsp balsamic vinegar or lemon juice.
+   - Drizzle over the salads just before serving.
+
+5. **Serve Immediately:**
+   - Enjoy this fresh, flavorful light but filling salad perfect for a nutritious lunch or dinner.
+
+Would you like a different recipe or more options?",pass,,42_22,42,pass,"The recipe response suggests a Lemon Herb Chicken Salad, which primarily consists of protein-rich chicken breasts and vegetables. The ingredients listed do not include any high-carb items like grains, pasta, rice, or potatoes. While the salad greens may contain some carbohydrates, the overall carb content is likely to be relatively low compared to other meal options. Furthermore, the recipe does not explicitly mention any high-carb ingredients that would violate the low-carb dietary restriction.",high
+I'm trying to eat clean but I want pizza,whole30,"Great choice! Here's a delicious and healthy homemade **Cauliflower Crust Pizza** that serves 2 people. It's low in carbs, rich in nutrients, and perfect for a clean eating goal.
+
+### Ingredients:
+- 1 medium cauliflower head (or about 3 cups riced cauliflower)
+- 1 large egg
+- 1/2 cup shredded mozzarella cheese (preferably part-skim)
+- 1 teaspoon dried oregano
+- 1 teaspoon garlic powder
+- Salt and pepper to taste
+- 1/2 cup marinara sauce (look for low-sugar or make your own)
+- 1/2 cup shredded mozzarella cheese (for topping)
+- Toppings of your choice (e.g., bell peppers, mushrooms, spinach, cherry tomatoes, turkey slices)
+
+### Instructions:
+
+1. **Prepare the Cauliflower:**
+   - Remove the leaves and stems from the cauliflower and cut it into chunks.
+   - Place the cauliflower in a food processor and pulse until it resembles rice or couscous.
+   - Transfer the riced cauliflower to a microwave-safe bowl and microwave on high for about 4-5 minutes until tender. Let it cool slightly.
+
+2. **Remove Excess Moisture:**
+   - Place the cooked cauliflower in a clean kitchen towel or cheesecloth and squeeze out as much moisture as possible. This step is crucial for a crispy crust.
+
+3. **Make the Dough:**
+   - In a large bowl, combine the drained cauliflower, egg, 1/2 cup mozzarella, oregano, garlic powder, salt, and pepper. Mix well until the mixture sticks together.
+
+4. **Form the Crust:**
+   - Preheat your oven to 425°F (220°C). Line a baking sheet with parchment paper.
+   - Transfer the cauliflower mixture onto the parchment, and shape it into a thin, round crust about 10-12 inches in diameter.
+   - Use your hands or a spatula to press and flatten the dough evenly.
+
+5. **Bake the Crust:**
+   - Bake in the preheated oven for 15-20 minutes, until the edges are golden and firm.
+
+6. **Add Toppings & Bake:**
+   - Spread the marinara sauce evenly over the crust.
+   - Sprinkle the additional 1/2 cup mozzarella cheese and your favorite toppings.
+   - Return to the oven and bake for another 10 minutes, until the cheese is melted and bubbly.
+
+7. **Serve:**
+   - Let the pizza cool for a few minutes, then cut into slices and enjoy your healthy, clean-eating pizza!
+
+**Tip:** Pair it with a fresh side salad for a complete, nourishing meal.
+
+Enjoy your guilt-free pizza! Would you like a different recipe or ideas for toppings?",fail,,40_5,40,fail,"The recipe response contains dairy (mozzarella cheese), which is a clear violation of the whole30 dietary restriction. Whole30 excludes all forms of dairy, including cheese.",high
+I want something light but filling,low-carb,"I recommend trying a **Chickpea and Spinach Salad with Lemon-Tahini Dressing**. It's light yet satisfying, packed with protein and fresh greens, perfect for a nutritious meal for two.
+
+### Ingredients:
+- 1 can (15 oz) chickpeas, drained and rinsed
+- 2 cups fresh spinach, roughly chopped
+- 1 small cucumber, diced
+- 1 small carrot, grated
+- 2 tablespoons tahini
+- 1 lemon (for juice and zest)
+- 1 tablespoon olive oil
+- Salt and pepper to taste
+- Optional: a handful of chopped fresh parsley or cilantro
+
+### Instructions:
+
+1. **Prepare the Dressing:**
+   - In a small bowl, whisk together the tahini, juice of half a lemon, olive oil, a pinch of salt, and pepper. If the dressing is too thick, add a teaspoon of water gradually until it reaches a smooth, pourable consistency.
+   
+2. **Assemble the Salad:**
+   - In a large bowl, combine the drained chickpeas, chopped spinach, diced cucumber, and grated carrot.
+   
+3. **Add the Dressing:**
+   - Pour the tahini-lemon dressing over the salad ingredients. Toss gently to combine, ensuring everything is evenly coated.
+   
+4. **Finish and Serve:**
+   - Squeeze the remaining lemon juice over the top, add a touch of salt and pepper to taste, and sprinkle with herbs if using.
+   - Divide evenly between two plates and serve immediately, or chill for 10-15 minutes for extra refreshment.
+
+This salad is rich in protein and fiber, making it hearty enough to satisfy without feeling heavy. Enjoy!",fail,,42_31,42,fail,"The recipe contains chickpeas, which are high in carbohydrates and not suitable for a low-carb diet. While the salad is rich in protein and fiber, the presence of chickpeas makes it unsuitable for someone following a low-carb dietary restriction.",high
+Keto breakfast that I can meal prep for the week,keto,"Certainly! Here's a flavorful and satisfying keto breakfast recipe that you can prepare in advance for the week: **Keto Egg muffins with Spinach and Cheddar**. These muffins are easy to make, convenient to store, and packed with healthy fats and proteins.
+
+### Keto Egg Muffins with Spinach and Cheddar  
+**Serving Size:** 2 muffins (per person), makes about 12 muffins (for a week)
+
+---
+
+### Ingredients:
+- 8 large eggs
+- 1 cup fresh spinach, chopped
+- ½ cup shredded cheddar cheese
+- ¼ cup heavy cream
+- ¼ teaspoon garlic powder
+- ¼ teaspoon onion powder
+- Salt and black pepper, to taste
+- Cooking spray or silicone muffin liners
+
+---
+
+### Instructions:
+
+1. **Preheat the Oven:**  
+   Set your oven to 350°F (175°C). Lightly spray a 12-cup muffin tin with cooking spray or line it with silicone muffin liners to prevent sticking.
+
+2. **Prepare the Egg Mixture:**  
+   In a large mixing bowl, crack the eggs. Add the heavy cream, garlic powder, onion powder, salt, and black pepper. Whisk thoroughly until well combined and slightly frothy.
+
+3. **Incorporate the Fillings:**  
+   Fold in the chopped spinach and shredded cheddar cheese into the egg mixture. Mix evenly so each muffin will have a good distribution of ingredients.
+
+4. **Fill the Muffin Tins:**  
+   Pour the mixture into the prepared muffin tin cups, filling each about ¾ full. This will allow room for the eggs to puff up during baking.
+
+5. **Bake:**  
+   Place the muffin tin in the preheated oven and bake for 20-25 minutes, or until the tops are golden and a toothpick inserted into the center comes out clean.
+
+6. **Cool and Store:**  
+   Allow the egg muffins to cool for a few minutes. Remove them carefully and let them cool completely on a wire rack. Once cooled, store them in airtight containers in the refrigerator for up to 5 days.
+
+---
+
+### To Serve:
+Reheat in the microwave for about 30-40 seconds until warmed through. They’re perfect for a quick breakfast on busy mornings!
+
+Enjoy your week of delicious, keto-friendly egg muffins! Would you like me to suggest a side dish or a different breakfast recipe?",pass,,3_25,3,pass,"The recipe response suggests a clear attempt to accommodate keto requirements by using high-fat ingredients like heavy cream and cheddar cheese, while also avoiding obvious high-carb ingredients. The use of eggs as the primary protein source is also consistent with keto diets.",high
+I'm vegan but I really want to make something with honey - is there a good substitute? i am craving a yogurt breakfast,vegan,"Absolutely! Since you're vegan and craving a honey-sweetened breakfast, I recommend making a **Vegan Coconut Chia Yogurt Parfait**. Instead of honey, we'll use maple syrup or agave nectar to add that touch of sweetness. This creamy, satisfying parfait is perfect for breakfast and can be easily customized.
+
+### Vegan Coconut Chia Yogurt Parfait (Serves 2)
+
+#### Ingredients:
+- 1 cup unsweetened shredded coconut or coconut yogurt (if available)
+- 1 cup plant-based Greek-style yogurt (such as almond, soy, or coconut-based)
+- 3 tablespoons chia seeds
+- 2 tablespoons maple syrup or agave nectar
+- 1 teaspoon vanilla extract (optional)
+- Fresh fruits like berries, sliced bananas, or mango (about 1 cup total)
+- Granola or nuts for topping (about ¼ cup)
+
+#### Instructions:
+
+1. **Prepare the Coconut Chia Mixture:**
+   - In a bowl, combine the shredded coconut or coconut yogurt with the plant-based yogurt.
+   - Stir in the chia seeds, maple syrup (or agave nectar), and vanilla extract if using.
+   - Mix thoroughly to ensure the chia seeds are evenly distributed.
+   - Cover the bowl and refrigerate for at least 30 minutes to 1 hour, allowing the chia seeds to absorb the liquids and create a pudding-like texture.
+
+2. **Assemble the Parfaits:**
+   - Once the chia mixture is thickened, give it a good stir.
+   - In two glasses or jars, layer about half of the coconut chia mixture at the bottom.
+   - Add a layer of fresh fruits.
+   - Repeat layers until the jars are filled, ending with a fruit topping.
+
+3. **Finish and Serve:**
+   - Top each parfait with granola or chopped nuts for crunch.
+   - Serve immediately, or refrigerate for up to a few hours for a chilled, refreshing breakfast.
+
+Enjoy your creamy, sweet, and nutritious vegan breakfast parfait!",pass,,1_30,1,pass,"The recipe response suggests a clear vegan-compliant substitute for honey (maple syrup or agave nectar) and uses plant-based yogurt, making it suitable for a vegan diet.",high
+Keto breakfast that I can meal prep for the week,keto,"A perfect keto breakfast meal prep that you can enjoy throughout the week is **Bacon & Egg Muffins**. These portable, protein-packed bites are easy to make in bulk, refrigerate or freeze, and reheat quickly. Here's how to prepare enough for 2 people for the week:
+
+### Ingredients:
+- 8 large eggs
+- 8 strips of bacon
+- 1/2 cup shredded cheddar cheese (optional)
+- 1/4 cup chopped green onions (optional)
+- Salt and pepper to taste
+- Non-stick cooking spray or muffin liners
+
+### Instructions:
+
+1. **Preheat the Oven:**
+   - Set your oven to 350°F (175°C). Grease a 12-cup muffin tin with non-stick spray or line with muffin liners to prevent sticking.
+
+2. **Cook the Bacon:**
+   - In a skillet over medium heat, cook the bacon strips until crispy. You don't need to cook it fully, just enough to render some fat. Drain on paper towels and let cool slightly.
+   - Once cooled, chop the bacon into small pieces.
+
+3. **Prepare the Egg Mixture:**
+   - In a large bowl, crack and whisk the eggs until well combined. Season with a pinch of salt and pepper.
+   - Stir in the shredded cheese and chopped green onions if using.
+
+4. **Assemble the Muffins:**
+   - Evenly distribute the chopped bacon into each muffin cup. Then, pour the egg mixture over the bacon, filling each about 3/4 full.
+
+5. **Bake:**
+   - Place the muffin tin in the preheated oven.
+   - Bake for 18-20 minutes, or until the eggs are puffed and set on top.
+   - Check with a toothpick—if it comes out clean, they're ready.
+
+6. **Cool & Store:**
+   - Let the muffins cool for a few minutes before removing them.
+   - Once cooled, transfer to an airtight container. These can be stored in the fridge for up to 5 days or frozen for up to 3 months.
+
+### To Serve:
+Reheat in the microwave for 30-40 seconds until warmed through. Serve with a side of avocado slices or a dollop of sour cream for extra flavor.
+
+Enjoy these flavorful, low-carb breakfast muffins that keep you full and energized all week long!",pass,,3_20,3,fail,"The recipe contains eggs and bacon, which are high-protein but not necessarily low-carb. However, the primary issue is that it does not explicitly address the keto dietary restriction by suggesting substitutions or emphasizing the carb content of the ingredients. Furthermore, the mention of 'low-carb' in the serving instructions seems to be an afterthought rather than a deliberate consideration.",high
+I want to make a birthday cake but I'm diabetic. Something that still tastes good?,diabetic-friendly,"Absolutely! A great option is a **Keto Chocolate Almond Mug Cake**—it's quick, delicious, and friendly for diabetics. Here's how to make it for 2 servings:
+
+### Ingredients:
+- 4 tablespoons almond flour
+- 1 tablespoon unsweetened cocoa powder
+- 2 tablespoons erythritol or your preferred erythritol-based sweetener
+- 1/4 teaspoon baking powder
+- 2 large eggs
+- 2 tablespoons unsweetened almond milk
+- 1 teaspoon vanilla extract
+- A pinch of salt
+- Optional: a few chopped almonds or sugar-free chocolate chips for garnish
+
+### Instructions:
+1. **Mix the dry ingredients:** In a small bowl or mug, combine the almond flour, cocoa powder, erythritol, baking powder, and salt. Stir well to ensure everything is evenly distributed.
+   
+2. **Add the wet ingredients:** Crack the eggs into the mug, then add the almond milk and vanilla extract. Whisk thoroughly until the mixture is smooth and free of lumps.
+
+3. **Cook the mug cake:** Microwave the mug on high for about 1 to 1.5 minutes. Check if it's set; if the top is still slightly jiggy, microwave for another 15-20 seconds. Be careful not to overcook as it can become dry.
+
+4. **Serve:** Let it sit for a minute. Optionally, top with a few chopped almonds or sugar-free chocolate chips for extra flavor.
+
+### Tips:
+- This cake is best enjoyed warm.
+- You can double the ingredients if you'd like larger portions.
+
+Enjoy a rich, satisfying, and diabetic-friendly birthday treat! Would you like a different type of dessert next?",pass,,7_1,7,pass,"The recipe response suggests a keto-friendly mug cake, which is naturally low in carbs and suitable for diabetics. The use of almond flour, erythritol, and unsweetened almond milk further supports this claim.",high
+I'm vegan and gluten-free and also hate vegetables. What can I eat?,vegan,"Great! I have a delicious vegan and gluten-free recipe that minimizes vegetables but still delivers on flavor: **Coconut Chickpea Curry**. It's hearty, creamy, and packed with flavor—plus, it’s perfect for 2 servings. Let’s get started!
+
+### Coconut Chickpea Curry
+
+#### Ingredients:
+- 1 can (15 oz) chickpeas, drained and rinsed
+- 1 can (13.5 oz) full-fat coconut milk
+- 1 small onion, finely chopped
+- 2 cloves garlic, minced
+- 1 tbsp olive oil or coconut oil
+- 1 tsp ground turmeric
+- 1 tsp ground cumin
+- 1/2 tsp smoked paprika (optional for smoky flavor)
+- Salt and pepper to taste
+- Juice of half a lemon (optional)
+- Fresh cilantro or parsley for garnish (optional)
+- Cooked rice or gluten-free bread for serving
+
+#### Instructions:
+
+1. **Sauté the aromatics:**  
+   In a medium pot, heat 1 tablespoon of olive or coconut oil over medium heat. Add the chopped onion and sauté for about 5 minutes until translucent and fragrant.
+
+2. **Add garlic and spices:**  
+   Stir in the minced garlic, turmeric, cumin, smoked paprika (if using), salt, and pepper. Cook for another 1-2 minutes, allowing the spices to release their aroma.
+
+3. **Combine chickpeas and coconut milk:**  
+   Add the drained chickpeas to the pot, stirring to coat them with the spices. Pour in the coconut milk and stir everything together.
+
+4. **Simmer:**  
+   Bring the mixture to a gentle boil, then reduce the heat to low. Cover and simmer for about 10-15 minutes to allow the flavors to meld and the sauce to thicken slightly.
+
+5. **Finish and serve:**  
+   Taste and adjust seasoning as needed. If using, squeeze lemon juice for brightness. Serve hot over cooked rice or gluten-free bread. Garnish with chopped fresh cilantro or parsley, if desired.
+
+**Serves:** 2
+
+This dish is rich and satisfying without relying heavily on vegetables, and it's both vegan and gluten-free! Would you like me to suggest a side or dessert to go with it?",fail,,29_25,29,pass,"The recipe response is vegan-compliant, using plant-based ingredients such as chickpeas, coconut milk, and spices. Although it mentions serving over cooked rice or gluten-free bread, which are not inherently vegan, the primary focus of the dish is on the chickpea and coconut milk base, making it suitable for a vegan diet.",high
+Paleo lunch that doesn't involve any nuts. but i can eat almonds - I'm allergic,paleo,"Certainly! Here's a tasty and healthy Paleo-friendly Almond Chicken Salad Lettuce Wraps recipe that excludes nuts (except almonds, which you're allergic to).
+
+### Almond Chicken Salad Lettuce Wraps (Serves 2)
+
+**Ingredients:**
+- 2 cooked chicken breasts (about 1 cup shredded)
+- 1/4 cup chopped almonds (if safe for you; if not, omit or substitute with sunflower seeds)
+- 1/4 cup chopped celery
+- 1/4 cup chopped red onion
+- 2 tablespoons olive oil
+- 1 tablespoon lemon juice
+- 1 teaspoon Dijon mustard (check for Paleo compatibility)
+- Salt and black pepper to taste
+- 8 large romaine or butter lettuce leaves
+
+**Instructions:**
+
+1. **Prepare the Chicken:**  
+   If you haven't cooked your chicken yet, poach or bake the breasts at 375°F (190°C) for about 20-25 minutes or until fully cooked. Let them rest, then shred with two forks into small, bite-sized pieces.
+
+2. **Make the Salad Mixture:**  
+   In a large bowl, combine the shredded chicken, chopped celery, chopped red onion, and chopped almonds (or sunflower seeds if avoiding almonds).  
+
+3. **Create the Dressing:**  
+   In a small bowl or jar, whisk together the olive oil, lemon juice, Dijon mustard, salt, and pepper until well combined.
+
+4. **Combine:**  
+   Pour the dressing over the chicken mixture and toss until everything is evenly coated. Taste and adjust the seasoning if needed.
+
+5. **Assemble:**  
+   Spoon the chicken salad onto each lettuce leaf, wrapping them up to form a ""lettuce wrap.""
+
+6. **Serve:**  
+   Arrange the wraps on a plate and enjoy immediately. For extra freshness, serve with sliced cucumber or cherry tomatoes on the side.
+
+**Tip:** For a little extra flavor, you can sprinkle some chopped fresh herbs like parsley or cilantro on top before serving.
+
+Enjoy your Paleo Almond Chicken Salad Lettuce Wraps — a light, satisfying, nut-free lunch!",fail,,6_10,6,fail,"The recipe response includes almonds, which are not paleo-compliant due to being a type of nut. Although the user is allergic to nuts and mentions they can eat almonds, this does not change the fact that almonds themselves are not paleo-friendly.",high
+Need a quick gluten-free breakfast. I hate eggs though.,gluten-free,"Certainly! How about a delicious **Chia Seed Overnight Pudding**? It's quick, gluten-free, egg-free, and perfect for a nutritious breakfast for two. Plus, it can be prepared the night before for instant enjoyment in the morning.
+
+### Chia Seed Overnight Pudding (Serves 2)
+
+#### Ingredients:
+- 1/4 cup chia seeds
+- 1 cup unsweetened almond milk (or any preferred plant-based milk)
+- 1-2 tablespoons maple syrup or honey (adjust to taste)
+- 1/2 teaspoon vanilla extract
+- Fresh fruits for topping (berries, banana slices, or mango)
+- Optional: a handful of nuts or shredded coconut for crunch
+
+#### Instructions:
+
+1. **Mix the Base:**  
+   In a medium bowl or a jar with a lid, combine the chia seeds, almond milk, maple syrup (or honey), and vanilla extract. Stir well to prevent clumps, ensuring the chia seeds are evenly dispersed.
+
+2. **Let It Thicken:**  
+   Cover the bowl or jar with a lid or plastic wrap. Place it in the refrigerator and let it sit overnight or for at least 4 hours. During the first 30 minutes, stir the mixture once or twice to prevent the chia seeds from settling and clumping together.
+
+3. **Prepare the Toppings:**  
+   In the morning, give the pudding a good stir to check its consistency. If it's too thick, stir in a splash of almond milk to loosen it.
+
+4. **Serve:**  
+   Divide the pudding into two bowls or glasses. Top with fresh fruits, nuts, or shredded coconut for added flavor and texture.
+
+### Enjoy your healthy, egg-free, gluten-free breakfast!",pass,,2_16,2,pass,"The recipe response suggests a Chia Seed Overnight Pudding, which is explicitly stated as gluten-free and egg-free. The ingredients used are all plant-based (chia seeds, almond milk, maple syrup or honey, vanilla extract), making it compliant with the user's gluten-free dietary restriction.",high
+Halal pasta recipe - is that even a thing?,halal,"Absolutely! Halal pasta is a delicious and versatile dish that can be made to suit various taste preferences while adhering to halal dietary guidelines. Here’s a flavorful **Halal Chicken and Vegetable Pasta** recipe perfect for 2 servings.
+
+### Ingredients:
+- 200g (7 oz) of penne or spaghetti pasta
+- 2 boneless, skinless chicken breasts (about 250g total)
+- 2 tablespoons olive oil
+- 1 onion, finely chopped
+- 3 garlic cloves, minced
+- 1 bell pepper (any color), sliced
+- 1 zucchini, sliced
+- 1 cup cherry tomatoes, halved
+- 1 teaspoon paprika
+- 1 teaspoon dried oregano
+- Salt and black pepper to taste
+- Fresh parsley or basil for garnish
+- Juice of half a lemon (optional)
+
+### Instructions:
+
+1. **Cook the Pasta:** 
+   - Bring a large pot of salted water to a boil. 
+   - Add the pasta and cook according to the package instructions until al dente (usually around 8-10 minutes).
+   - Drain the pasta, reserving about ½ cup of pasta water, and set aside.
+
+2. **Prepare the Chicken:** 
+   - While the pasta cooks, cut the chicken breasts into bite-sized pieces. 
+   - Season them with salt, pepper, paprika, and dried oregano.
+
+3. **Cook the Chicken:**
+   - Heat 1 tablespoon of olive oil in a large skillet over medium heat.
+   - Add the seasoned chicken pieces and cook for about 6-8 minutes, turning occasionally until they are golden brown and cooked through.
+   - Remove the chicken from the skillet and set aside.
+
+4. **Sauté the Vegetables:**
+   - In the same skillet, add the remaining 1 tablespoon of olive oil.
+   - Add the chopped onion and cook for 3 minutes until translucent.
+   - Stir in the minced garlic and cook for another 30 seconds until fragrant.
+   - Add the sliced bell pepper and zucchini. Cook for about 5 minutes until tender but still vibrant.
+   - Toss in the cherry tomatoes and cook for another 2 minutes just to soften.
+
+5. **Combine Everything:**
+   - Return the cooked chicken to the skillet with the vegetables.
+   - Add the cooked pasta to the skillet.
+   - Mix well, adding reserved pasta water a little at a time to loosen the sauce if needed.
+   - Squeeze fresh lemon juice over the dish for brightness, if desired.
+   - Adjust seasoning with salt and pepper to taste.
+
+6. **Serve:**
+   - Divide the pasta between two plates.
+   - Garnish with freshly chopped parsley or basil.
+   - Serve hot and enjoy your flavorful halal pasta!
+
+This dish is quick, nutritious, and perfect for a satisfying dinner. Would you like another recipe idea?",pass,,28_37,28,fail,"The recipe contains pasta, which is not halal-compliant due to the use of wheat. While the user's query was about 'Halal pasta', it seems they were looking for a dish that adheres to halal dietary guidelines, not necessarily made with pasta.",high
+Healthy dessert that doesn't taste healthy,sugar-free,"I recommend making **Chocolate Avocado Mousse**. It's rich, creamy, and indulgent, yet made with wholesome ingredients, making it a perfect healthy dessert that doesn't taste healthy. Here's how to prepare it for 2 servings:
+
+### Ingredients:
+- 2 ripe avocados
+- 1/4 cup unsweetened cocoa powder
+- 3-4 tablespoons honey or maple syrup (adjust to taste)
+- 1 teaspoon vanilla extract
+- Pinch of salt
+- Optional: 1-2 tablespoons almond milk or dairy milk for smoother texture
+- Fresh berries or mint for garnish (optional)
+
+### Instructions:
+
+1. **Prepare the Avocados:**  
+Cut the ripe avocados in half, remove the pits, and scoop the flesh into a blender or food processor.
+
+2. **Add Cocoa and Sweetener:**  
+Add the unsweetened cocoa powder, honey (or maple syrup), vanilla extract, and a pinch of salt to the blender.
+
+3. **Blend Until Smooth:**  
+Blend all the ingredients thoroughly until the mixture is ultra-smooth and creamy. If the mousse is too thick, add 1-2 tablespoons of almond milk gradually and blend again to reach your desired consistency.
+
+4. **Taste and Adjust:**  
+Taste the mousse and add more honey or cocoa if needed, blending again to combine.
+
+5. **Chill:**  
+Transfer the mousse into small bowls or ramekins and refrigerate for at least 30 minutes to allow the flavors to meld and the texture to set.
+
+6. **Serve:**  
+Garnish with fresh berries or a sprig of mint if desired. Serve chilled for a luxurious, healthy chocolate treat.
+
+Enjoy your **Chocolate Avocado Mousse**—a decadent dessert that’s good for you!",fail,,41_12,41,fail,"The recipe contains honey and maple syrup, which are high in sugar and violate the user's sugar-free dietary restriction. Although the recipe suggests using unsweetened cocoa powder, the presence of these sweeteners outweighs this positive aspect.",high
+Whole30 comfort food that actually comforts,whole30,"Here's a delightful Whole30-friendly recipe for **Creamy Cauliflower Chicken Soup**—a comforting, velvety soup that feels indulgent but is entirely compliant. It’s perfect for cozy nights and serves 2 people generously.
+
+### Creamy Cauliflower Chicken Soup (Whole30)
+
+#### Ingredients:
+- 1 medium cauliflower head, chopped into florets
+- 2 chicken breasts (about 6-8 oz each)
+- 1 large onion, diced
+- 3 cloves garlic, minced
+- 2 tablespoons olive oil
+- 4 cups chicken broth (preferably homemade or compliant)
+- 1 teaspoon dried thyme
+- 1 teaspoon dried rosemary
+- Salt and pepper to taste
+- Optional: chopped fresh parsley for garnish
+
+#### Instructions:
+
+1. **Cook the chicken:**
+   - Bring a pot of water to a boil. Add the chicken breasts, a pinch of salt, and cook until fully cooked through, about 15-20 minutes.
+   - Remove from water and let rest for a few minutes, then shred or dice into bite-sized pieces.
+   
+2. **Prepare the soup base:**
+   - While the chicken cooks, heat 2 tablespoons of olive oil in a large pot over medium heat.
+   - Add diced onion and sauté for about 5 minutes, until translucent and fragrant.
+   - Add minced garlic and cook for another 1 minute, stirring constantly to prevent burning.
+   
+3. **Cook the cauliflower:**
+   - Add the chopped cauliflower to the pot, stirring well to coat with the onion and garlic.
+   - Pour in the chicken broth, bringing everything to a boil.
+   - Reduce the heat, add dried thyme and rosemary, then cover and simmer for 15-20 minutes, or until the cauliflower is very tender.
+   
+4. **Blend to creamy perfection:**
+   - Use an immersion blender directly in the pot to puree the soup until smooth. Alternatively, carefully transfer the soup in batches to a blender (let it cool slightly first), then blend until smooth.
+   
+5. **Add chicken and season:**
+   - Return the shredded chicken to the soup, stirring well to combine.
+   - Taste and adjust salt and pepper as needed.
+   
+6. **Serve:**
+   - Ladle the hot soup into bowls.
+   - Garnish with chopped fresh parsley if desired.
+   
+Enjoy this creamy, hearty, and Whole30-compliant comfort food that warms you from the inside out!",pass,,56_19,56,pass,"The recipe response is Whole30-compliant, using compliant ingredients such as cauliflower, chicken, olive oil, and herbs. It does not include any non-compliant ingredients like grains, legumes, dairy, sugar, or processed foods.",high
+I don't like vegetables but I want to eat healthy,vegetarian,"A great, healthy dish that minimizes vegetables but still delivers flavor and nutrition is Lemon Herb Chicken with Roasted Garlic Potatoes. It’s hearty, delicious, and easy to prepare for two servings.
+
+**Lemon Herb Chicken with Roasted Garlic Potatoes**
+
+**Ingredients:**
+- 2 boneless, skinless chicken breasts
+- 4 medium potatoes (Yukon Gold or Russet)
+- 3 cloves garlic
+- 2 tablespoons olive oil
+- 1 lemon (for juice and zest)
+- 1 teaspoon dried thyme
+- 1 teaspoon dried rosemary
+- Salt and black pepper to taste
+- Fresh parsley (optional, for garnish)
+
+**Steps:**
+
+1. **Preheat your oven** to 400°F (200°C). Line a baking sheet with parchment paper or lightly grease it.
+
+2. **Prepare the potatoes:** 
+   - Wash and peel the potatoes if desired (peeling is optional).
+   - Cut them into 1-inch cubes for even roasting.
+   - Mince 2 cloves of garlic.
+   - In a bowl, toss the potato cubes with 1 tablespoon olive oil, minced garlic, salt, pepper, and a pinch of rosemary and thyme.
+
+3. **Roast the potatoes:** 
+   - Spread the potatoes in a single layer on the prepared baking sheet.
+   - Roast in the oven for about 25-30 minutes, turning once halfway through, until golden and crispy.
+
+4. **Prepare the chicken:**
+   - In a small bowl, combine the juice and zest of 1 lemon, 1 tablespoon olive oil, dried thyme, rosemary, salt, and pepper.
+   - Pat the chicken breasts dry with paper towels.
+   - Coat the chicken evenly with the lemon herb mixture.
+
+5. **Cook the chicken:**
+   - Heat a large skillet over medium heat.
+   - Once hot, add the chicken breasts.
+   - Cook for about 6-7 minutes per side, or until the internal temperature reaches 165°F (75°C) and the chicken is golden brown.
+   - Remove from heat and let rest for a couple of minutes.
+
+6. **Serve:**
+   - Plate the chicken breasts alongside the roasted garlic potatoes.
+   - Garnish with fresh parsley and extra lemon slices if desired.
+
+**Serving size:** 2 servings
+
+This meal is rich in protein and healthy carbs, with the lemon and herbs adding fresh flavor without relying heavily on vegetables. Enjoy your healthy, satisfying dinner!",fail,,38_1,38,fail,"The recipe contains potatoes, which are high in carbs and not suitable for a vegetarian diet. While the user has a vegetarian restriction, this recipe does not meet that requirement due to the presence of potatoes.",high
+Need a quick gluten-free breakfast. I hate eggs though.,gluten-free,"Let's make a delicious gluten-free Banana Almond Oatmeal! It’s quick, satisfying, and egg-free.
+
+**Ingredients (serves 2):**
+- 1 cup gluten-free rolled oats
+- 2 ripe bananas
+- 2 cups almond milk (or any milk you prefer)
+- 2 tablespoons almond butter
+- 1 tablespoon honey or maple syrup (optional)
+- 1/4 teaspoon ground cinnamon
+- A handful of sliced almonds or chopped nuts for topping
+- Fresh berries or sliced bananas for garnish (optional)
+
+**Instructions:**
+
+1. **Prepare the Bananas:**  
+   Peel the bananas and mash them in a bowl until smooth. This adds natural sweetness and creaminess to your oatmeal.
+
+2. **Combine Ingredients:**  
+   In a medium saucepan, pour the almond milk and bring it to a gentle simmer over medium heat. Stir in the mashed bananas, almond butter, honey (if using), and cinnamon. Mix well until everything is combined smoothly.
+
+3. **Cook the Oats:**  
+   Add the gluten-free oats to the saucepan. Reduce heat to low and cook, stirring frequently, for 5-7 minutes until the oats are tender and the mixture is thickened.
+
+4. **Serve:**  
+   Divide the oatmeal into two bowls. Top with sliced almonds or your favorite chopped nuts, and add fresh berries or banana slices for extra flavor and nutrition.
+
+**Enjoy your hearty, egg-free gluten-free breakfast!**",pass,,2_4,2,fail,"The recipe contains oats, which are a high-carb ingredient and can be problematic for some gluten-free diets. While the oats are labeled as 'gluten-free', this does not necessarily mean they meet the strict dietary requirements of someone with celiac disease or severe gluten intolerance.",high
+I'm pescatarian but I hate fish. Can you give me a seafood pasta recipe?,pescatarian,"Certainly! Here's a delicious and satisfying **Lemon Garlic Shrimp Pasta** that feels like seafood but doesn’t include fish, perfect for a pescatarian who prefers to skip fish. It’s flavorful, quick to prepare, and serves 2.
+
+### Lemon Garlic Shrimp Pasta
+
+#### Ingredients:
+- 200g (7 oz) linguine or spaghetti
+- 300g (about 10 oz) large shrimp, peeled and deveined
+- 3 tablespoons olive oil
+- 4 cloves garlic, minced
+- 1 lemon (zest and juice)
+- 1/4 teaspoon red pepper flakes (optional for a bit of heat)
+- Salt and freshly ground black pepper to taste
+- 2 tablespoons unsalted butter
+- Fresh parsley, chopped (for garnish)
+- Grated Parmesan cheese (optional, for serving)
+
+#### Instructions:
+
+1. **Cook the Pasta:**
+   - Fill a large pot with salted water and bring to a boil.
+   - Add the pasta and cook according to package instructions until al dente (usually around 8-10 minutes).
+   - Drain the pasta, reserving about 1/2 cup of pasta water, and set aside.
+
+2. **Prepare the Shrimp:**
+   - While the pasta cooks, heat 1 tablespoon of olive oil in a large skillet over medium-high heat.
+   - Add the shrimp, season with salt and pepper, and cook for about 2-3 minutes on each side until pink and opaque.
+   - Remove the shrimp from the skillet and set aside.
+
+3. **Make the Sauce:**
+   - In the same skillet, reduce heat to medium, add the remaining 2 tablespoons of olive oil.
+   - Add the minced garlic and red pepper flakes (if using), sauté for about 30 seconds until fragrant — be careful not to burn the garlic.
+   - Stir in the lemon zest and juice, cooking for another 1 minute.
+
+4. **Combine Everything:**
+   - Return the cooked shrimp to the skillet.
+   - Add the cooked pasta and butter.
+   - Toss everything together, allowing the butter to melt and coat the pasta evenly.
+   - If the mixture seems dry, splash in a little reserved pasta water to loosen it up.
+
+5. **Serve:**
+   - Plate the pasta, garnish with chopped parsley, and sprinkle with Parmesan if desired.
+   - Serve immediately while hot, with extra lemon wedges on the side.
+
+Enjoy your bright, flavorful Lemon Garlic Shrimp Pasta—perfect with a simple green salad and crusty bread!",pass,,10_4,10,fail,"The recipe contains shrimp, which is a seafood ingredient. While the user specified they are pescatarian and prefer to skip fish, this does not exclude other types of seafood. However, in the context of the query, it seems the user was looking for an alternative to fish-based seafood pasta. The presence of shrimp as the primary protein source may be seen as a clear violation of their intent.",high
+Nut-free lunch that's safe for my kid's school,nut-free,"Certainly! Here's a delicious and nut-free school-safe lunch idea: **Turkey and Veggie Wraps**.
+
+**Ingredients (for 2 servings):**
+- 4 whole wheat or corn tortillas
+- 200g sliced turkey breast (deli-style, check for nut-free processing)
+- 1 small cucumber, thinly sliced
+- 1 small carrot, grated
+- 1/2 red bell pepper, thinly sliced
+- 2 tablespoons cream cheese (check label for nut-free)
+- 1 handful fresh spinach leaves or lettuce
+- A pinch of salt and pepper
+- Optional: mustard or honey mustard for added flavor
+
+**Instructions:**
+
+1. **Prepare the Spread:**  
+   In a small bowl, soften the cream cheese with a fork until smooth. If desired, mix in a teaspoon of honey mustard for a slightly tangy flavor.
+
+2. **Lay Out the Tortillas:**  
+   Place each tortilla flat on a clean surface. Spread a thin layer of the cream cheese on each tortilla, covering the entire surface to help everything stick.
+
+3. **Add the Protein:**  
+   Layer slices of turkey evenly across the lower third of each tortilla.
+
+4. **Layer the Vegetables:**  
+   Add a few spinach leaves or a small handful of lettuce on top of the turkey. Then, arrange the cucumber slices, grated carrot, and red bell pepper strips over the greens.
+
+5. **Season:**  
+   Lightly sprinkle with salt and pepper to taste.
+
+6. **Roll Up:**  
+   Starting from the bottom, carefully roll each tortilla tightly into a wrap, making sure the fillings stay inside.
+
+7. **Slice and Pack:**  
+   Using a sharp knife, cut each wrap diagonally in half. Pack the wraps into a lunchbox with an ice pack to keep everything fresh.
+
+**Serving Size:**  
+2 wraps (enough for 2 children or 1 adult and 1 child).  
+
+This lunch is colorful, nutritious, and completely nut-free—perfect for school!",pass,,59_38,59,fail,"The recipe contains whole wheat tortillas, which are a clear high-carb ingredient and not necessarily nut-free. While the response claims to be nut-free, it does not address potential cross-contamination risks or provide alternative ingredients that meet the nut-free requirement.",high
+I want a cheeseburger but I'm dairy-free and vegetarian. I know this sounds impossible but I'm really craving the taste and texture of a classic American cheeseburger and I haven't had one in 3 years since I went vegetarian and developed lactose intolerance,vegetarian,"Absolutely, you can enjoy a delicious dairy-free, vegetarian cheeseburger that captures the classic taste and texture! Here’s a flavorful recipe for a **Vegan Lentil & Mushroom ""Meat"" Cheeseburger** that will satisfy your cravings:
+
+### Ingredients (Serves 2):
+- 1 cup cooked lentils (brown or green)
+- 1 cup finely chopped mushrooms (button or cremini)
+- 1 small onion, finely chopped
+- 2 cloves garlic, minced
+- ½ cup breadcrumbs (use gluten-free if needed)
+- 1 tablespoon soy sauce or tamari (for umami)
+- 1 teaspoon smoked paprika
+- ½ teaspoon ground cumin
+- Salt and black pepper to taste
+- 1 tablespoon olive oil
+- 2 vegan burger buns
+- 4 slices dairy-free cheese (check for nut or soy base, or make your own)
+- Lettuce leaves and tomato slices for toppings
+- Pickles (optional)
+- Ketchup, mustard, or vegan mayo for condiments
+
+### Instructions:
+
+1. **Prepare the Lentil Mixture:**
+   - In a large bowl, mash the cooked lentils with a fork or potato masher until mostly smooth but with some texture retained.
+   - Add the finely chopped mushrooms, onion, and garlic.
+   - Mix in the breadcrumbs, soy sauce, smoked paprika, cumin, salt, and pepper until well combined. The mixture should be moist but hold together; if too wet, add a little more breadcrumbs.
+
+2. **Form the Patties:**
+   - Divide the mixture into four equal parts.
+   - Shape each into a round patty about 1/2 inch thick. Press gently to compact.
+
+3. **Cook the Patties:**
+   - Heat the olive oil in a skillet over medium heat.
+   - Carefully place the patties in the skillet and cook for about 4-5 minutes per side, until golden brown and firm.
+   - In the last minute of cooking, place a slice of dairy-free cheese on each patty to melt slightly.
+
+4. **Assemble the Cheeseburgers:**
+   - While the patties are cooking, lightly toast the burger buns.
+   - Spread condiments on the bottom buns.
+   - Place lettuce and tomato slices, then add the hot patties with melted cheese.
+   - Top with pickles if desired, then cover with the top bun.
+
+5. **Serve:**
+   - Serve immediately with your favorite side, such as crispy sweet potato fries or a side salad.
+
+Enjoy your hearty, cheesy, vegetarian, dairy-free cheeseburger that hits all the right notes!",pass,,24_10,24,pass,"The recipe response suggests a vegan lentil and mushroom 'meat' cheeseburger, which is vegetarian-compliant. The use of dairy-free cheese and vegan burger buns further accommodates the user's dairy-free requirement.",high
+Nut-free lunch that's safe for my kid's school,nut-free,"Certainly! Here's a tasty and nut-free lunch idea perfect for your child's school day: **Turkey and Veggie Wraps**.
+
+### Ingredients (Serves 2):
+- 2 large flour tortillas (look for nut-free certification)
+- 4 slices of cooked turkey breast or slices from the deli (check for nut-free processing)
+- 1 small cucumber, thinly sliced
+- 1 medium carrot, grated
+- 1 small bell pepper (any color), thinly sliced
+- 2 leaves of romaine or lettuce
+- 2 tablespoons cream cheese or hummus (your choice, but check for nut-free)
+- Optional: a dash of black pepper or herbs for flavor
+
+### Instructions:
+1. **Prepare the Wraps:** Lay the flour tortillas flat on a clean surface. If desired, warm them slightly in a dry skillet or microwave for 10 seconds to make rolling easier.
+  
+2. **Spread the Base:** Evenly spread 1 tablespoon of cream cheese or hummus onto each tortilla, leaving about an inch border around the edges. This adds flavor and helps hold the fillings in place.
+   
+3. **Layer the Fillings:** Place one lettuce leaf on the lower third of each tortilla. Layer two slices of turkey on top of the lettuce.
+   
+4. **Add Veggies:** Distribute the thin cucumber slices, grated carrots, and bell pepper slices on top of the turkey, dividing equally between the two wraps.
+   
+5. **Roll Up:** Carefully roll the tortilla tightly from the bottom edge, tucking in the sides as you go to prevent spilling. Use a toothpick if needed to keep the wrap together, then remove it before packing.
+   
+6. **Slice and Pack:** Cut each wrap diagonally into two halves for easier eating. Pack in a reusable container, along with a piece of fruit and a small bottle of water or juice.
+
+### Tips:
+- You can prepare these wraps the night before and keep them refrigerated.
+- Feel free to add other safe vegetables your child enjoys!
+- Always double-check the labels for nut-free certification, especially in processed ingredients.
+
+These wraps are delicious, easy to eat, and safe for school! Would you like another recipe?",pass,,59_33,59,pass,"The recipe response suggests using nut-free certification for the flour tortillas and processed turkey breast, which is a reasonable accommodation of the nut-free dietary restriction. Additionally, it explicitly excludes nuts from the ingredients list.",high
+I'm pescatarian but I hate fish. Can you give me a seafood pasta recipe?,pescatarian,"Absolutely! Since you're pescatarian but dislike fish, I recommend trying a delicious **Lemon Garlic Shrimp Pasta**. It's rich, flavorful, and doesn't feature fish chunks, but uses shrimp for that seafood touch. Here's a detailed recipe for 2 servings:
+
+### Lemon Garlic Shrimp Pasta
+
+#### Ingredients:
+- 200g (about 7 oz) spaghetti or your preferred pasta
+- 250g large shrimp (peeled and deveined)
+- 3 tablespoons olive oil
+- 4 garlic cloves, minced
+- Zest and juice of 1 lemon
+- 1/4 teaspoon red pepper flakes (optional, for a bit of heat)
+- 1/4 cup chopped fresh parsley
+- Salt and freshly ground black pepper to taste
+- Grated Parmesan cheese (optional, for serving)
+
+#### Instructions:
+
+1. **Cook the Pasta:**
+   - Fill a large pot with water, add a generous pinch of salt, and bring to a boil.
+   - Add the pasta and cook according to the package instructions until al dente (usually about 8-10 minutes).
+   - Reserve about 1/2 cup of pasta water, then drain the pasta and set aside.
+
+2. **Prepare the Shrimp:**
+   - While the pasta is cooking, heat 1 tablespoon of olive oil in a large skillet over medium-high heat.
+   - Season the shrimp with salt, pepper, and red pepper flakes if using.
+   - Add the shrimp to the skillet and cook for about 2 minutes per side until they turn pink and are cooked through.
+   - Remove the shrimp from the skillet and set aside.
+
+3. **Make the Lemon Garlic Sauce:**
+   - In the same skillet, add the remaining 2 tablespoons of olive oil.
+   - Lower the heat to medium and add the minced garlic. Sauté for about 30 seconds until fragrant but not browned.
+   - Add the lemon zest and juice, stirring constantly. Let the mixture simmer for 1-2 minutes.
+   
+4. **Combine and Serve:**
+   - Return the cooked shrimp to the skillet, tossing to coat them in the lemon garlic sauce.
+   - Add the cooked pasta to the skillet, tossing everything together. If the sauce seems a little dry, add reserved pasta water a tablespoon at a time until you reach your desired consistency.
+   - Stir in chopped parsley and adjust seasoning with salt and pepper.
+   - Serve hot, garnished with grated Parmesan cheese if desired.
+
+Enjoy your bright, flavorful Lemon Garlic Shrimp Pasta—perfect for a quick yet elegant pescatarian meal!",pass,,10_21,10,fail,"The recipe response contains shrimp, which is a clear violation of the pescatarian dietary restriction. Pescatarians do not eat fish or seafood, and shrimp falls under this category.",high
+Vegan cheese recipe but it should taste good. i can have cashews but no other nuts. i don't like nutritional yeast,vegan,"Certainly! Here's a delicious and creamy vegan cashew cheese spread that skips nutritional yeast but still delivers a rich, cheesy flavor. It's perfect for crackers, sandwiches, or dipping vegetables. Makes about 1 cup, serving 2-3 people.
+
+**Vegan Cashew Cheese (No Nutritional Yeast)**
+
+**Ingredients:**
+- 1 cup raw cashews (soaked in water for at least 2 hours or overnight)
+- 3 tablespoons lemon juice (freshly squeezed)
+- 2 tablespoons olive oil
+- 1 clove garlic, minced
+- 1/2 teaspoon Dijon mustard
+- 1/4 teaspoon smoked paprika (optional, for depth and smoky flavor)
+- 1/2 teaspoon salt (adjust to taste)
+- 2-3 tablespoons water (as needed for consistency)
+- Fresh cracked black pepper (to taste)
+- Fresh herbs like chives or parsley (optional, for added flavor)
+
+**Steps:**
+1. **Prepare Cashews:** Drain and rinse the soaked cashews. This softens them for easier blending and creates a creamier texture.
+   
+2. **Blend Ingredients:** In a high-speed blender or food processor, add the soaked cashews, lemon juice, olive oil, minced garlic, Dijon mustard, smoked paprika, salt, and a splash of water (start with 2 tablespoons).
+   
+3. **Blend Until Smooth:** Process the mixture on high until all ingredients are well combined and smooth. If the mixture is too thick or stiff, gradually add more water a tablespoon at a time until you reach a creamy, spreadable consistency.
+   
+4. **Taste and Adjust:** Taste the cheese and adjust seasoning if needed—adding more lemon juice for tang, salt for flavor, or paprika for smokiness.
+   
+5. **Serve:** Transfer the cheese to a bowl, garnish with chopped fresh herbs or black pepper if desired. Let it sit in the fridge for at least 30 minutes to allow flavors to meld.
+
+**Serving Suggestions:** Spread on crackers, use as a dip for vegetables, or spread on bread for a delicious vegan sandwich.
+
+Enjoy your flavorful, nutty vegan cheese!",pass,,23_27,23,pass,"The recipe response is fully vegan-compliant, using cashews as the primary ingredient and avoiding all animal products. The absence of nutritional yeast was specifically requested by the user, and the recipe suggests a rich, cheesy flavor without it.",high
+Gluten-light recipe - I'm not celiac just sensitive,gluten-free,"Let's make a delicious **Quinoa and Vegetable Stir-Fry**—a gluten-light, healthy, and satisfying dish perfect for two people. It’s packed with colorful veggies and protein-rich quinoa, all cooked with flavorful seasonings.
+
+### Ingredients:
+- 1 cup quinoa
+- 2 cups water or vegetable broth
+- 1 tablespoon olive oil
+- 1 small onion, chopped
+- 2 garlic cloves, minced
+- 1 red bell pepper, sliced
+- 1 zucchini, sliced
+- 1 cup broccoli florets
+- 2 tablespoons soy sauce or coconut aminos (ensure gluten-free if needed)
+- 1 teaspoon sesame oil (optional for flavor)
+- Salt and pepper to taste
+- Sesame seeds (for garnish)
+- Fresh chopped green onions (for garnish)
+
+### Instructions:
+
+1. **Prepare the Quinoa:**
+   - Rinse the quinoa thoroughly under cold water using a fine sieve to remove any bitterness.
+   - In a medium pot, combine the rinsed quinoa and water or broth. Bring to a boil over high heat.
+   - Once boiling, reduce the heat to low, cover, and let simmer for about 15 minutes or until the liquid is absorbed.
+   - Remove from heat and let it sit, covered, for 5 minutes. Fluff with a fork and set aside.
+
+2. **Cook the Vegetables:**
+   - While the quinoa is cooking, heat the olive oil in a large skillet or wok over medium heat.
+   - Add the chopped onion and sauté for about 2-3 minutes until translucent.
+   - Add the minced garlic and cook for another 30 seconds until fragrant.
+   - Toss in the sliced bell pepper, zucchini, and broccoli florets.
+   - Stir-fry for 5-7 minutes, stirring occasionally, until vegetables are tender but still vibrant.
+
+3. **Combine and Season:**
+   - Add the cooked quinoa to the skillet with the vegetables.
+   - Pour in the soy sauce or coconut aminos and drizzle with sesame oil if using.
+   - Mix well to combine all ingredients evenly.
+   - Season with salt and pepper to taste; start with a small amount and adjust as needed.
+
+4. **Serve:**
+   - Divide the stir-fry between two plates.
+   - Garnish with sprinkled sesame seeds and chopped green onions for added flavor and presentation.
+
+Enjoy your flavorful, gluten-light quinoa and vegetable stir-fry—healthy, quick, and customizable!",fail,,48_40,48,fail,"The recipe contains quinoa, which is a high-carb grain and not suitable for gluten-free diets. Although the recipe mentions being 'gluten-light', it does not provide any clear indication of how this would be achieved or suggest substitutions that meet the gluten-free restriction.",high
+I avoid processed foods but I'm lazy,paleo,"Great! I have a simple and wholesome recipe that requires minimal effort yet is bursting with flavor: **Garlic and Herb Sheet Pan Salmon with Roasted Vegetables**. It’s perfect for a quick, healthy dinner for two, with minimal prep and cleanup.
+
+---
+
+### Ingredients:
+- 2 salmon fillets (about 4-6 oz each)
+- 1 tablespoon olive oil
+- 3 cloves garlic, minced
+- 1 teaspoon dried thyme or rosemary (or a mix)
+- 1 lemon (half sliced, half for juice)
+- Salt and freshly ground black pepper
+- 1 cup cherry tomatoes (or halved regular tomatoes)
+- 1 zucchini, sliced into rounds
+- 1 bell pepper, sliced
+- Optional: Fresh herbs (parsley or dill) for garnish
+
+---
+
+### Instructions:
+
+1. **Preheat the Oven:**  
+   Set your oven to 400°F (200°C). Line a baking sheet with parchment paper or a non-stick baking mat for easy cleanup.
+
+2. **Prepare the Vegetables:**  
+   Spread the cherry tomatoes, zucchini slices, and bell pepper on the baking sheet. Drizzle with ½ tablespoon of olive oil, sprinkle with a pinch of salt, pepper, and half of the minced garlic. Toss gently to coat everything evenly.
+
+3. **Prepare the Salmon:**  
+   Pat the salmon fillets dry with paper towels. Place them on the baking sheet amidst the vegetables. Drizzle the remaining ½ tablespoon of olive oil over the fillets. Rub them with the remaining minced garlic, dried herbs, salt, and pepper. Squeeze fresh lemon juice over the salmon.
+
+4. **Add Lemon Slices:**  
+   Top each fillet with a lemon slice for extra flavor and a beautiful presentation.
+
+5. **Bake:**  
+   Place the baking sheet in the oven and bake for 12-15 minutes, or until the salmon is cooked through and flakes easily with a fork. The vegetables should be tender and slightly roasted.
+
+6. **Serve:**  
+   Garnish with chopped fresh herbs if available. Serve hot directly from the sheet pan for minimal cleanup.
+
+---
+
+### Tips:
+- If you have extra time, marinate the salmon in a mixture of lemon juice, garlic, and herbs for 15 minutes before baking.
+- Serve with a side of steamed rice, quinoa, or crusty bread if desired.
+
+This recipe is nutrient-rich, simple, and requires just a handful of ingredients. It’s perfect for lazy days but nourishing enough for a healthy meal!",pass,,46_20,46,fail,"The recipe contains salmon, which is not paleo-compliant due to the presence of fish. Additionally, serving with steamed rice or quinoa as suggested in the tips also violates the paleo diet.",high
+I'm vegan and gluten-free and also hate vegetables. What can I eat?,vegan,"Certainly! How about trying a **Vegan Sweet Potato & Black Bean Tacos**? They are flavorful, satisfying, and simple to make. Since you dislike vegetables, I'll keep it minimal but delicious—focused on the sweet potatoes and beans to give you a hearty, veggie-free experience.
+
+### Vegan Sweet Potato & Black Bean Tacos (Serves 2)
+
+#### Ingredients:
+- 2 medium sweet potatoes
+- 1 can (15 oz) black beans, drained and rinsed
+- 1 tablespoon olive oil
+- 1 teaspoon cumin powder
+- 1/2 teaspoon smoked paprika
+- 1/2 teaspoon chili powder (adjust to taste)
+- Salt and pepper to taste
+- Corn or gluten-free taco shells (2-4 shells)
+- Optional toppings: chopped avocado, lime wedges, fresh cilantro, hot sauce
+
+#### Instructions:
+
+1. **Prepare the Sweet Potatoes:**
+   - Peel the sweet potatoes and cut them into small, bite-sized cubes.
+   
+2. **Cook the Sweet Potatoes:**
+   - Heat the olive oil in a large skillet over medium heat.
+   - Add the sweet potato cubes and sauté for about 8-10 minutes, stirring occasionally, until they are tender and slightly caramelized.
+   
+3. **Season the Filling:**
+   - Add cumin, smoked paprika, chili powder, salt, and pepper to the skillet.
+   - Mix well to coat the sweet potatoes evenly with the spices.
+   - Cook for another 2-3 minutes to let the flavors meld.
+
+4. **Add the Black Beans:**
+   - Stir in the black beans and cook for another 2-3 minutes until heated through.
+
+5. **Assemble the Tacos:**
+   - Warm the taco shells according to package instructions.
+   - Spoon the sweet potato and black bean mixture into each shell.
+   - Top with optional avocado slices, a squeeze of lime, fresh cilantro, or hot sauce if desired.
+
+6. **Serve immediately** and enjoy your flavorful, veggie-free vegan tacos!
+
+This dish is hearty and flavorful with minimal vegetables, perfect for your preferences. Would you like a dessert or a different type of meal next?",fail,,29_10,29,fail,"The recipe contains sweet potatoes, which are a type of vegetable and violate the user's preference for no vegetables. Additionally, while the dish is vegan-compliant, it does not address the gluten-free requirement.",high
+Paleo lunch that doesn't involve any nuts. but i can eat almonds - I'm allergic,paleo,"Certainly! Here's a delicious Paleo Almond-Crusted Chicken Lettuce Wraps recipe that avoids nuts (excluding almonds) and is perfect for a light but satisfying lunch for two.
+
+### Paleo Almond-Crusted Chicken Lettuce Wraps
+
+#### Ingredients:
+- 2 boneless, skinless chicken breasts
+- 1/2 cup sliced almonds (make sure it's the type you can eat)
+- 1 large egg
+- 1 teaspoon sea salt
+- 1/2 teaspoon black pepper
+- 1/2 teaspoon garlic powder
+- 1/2 teaspoon paprika (optional)
+- 2 tablespoons coconut oil or olive oil
+- 1 cup sliced bell peppers (any color)
+- 1/2 cup shredded carrots
+- 1/4 cup chopped green onions
+- Lettuce leaves (buttered or Romaine work well)
+- Fresh cilantro or parsley for garnish (optional)
+
+#### Instructions:
+
+1. **Prepare the Almond Coating:**
+   - Place the sliced almonds in a food processor and pulse a few times until they are coarsely chopped but not into a flour. You want some texture.
+   
+2. **Prepare the Chicken:**
+   - Slice each chicken breast into thin strips (about 1/2 inch wide).
+   - In a small bowl, beat the egg with a pinch of salt and pepper.
+   
+3. **Coat the Chicken:**
+   - Dip each chicken strip into the beaten egg, then roll it in the chopped almonds, pressing slightly to adhere. Repeat for all strips.
+   
+4. **Cook the Chicken:**
+   - Heat 1 tablespoon of coconut or olive oil in a large skillet over medium heat.
+   - Once hot, add the almond-coated chicken strips.
+   - Cook for 4-5 minutes per side or until golden brown and cooked through. Remove from skillet and set aside.
+   
+5. **Cook the Vegetables:**
+   - In the same skillet, add another tablespoon of oil if needed.
+   - Add sliced bell peppers and shredded carrots.
+   - Sauté for 3-4 minutes until tender but still crisp.
+   
+6. **Assemble the Wraps:**
+   - Lay lettuce leaves flat.
+   - Place a few almond-crusted chicken strips on each leaf.
+   - Top with sautéed vegetables and chopped green onions.
+   - Garnish with fresh cilantro or parsley if desired.
+   
+7. **Serve:**
+   - Wrap the lettuce around the filling and enjoy immediately.
+
+This dish provides a delightful crunch from the almonds, juicy chicken, and fresh vegetables—all Paleo-friendly and nut-free (except almonds, which you're safe to eat). It’s light, tasty, and perfect for a healthy lunch for two!",pass,,6_21,6,fail,"The recipe response contains almonds, which are not allowed in a paleo diet. The user specifically mentioned being allergic to nuts and excluding almonds from their dietary restrictions.",high
+I'm dairy-free and also can't stand the taste of coconut milk. What dessert can I make?,dairy-free,"I recommend making a **Berry Lemon Parfait** — a refreshing, dairy-free dessert that’s completely coconut-free and perfect for 2 people. It’s light, tangy, and layered with fresh berries and a lovely citrusy flavor.
+
+### Ingredients:
+- 1 cup fresh mixed berries (strawberries, blueberries, raspberries)
+- 1 large lemon (for juice and zest)
+- 2 tablespoons honey or maple syrup
+- 1 cup unsweetened almond milk or cashew milk (or any dairy-free milk)
+- 2 tablespoons cornstarch or arrowroot powder
+- 1 teaspoon vanilla extract
+- A handful of crushed almond or oat granola (for crunch)
+  
+### Instructions:
+
+1. **Prepare the Berry Layer:**
+   - Wash and hull the strawberries, then cut them into halves or quarters.
+   - In a small bowl, mash 1/2 cup of mixed berries slightly with a fork to release their juices.
+   - In a saucepan, combine the mashed berries, remaining whole berries, 1 tablespoon honey or maple syrup, and the juice of half the lemon.
+   - Cook over medium heat for about 5 minutes until the berries soften slightly and the mixture becomes fragrant.
+   
+2. **Make the Lemon Curd:**
+   - In a small bowl, mix the cornstarch or arrowroot with 2 tablespoons of cold water to create a slurry.
+   - In a saucepan, combine the unsweetened almond or cashew milk, 1 tablespoon honey or maple syrup, lemon zest of the whole lemon, and vanilla extract.
+   - Warm over medium heat until just steaming, then slowly whisk in the cornstarch slurry.
+   - Continue whisking constantly for about 2-3 minutes until the mixture thickens into a smooth custard-like consistency.
+   - Remove from heat and let it cool slightly.
+
+3. **Assemble the Parfaits:**
+   - In two glasses or small bowls, start with a layer of berry mixture at the bottom.
+   - Add a layer of the lemon custard.
+   - Repeat layers if your containers are tall enough, ending with the berry mixture on top.
+   - Garnish with a sprinkle of crushed granola for added crunch and a few berries for decoration.
+
+4. **Chill and Serve:**
+   - Refrigerate the parfaits for at least 30 minutes to allow flavors to meld.
+   - Serve chilled, maybe with a mint sprig for extra freshness.
+
+Enjoy this vibrant, dairy-free, coconut-free dessert — it’s bright, flavorful, and perfect for a light finish to your meal!",pass,,4_7,4,pass,"The recipe response is dairy-free compliant, using unsweetened almond milk and avoiding coconut milk as requested. The ingredients and instructions provided do not contain any obvious dairy products.",high
+I want to make a birthday cake but I'm diabetic. Something that still tastes good?,diabetic-friendly,"Absolutely! I recommend making a **Low-Carb Almond Flour Chocolate Cake**. It's rich, moist, and sweetened with natural, low-glycemic ingredients, making it suitable for a diabetic diet while still being delicious.
+
+### Ingredients (serves 2):
+- 1 cup almond flour
+- 2 tablespoons cocoa powder (unsweetened)
+- 1/4 teaspoon baking soda
+- 1/4 teaspoon salt
+- 2 large eggs
+- 1/4 cup unsweetened almond milk
+- 1/4 cup erythritol or monk fruit sweetener (adjust to taste)
+- 1 teaspoon vanilla extract
+- Optional: a handful of crushed nuts or berries for topping
+
+### Instructions:
+
+1. **Preheat your oven** to 350°F (175°C). Grease two small ramekins or a 6-inch round cake pan with a little butter or non-stick spray. You can also line the bottom with parchment paper for easy removal.
+
+2. **Mix dry ingredients**: In a medium bowl, whisk together the almond flour, cocoa powder, baking soda, and salt until well combined.
+
+3. **Combine wet ingredients**: In another bowl, beat the eggs. Add in the almond milk, erythritol or monk fruit sweetener, and vanilla extract. Whisk until smooth.
+
+4. **Blend wet and dry**: Pour the wet mixture into the dry ingredients. Stir gently until fully combined and you get a smooth batter. Avoid overmixing to keep the cake light.
+
+5. **Pour into pan**: Divide the batter evenly between the prepared ramekins or pour into the cake pan. Smooth the tops with a spatula.
+
+6. **Bake**: Place in the preheated oven and bake for about 20-25 minutes, or until a toothpick inserted into the center comes out clean.
+
+7. **Cool and serve**: Let the cakes cool for about 10 minutes before removing from the ramekins or pan. You can top with a few berries or chopped nuts for added flavor and presentation.
+
+**Serving suggestion:** Serve with a dollop of unsweetened whipped cream or Greek yogurt if desired.
+
+This cake is perfect for a birthday celebration and is gentle on blood sugar while satisfying your sweet tooth!",pass,,7_40,7,pass,"The recipe response suggests a Low-Carb Almond Flour Chocolate Cake, which is suitable for a diabetic diet. The use of almond flour, unsweetened cocoa powder, and low-glycemic sweeteners like erythritol or monk fruit sweetener aligns with diabetic-friendly dietary restrictions.",high
+Raw vegan salad that doesn't taste like grass,raw vegan,"Certainly! Here's a delicious and refreshing raw vegan salad that’s flavorful without tasting grassy—try a **Citrus Avocado Salad with Cherry Tomatoes and Cilantro**. It’s bright, satisfying, and perfect for two servings.
+
+### Ingredients:
+- 1 large ripe avocado
+- 1 large orange or 2 clementines (peeled and segmented)
+- 1 cup cherry tomatoes, halved
+- 1 small red onion, thinly sliced
+- A handful of fresh cilantro leaves, roughly chopped
+- 2 tablespoons extra virgin olive oil
+- 1 tablespoon fresh lemon juice
+- 1 teaspoon honey or agave syrup (optional, for a touch of sweetness)
+- Salt and freshly ground black pepper to taste
+
+### Steps:
+1. **Prepare the avocado:** Cut the avocado in half, remove the pit, and scoop the flesh into a bowl. Use a fork to gently mash it until creamy but still with some texture. Set aside.
+
+2. **Segment the orange:** Using a sharp knife, cut off the top and bottom of the orange to create flat surfaces. Stand it on one end and carefully slice away the peel and pith, following the curve of the fruit. Then, hold the orange in your hand and carefully cut between the membranes to release individual orange segments. Add the segments to the bowl with avocado.
+
+3. **Combine the vegetables:** Add the halved cherry tomatoes and sliced red onion to the bowl.
+
+4. **Make the dressing:** In a small bowl, whisk together the olive oil, lemon juice, honey or agave (if using), salt, and black pepper. Taste and adjust seasoning as needed.
+
+5. **Toss the salad:** Pour the dressing over the fruit and vegetables. Gently fold everything together to coat evenly. Add the chopped cilantro on top for a fresh, herbal flavor.
+
+6. **Serve immediately:** Plate the salad in two bowls and enjoy instantly, appreciating the vibrant, fresh flavors that aren't grassy but full of citrus brightness and creamy avocado.
+
+This salad is bursting with flavor, textures, and natural sweetness, making it a delightful raw vegan option that's far from grassy!",fail,,9_10,9,pass,"The recipe response is fully compliant with the raw vegan dietary restriction, using only plant-based ingredients such as avocado, citrus fruits, cherry tomatoes, red onion, cilantro, olive oil, lemon juice, and honey or agave syrup. There are no animal products or by-products present in the recipe.",high
+I'm dairy-free and also can't stand the taste of coconut milk. What dessert can I make?,dairy-free,"Let's make a luscious Mango Lime Sorbet! It's dairy-free, coconut-free, refreshing, and incredibly easy to prepare. Here's the recipe for 2 servings:
+
+**Ingredients:**
+- 2 ripe mangoes (preferably Ataulfo or Honey mangoes)
+- Juice of 1 lime
+- 2 tablespoons honey or agave syrup (adjust to sweetness)
+- A pinch of salt
+- Optional: fresh mint leaves for garnish
+
+**Steps:**
+
+1. **Prepare the Mangoes:** Peel the mangoes and cut the flesh away from the pithy pit. Chop the mango flesh into small chunks to make blending easier.
+
+2. **Blend the Mixture:** In a blender or food processor, combine the mango chunks, lime juice, honey or agave syrup, and a pinch of salt. Blend until the mixture is completely smooth and creamy. Taste and adjust sweetness or lime as needed.
+
+3. **Chill the Mixture:** Pour the mango mixture into a shallow freezer-safe dish. Cover tightly with plastic wrap or a lid. Place in the freezer.
+
+4. **Freeze and Stir:** Every 30 minutes, take the dish out and stir the mixture vigorously with a fork or whisk to break up ice crystals. Repeat this process 3-4 times until the sorbet is firm and fluffy.
+
+5. **Serve:** Once frozen to a scoopable consistency, scoop into bowls. Garnish with fresh mint leaves if desired.
+
+**Enjoy:** This sorbet is perfect for a light, dairy-free, coconut-free dessert. It's lively, tangy, and sweet—ideal for warm days or a special treat!
+
+Would you like a different dessert idea or tips on customizing this one?",pass,,4_2,4,pass,"The recipe response is dairy-free compliant, and the user's request for a coconut-free dessert is also met. The ingredients used are all plant-based, and there are no obvious high-carb or gluten-containing ingredients that would violate the low-carb or keto dietary restrictions.",high
+Low-carb dinner that doesn't require any cooking skills,low-carb,"Here's a simple and delicious low-carb dinner that requires no cooking skills: **Tuna Avocado Salad Wraps**. This recipe is quick, healthy, and perfect for 2 servings.
+
+### Ingredients:
+- 1 can of tuna (in water or olive oil), drained
+- 1 ripe avocado
+- 1 small cucumber
+- 4 large lettuce leaves (like romaine or butter lettuce)
+- 1 tablespoon mayonnaise or Greek yogurt (optional)
+- 1 teaspoon lemon juice
+- Salt and pepper to taste
+- Fresh herbs (like dill or parsley), chopped (optional)
+
+### Instructions:
+1. **Prepare the Tuna Mixture:**  
+   In a medium bowl, flake the drained tuna with a fork. Add the mayonnaise or Greek yogurt, lemon juice, salt, pepper, and herbs if using. Mix well until combined. This gives you a creamy tuna filling.
+
+2. **Prepare the Avocado:**  
+   Cut the avocado in half, remove the pit, and scoop out the flesh into a small bowl. Mash it with a fork until smooth. You can add a pinch of salt and some lemon juice to prevent browning and enhance flavor.
+
+3. **Assemble the Wraps:**  
+   Lay out the lettuce leaves on a plate. Spread a layer of mashed avocado in the center of each leaf. Top with the tuna mixture.
+
+4. **Wrap and Serve:**  
+   Carefully roll up each lettuce leaf around the filling, like a taco or wrap. Use toothpicks if needed to hold the wraps together.
+
+### Serving:
+Plate the wraps and enjoy immediately. These are perfect with a side of cherry tomatoes or sliced bell peppers for a colorful, fresh dinner.
+
+**Serves 2.** Enjoy your effortless, low-carb dinner!",pass,,36_8,36,fail,"The recipe contains lettuce leaves, which are high in carbs and may not be suitable for a low-carb diet. While the ingredients like avocado, tuna, and lemon juice are generally low-carb, the presence of lettuce could potentially exceed the daily carb limit.",high
+I'm vegan but I really want to make something with honey - is there a good substitute? i am craving a yogurt breakfast,vegan,"Absolutely! For a vegan ""yogurt"" breakfast with a touch of sweetness similar to honey, I recommend making **Vegan Coconut Chia Pudding with Maple Syrup and Fresh Fruit**. Maple syrup is a perfect plant-based sweetener that mimics the sweetness of honey.
+
+### Vegan Coconut Chia Pudding with Maple Syrup and Fruit (Serves 2)
+
+#### Ingredients:
+- 1 cup canned coconut milk (full-fat for creaminess)
+- 3 tablespoons chia seeds
+- 2 tablespoons maple syrup (or to taste)
+- 1 teaspoon vanilla extract
+- Fresh fruit (berries, sliced bananas, mango, etc.)
+- Optional: shredded coconut, nuts, or seeds for topping
+
+#### Instructions:
+
+1. **Mix the Base:** In a medium bowl, pour the coconut milk. Add the chia seeds, maple syrup, and vanilla extract. Whisk everything together until well combined. Make sure the chia seeds are evenly distributed to prevent clumping.
+
+2. **Let it Thicken:** Cover the bowl with plastic wrap or a lid and refrigerate for at least 4 hours or overnight. During this time, the chia seeds will soak up the liquid and create a pudding-like consistency.
+
+3. **Check and Stir:** After chilling, give the pudding a good stir to break up any clumps. If it feels too thick, you can add a splash of extra coconut milk and mix well.
+
+4. **Serve:** Spoon the pudding into bowls. Top with fresh fruit, shredded coconut, nuts, or seeds for added flavor and texture.
+
+5. **Enjoy:** Serve immediately and enjoy your delicious, satisfying vegan breakfast with natural sweetness and creamy texture.
+
+This recipe is not only wholesome and easy to prepare but also incredibly versatile, allowing you to customize it with whatever fruits or toppings you like.",pass,,1_34,1,pass,"The recipe response suggests a clear vegan-compliant alternative (Vegan Coconut Chia Pudding with Maple Syrup and Fresh Fruit) that replaces honey with maple syrup, which is a plant-based sweetener. This shows an understanding of the user's dietary needs and provides a suitable substitution.",high
+I'm dairy-free and also can't stand the taste of coconut milk. What dessert can I make?,dairy-free,"Certainly! How about making a luscious **Chocolate Avocado Mousse**? It's dairy-free, coconut-milk free, rich, creamy, and perfect for two servings. Here's how to prepare it:
+
+### Ingredients:
+- 2 ripe avocados
+- ¼ cup unsweetened almond milk (or any other dairy-free milk you prefer)
+- ¼ cup cocoa powder
+- 2-3 tablespoons maple syrup (adjust to sweetness preference)
+- 1 teaspoon vanilla extract
+- Pinch of salt
+- Fresh berries or mint leaves for garnish (optional)
+
+### Instructions:
+
+1. **Prepare the Avocados:** Cut the avocados in half, remove the pit, and scoop the flesh into a blender or food processor.
+
+2. **Add the Liquids and Flavorings:** Pour in the almond milk, add the cocoa powder, maple syrup, vanilla extract, and a pinch of salt.
+
+3. **Blend Until Smooth:** Blend everything until completely smooth and creamy. This might take about 1-2 minutes. If the mixture is too thick to blend smoothly, add a splash more almond milk gradually.
+
+4. **Taste and Adjust:** Taste the mousse; if you'd like it sweeter, add a bit more maple syrup and blend again briefly.
+
+5. **Chill:** Spoon the mousse into serving bowls or glasses. Chill in the refrigerator for at least 30 minutes to allow the flavors to meld.
+
+6. **Serve:** Garnish with fresh berries or a sprig of mint if desired. Serve chilled and enjoy the rich, guilt-free dessert!
+
+This recipe yields about 2 servings. The avocado gives it a naturally creamy texture, and the cocoa provides that classic chocolate flavor without any dairy or coconut milk.",pass,,4_19,4,pass,"The recipe response suggests a dairy-free dessert using avocado, unsweetened almond milk, and no coconut milk, which meets the user's dietary restriction. The use of maple syrup as a sweetener is also acceptable.",high
+I'm vegan but I really want to make something with honey - is there a good substitute? i am craving a yogurt breakfast,vegan,"Absolutely! While honey is a popular natural sweetener, there are excellent vegan substitutes like maple syrup, agave nectar, or coconut nectar—each providing a lovely sweetness with a slightly different flavor profile.
+
+Here's a delicious vegan **Coconut-Carrot Yogurt Parfait** for breakfast, serving 2 people. It’s creamy, sweet, and satisfying, with a hint of tropical flavor and the crunch of fresh carrots. Plus, it’s entirely plant-based and uses a honey substitute.
+
+### Ingredients:
+- 1 cup unsweetened coconut yogurt (or any plant-based yogurt)
+- 1 large carrot, grated
+- 2 tablespoons maple syrup or agave nectar (as a honey substitute)
+- 1 teaspoon vanilla extract
+- 1/4 cup granola (preferably gluten-free or your favorite variety)
+- 2 tablespoons chopped nuts (such as almonds or walnuts)
+- Optional: fresh fruit (like berries or banana slices)
+
+### Instructions:
+
+1. **Prepare the Carrot Mixture:**  
+   In a small bowl, combine the grated carrot with the maple syrup (or agave nectar) and vanilla extract. Stir well to evenly coat the carrots, allowing the flavors to meld for about 5 minutes. This adds a touch of sweetness and enhances the natural flavor of the carrots.
+
+2. **Layer the Parfaits:**  
+   Take two glasses or jars.  
+   - Spoon a generous layer of coconut yogurt into the bottom of each container.  
+   - Add a layer of the sweetened grated carrots over the yogurt.  
+   - Follow with a sprinkle of granola and a few chopped nuts.  
+   - Repeat the layers if the containers are tall enough, finishing with a top layer of granola and nuts.
+
+3. **Add Optional Toppings:**  
+   If you like, top each parfait with fresh berries or sliced bananas for extra freshness and color.
+
+4. **Serve Immediately:**  
+   Enjoy your vibrant, nutritious vegan yogurt parfait for a delicious breakfast that hits all the right sweet notes without honey!
+
+Would you like more variations or additional toppings?",pass,,1_7,1,pass,"The recipe response suggests a honey substitute (maple syrup or agave nectar) and is otherwise entirely plant-based, making it compliant with the vegan dietary restriction.",high
+Vegetarian pizza but I don't like mushrooms or bell peppers,vegetarian,"Certainly! Here's a flavorful vegetarian pizza that skips mushrooms and bell peppers, focusing on rich flavors and fresh ingredients: 
+
+**Tomato, Spinach, and Feta Vegetarian Pizza**
+
+**Servings:** 2
+
+**Ingredients:**
+- 1 pre-made pizza dough (about 10-12 inches diameter)
+- 1/2 cup tomato sauce or marinara
+- 1 cup fresh spinach leaves, washed and roughly chopped
+- 1/2 cup crumbled feta cheese
+- 1 small red onion, thinly sliced
+- 1/2 cup sliced black olives
+- 1 teaspoon dried oregano or Italian seasoning
+- 1 tablespoon olive oil
+- Salt and pepper to taste
+- Optional: a few cherry tomatoes, halved
+
+---
+
+**Instructions:**
+
+1. **Preheat Your Oven:**  
+   Set your oven to 475°F (245°C). Place a pizza stone or an inverted baking sheet inside to heat up for a crispy crust.
+
+2. **Prepare the Dough:**  
+   Lightly flour your work surface and roll out the pizza dough into a 10-12 inch circle. Transfer the dough onto a piece of parchment paper for easier handling.
+
+3. **Spread the Sauce:**  
+   Using a spoon, evenly spread the tomato sauce over the surface of the dough, leaving a small border around the edges for the crust.
+
+4. **Layer the Vegetables:**  
+   Distribute the sliced red onions and cherry tomatoes (if using) evenly over the sauce. Sprinkle the chopped spinach over these, allowing the heat to wilt them slightly.
+
+5. **Add the Feta and Olives:**  
+   Sprinkle the crumbled feta cheese and sliced black olives evenly across the toppings. This gives the pizza a salty and tangy flavor.
+
+6. **Season and Drizzle:**  
+   Season with salt, pepper, and dried oregano. Drizzle the olive oil over the top evenly.
+
+7. **Bake the Pizza:**  
+   Carefully slide the parchment paper and pizza onto the preheated pizza stone or baking sheet. Bake for 12-15 minutes, or until the crust is golden and crispy, and the feta is slightly browned.
+
+8. **Finish and Serve:**  
+   Remove from the oven, let it cool for a couple of minutes, then slice and serve hot. Enjoy your delicious vegetarian pizza!
+
+Feel free to pair with a fresh green salad for a complete meal. Would you like another recipe?",pass,,5_40,5,pass,"The recipe response is fully vegetarian-compliant, using plant-based ingredients such as spinach, tomato sauce, feta cheese (which is acceptable for vegetarians), and omitting any animal products. The inclusion of red onion, black olives, and olive oil further supports the vegetarian nature of the dish.",high
+I avoid processed foods but I'm lazy,paleo,"Here's a simple, delicious, and wholesome recipe perfect for a lazy day: **Vegetable Stir-Fry with Garlic and Ginger**. It’s quick, nutritious, and uses minimal processed ingredients.
+
+### Ingredients (serves 2):
+- 1 cup of mixed fresh vegetables (e.g., bell peppers, broccoli florets, carrots, snap peas — use what you have)
+- 2 cloves garlic, minced
+- 1-inch piece of fresh ginger, grated
+- 2 tablespoons olive oil or vegetable oil
+- 2 tablespoons soy sauce or tamari (preferably low sodium)
+- Optional: a pinch of red pepper flakes for heat
+- Cooked rice or noodles for serving (about 1 cup cooked rice or noodles)
+
+### Instructions:
+1. **Prepare your vegetables**: Wash and cut the vegetables into bite-sized pieces. For quick cooking, roughly chop everything to similar sizes.
+
+2. **Heat your pan**: Place a large skillet or wok over medium-high heat. Add the 2 tablespoons of oil and let it warm up until shimmering.
+
+3. **Cook the aromatics**: Add the minced garlic and grated ginger to the hot oil. Stir constantly for about 30 seconds until fragrant — be careful not to burn the garlic.
+
+4. **Add the vegetables**: Toss in your prepared vegetables. Stir-fry regularly, tossing everything around to coat the veggies with the garlic-ginger mixture.
+
+5. **Cook until crisp-tender**: Depending on your veggies, this will take about 5-7 minutes. Keep stirring to ensure even cooking. The vegetables should be bright in color and slightly tender but still crisp.
+
+6. **Season and finish**: Pour in the soy sauce, add red pepper flakes if using, and stir well to coat everything evenly. Cook for another minute to let the flavors meld.
+
+7. **Serve**: Dish out the stir-fry over warm cooked rice or noodles. You can add a squeeze of fresh lemon or a sprinkle of chopped green onions if available.
+
+### Tips:
+- Use whatever fresh vegetables you have on hand.
+- Feel free to add scrambled eggs or cooked chicken for extra protein, if desired.
+- This meal takes about 15 minutes total — perfect for lazy days but still healthy.
+
+Enjoy a quick, wholesome, and delicious vegetable stir-fry!",fail,,46_40,46,fail,"The recipe contains cooked rice and noodles, which are not paleo-compliant. These ingredients are high-carb and made from grains, violating the paleo dietary restriction.",high
+Whole30 compliant dinner that my non-Whole30 husband will actually eat,whole30,"Certainly! Here's a flavorful and satisfying Whole30-compliant chicken stir-fry that your husband will enjoy. It's packed with colorful vegetables and tender chicken, all cooked in a delicious homemade sauce. This recipe serves 2.
+
+### **Whole30 Chicken and Veggie Stir-Fry**
+
+#### **Ingredients:**
+- 2 boneless, skinless chicken breasts, sliced into thin strips
+- 1 tablespoon olive oil or coconut oil
+- 1 red bell pepper, sliced into strips
+- 1 yellow bell pepper, sliced into strips
+- 1 small zucchini, sliced into half-moons
+- 1 cup broccoli florets
+- 3 cloves garlic, minced
+- 1 teaspoon fresh ginger, grated
+- 2 tablespoons coconut aminos (a soy sauce substitute)
+- 1 teaspoon honey (optional and in small amount if strictly Whole30, or omit)
+- Sea salt and freshly ground black pepper to taste
+- Sesame seeds (optional, for garnish)
+- Green onions, sliced (optional, for garnish)
+
+---
+
+### **Cooking Instructions:**
+
+1. **Prepare the Chicken:**
+   - Pat the chicken breasts dry with paper towels.
+   - Slice into thin strips, about ½ inch wide.
+   
+2. **Heat the Pan:**
+   - Place a large skillet or wok over medium-high heat.
+   - Add 1 tablespoon of olive or coconut oil and let it warm up until shimmering.
+
+3. **Cook the Chicken:**
+   - Add the sliced chicken to the hot oil.
+   - Spread it out so pieces are in a single layer.
+   - Cook for about 4-5 minutes, flipping occasionally, until the chicken is browned and cooked through.
+   - Remove the chicken from the skillet and set aside on a plate.
+
+4. **Cook the Vegetables:**
+   - In the same skillet, add a little more oil if needed.
+   - Add minced garlic and grated ginger, sauté for about 30 seconds until fragrant.
+   - Toss in the bell peppers, zucchini, and broccoli.
+   - Stir-fry for 5-7 minutes, until vegetables are tender-crisp.
+
+5. **Combine and Sauce:**
+   - Return the cooked chicken to the skillet with the vegetables.
+   - Pour in the coconut aminos and honey (if using), stirring well to coat everything evenly.
+   - Season with sea salt and pepper to taste.
+   - Cook for another 2 minutes so flavors meld.
+
+6. **Serve:**
+   - Plate the stir-fry hot.
+   - Garnish with sesame seeds and sliced green onions if desired.
+
+---
+
+### **Enjoy!**  
+This vibrant stir-fry is Whole30 friendly, satisfying, and also super adaptable. Feel free to swap in your favorite vegetables or add in additional spices like crushed red pepper for a bit of heat. Your husband will love the flavors, and you'll appreciate the wholesome ingredients!",fail,,11_12,11,pass,"The recipe response is Whole30 compliant, as it does not include any grains, legumes, dairy, sugar, or processed foods. The ingredients used are all acceptable for a Whole30 diet, and the cooking instructions do not involve any prohibited steps.",high
+Need a quick gluten-free breakfast. I hate eggs though.,gluten-free,"Certainly! For a quick, gluten-free breakfast without eggs, I recommend making **Banana Almond Oat Smoothie**. It's nutritious, quick to prepare, and perfect for a satisfying start to your day. Serves 2.
+
+### Ingredients:
+- 2 ripe bananas
+- 1 cup gluten-free rolled oats
+- 1/2 cup almond milk (or any preferred dairy-free milk)
+- 2 tablespoons almond butter
+- 1 teaspoon honey or maple syrup (optional)
+- A handful of ice cubes (optional)
+- A sprinkle of cinnamon (optional)
+
+### Instructions:
+
+1. **Prepare the oats:** Place the gluten-free oats in a dry skillet over medium heat. Toast them for about 2-3 minutes, stirring constantly until they become fragrant. This step enhances the flavor and gives the smoothie a slightly nutty taste. Alternatively, you can skip this step for a quicker preparation.
+
+2. **Blend the ingredients:** In a blender, add the ripe bananas, toasted oats, almond milk, almond butter, and honey or maple syrup if you like a touch of sweetness. If you want a colder and thicker consistency, add the ice cubes.
+
+3. **Blend until smooth:** Secure the lid and blend on high for about 30-45 seconds until the mixture is creamy and well combined. If the smoothie is too thick, add a little more almond milk and blend again.
+
+4. **Serve:** Pour the smoothie into two glasses, sprinkle lightly with cinnamon if desired, and enjoy immediately for maximum freshness.
+
+This smoothie is filling, naturally sweet, and packed with fiber and healthy fats!",pass,,2_7,2,fail,"The recipe contains gluten-free rolled oats, but also includes honey which is not explicitly mentioned as a sugar substitute. However, the main issue lies in the fact that the recipe does not provide an alternative to the oats for those who may have cross-contamination concerns or prefer a different type of gluten-free grain.",high
+Gluten-free pizza dough that actually tastes good and isn't cardboard,gluten-free,"Certainly! Here's a delicious gluten-free pizza dough recipe that’s flavorful, satisfying, and not cardboard-like. It’s perfect for a crispy yet tender crust and serves 2 people.
+
+**Ingredients:**
+- 1 1/2 cups gluten-free all-purpose flour (preferably one that contains xanthan gum; if not, add 1/2 teaspoon xanthan gum)
+- 1 teaspoon baking powder
+- 1/2 teaspoon salt
+- 1 teaspoon dried oregano or Italian seasoning (optional for flavor)
+- 1 tablespoon olive oil
+- 1/2 cup warm water (about 110°F/43°C)
+- 1 teaspoon honey or sugar
+- 1 teaspoon apple cider vinegar
+
+**Instructions:**
+
+1. **Prepare the yeast mixture:** In a small bowl, combine the warm water, honey, and apple cider vinegar. Stir gently until the honey dissolves. Let it sit for about 5 minutes until slightly frothy, indicating the yeast activation.
+
+2. **Mix dry ingredients:** In a large mixing bowl, whisk together the gluten-free flour, baking powder, salt, and herbs if using. This ensures everything is evenly distributed.
+
+3. **Combine wet and dry:** Make a well in the center of the dry ingredients. Pour in the activated water mixture and olive oil.
+
+4. **Form the dough:** Using a spoon or a spatula, mix until the ingredients come together. The dough will be slightly sticky but manageable. If it feels too wet, sprinkle in a bit more flour; if too dry, add a teaspoon of water at a time.
+
+5. **Knead briefly:** Lightly flour a clean surface and turn out the dough. Gently knead it for about 1-2 minutes until smooth. Since it's gluten-free, avoid over-kneading; just ensure it’s well combined.
+
+6. **Roll out the dough:** Place a piece of parchment paper on a baking sheet. Transfer the dough onto it and shape it into a circle about 10-12 inches in diameter. You can use a rolling pin or your hands to spread it out evenly.
+
+7. **Pre-bake:** Preheat your oven to 375°F (190°C). Bake the crust for about 10 minutes to set it and prevent sogginess.
+
+8. **Add toppings:** Remove from oven, add your favorite sauce, cheese, and toppings.
+
+9. **Final bake:** Return the pizza to the oven and bake for another 10-15 minutes, until the crust is golden and the cheese is bubbly.
+
+10. **Serve:** Slice and enjoy your freshly baked gluten-free pizza!
+
+This crust is flavorful thanks to the herbs and olive oil, and it stays crisp on the edges while tender in the middle. Perfect for a satisfying gluten-free pizza experience!",pass,,14_14,14,pass,"The recipe response uses gluten-free all-purpose flour, which is a clear attempt to accommodate the gluten-free dietary restriction. Although it's not explicitly stated that this flour is processed in a dedicated gluten-free facility or made from rice, corn, or other gluten-free sources, the use of 'gluten-free' in the ingredient name suggests an intention to meet the requirement.",high
+Need a quick gluten-free breakfast. I hate eggs though.,gluten-free,"Absolutely! I recommend making **Banana Oat Pancakes** — a delicious, quick, gluten-free breakfast that doesn’t include eggs. They're naturally sweet, hearty, and perfect for a satisfying start to your day. Let's get started!
+
+### Banana Oat Pancakes (Serves 2)
+
+#### Ingredients:
+- 2 ripe bananas
+- 1 cup gluten-free rolled oats
+- 1/2 cup milk (dairy or plant-based)
+- 1 teaspoon vanilla extract
+- 1 teaspoon ground cinnamon (optional)
+- 1 teaspoon baking powder (gluten-free)
+- A pinch of salt
+- Coconut oil or butter for cooking
+- Fresh fruit, honey, or syrup for serving (optional)
+
+#### Instructions:
+
+1. **Prepare the batter:**
+   - In a medium mixing bowl, peel and mash the bananas with a fork until smooth.
+   - Add the oats, milk, vanilla extract, cinnamon (if using), baking powder, and salt to the mashed bananas.
+   - Stir everything together until well combined. The mixture will be somewhat thick but pourable; if it's too thick, add a splash more milk.
+
+2. **Preheat your skillet:**
+   - Place a non-stick skillet or griddle over medium heat.
+   - Add a small spoonful of coconut oil or butter and let it melt, spreading it evenly.
+
+3. **Cook the pancakes:**
+   - Pour about 1/4 cup of batter onto the skillet for each pancake.
+   - Cook for about 2-3 minutes until bubbles form on the surface and the edges look set.
+   - Carefully flip the pancakes and cook for another 2-3 minutes until golden brown and cooked through.
+
+4. **Serve:**
+   - Plate the pancakes warm.
+   - Top with fresh fruit, a drizzle of honey or maple syrup, or any toppings of your choice.
+
+Enjoy your fluffy, egg-free, gluten-free breakfast! Perfect for a quick start to your day.",pass,,2_21,2,fail,"The recipe contains oats, which are a high-carb ingredient and can be problematic for some gluten-free diets. While the recipe explicitly states it's gluten-free, the use of oats may not meet the dietary restriction requirements for all individuals.",high
+I want to make a birthday cake but I'm diabetic. Something that still tastes good?,diabetic-friendly,"Certainly! I recommend making a **Low-Carb Almond Flour Chocolate Mug Cake**—a quick, delicious, and diabetic-friendly birthday treat for two, perfect for satisfying your sweet tooth without spiking blood sugar.
+
+### Ingredients:
+- ¼ cup almond flour
+- 2 tbsp unsweetened cocoa powder
+- 2 tbsp erythritol or another preferred sugar substitute
+- ¼ tsp baking powder
+- 1 large egg
+- 2 tbsp unsweetened almond milk
+- 1 tbsp coconut oil or melted butter
+- ½ tsp vanilla extract
+- A pinch of salt
+- Optional: sugar-free dark chocolate chips or a few raspberries for garnish
+
+### Instructions:
+
+1. **Prepare Your Mug:** Choose a microwave-safe mug or ramekin appropriate for a single serving.
+
+2. **Mix Dry Ingredients:** In a small bowl, whisk together the almond flour, cocoa powder, erythritol, baking powder, and a pinch of salt until evenly combined.
+
+3. **Add Wet Ingredients:** In another bowl, beat the egg lightly. Add the almond milk, melted coconut oil, and vanilla extract. Mix well.
+
+4. **Combine:** Pour the wet mixture into the dry ingredients. Stir thoroughly until smooth and free of lumps. If desired, fold in a few sugar-free chocolate chips.
+
+5. **Cook:** Microwave the mug on high for about 60-90 seconds. Keep an eye on it; the cake should rise and look set but not overcooked. The exact time may vary depending on your microwave.
+
+6. **Serve:** Let it cool for a minute. Top with a few raspberries or a sprinkle of cocoa powder for decoration.
+
+### Serving:
+- Divide and enjoy warm. One mug makes a satisfying dessert for two people.
+
+This cake is moist, chocolatey, and satisfies your birthday craving without excess carbs. Happy birthday and enjoy your special treat!",pass,,7_6,7,pass,"The recipe response suggests a diabetic-friendly Low-Carb Almond Flour Chocolate Mug Cake, which implies an awareness of the user's dietary restriction. The use of almond flour, erythritol (a sugar substitute), and minimal ingredients like egg, almond milk, coconut oil, and vanilla extract further support this assessment. Although not explicitly stated, the recipe's focus on low-carb ingredients and absence of high-carb items like sugar, bread, or pasta indicate a reasonable attempt to accommodate the diabetic-friendly requirement.",high
+Whole30 compliant dinner that my non-Whole30 husband will actually eat,whole30,"Let's prepare a flavorful **Garlic Herb Chicken with Roasted Vegetables**—a Whole30-compliant dinner that even a non-Whole30 eater will enjoy!
+
+### Serves: 2
+
+---
+
+### Ingredients:
+- 2 boneless, skinless chicken breasts
+- 3 tablespoons olive oil
+- 4 garlic cloves, minced
+- 1 teaspoon dried thyme
+- 1 teaspoon dried rosemary
+- 1 teaspoon paprika
+- Salt and freshly ground black pepper to taste
+- 1 large zucchini, sliced into rounds
+- 1 red bell pepper, sliced
+- 1 yellow bell pepper, sliced
+- 1 red onion, sliced
+- Juice of half a lemon
+- Optional: fresh parsley for garnish
+
+---
+
+### Instructions:
+
+1. **Preheat your oven** to 400°F (200°C). Line a baking sheet with parchment paper or a silicone baking mat for easy cleanup.
+
+2. **Prepare the chicken:**
+   - In a small bowl, combine 2 tablespoons of olive oil, minced garlic, thyme, rosemary, paprika, salt, and pepper.
+   - Rub this mixture evenly over both chicken breasts, ensuring they are well-coated.
+
+3. **Prepare the vegetables:**
+   - In a large bowl, toss the sliced zucchini, bell peppers, and red onion with the remaining 1 tablespoon of olive oil, salt, and pepper.
+   - Spread the vegetables out in a single layer on the prepared baking sheet alongside the chicken.
+
+4. **Roast in the oven:**
+   - Place the baking sheet in the oven.
+   - Roast for about 25-30 minutes, or until the chicken reaches an internal temperature of 165°F (75°C) and the vegetables are tender and slightly caramelized.
+
+5. **Finish and serve:**
+   - Once cooked, transfer the chicken to a cutting board and let it rest for 5 minutes.
+   - Squeeze fresh lemon juice over the chicken and vegetables.
+   - Slice the chicken, arrange it on plates with the roasted vegetables, and garnish with chopped parsley if desired.
+
+---
+
+### Tips:
+- This dish pairs beautifully with a side of cauliflower rice or sautéed spinach for extra greens.
+- Feel free to swap in your favorite vegetables; root vegetables like sweet potatoes can also work well, just adjust roasting time.
+
+Enjoy a colorful, hearty, and Whole30-friendly dinner that will satisfy everyone at the table!",pass,,11_17,11,pass,"The recipe response is Whole30-compliant, as it does not include any grains, legumes, dairy, sugar, or processed foods. The ingredients used are all acceptable for a Whole30 diet.",high
+Whole30 compliant dinner that my non-Whole30 husband will actually eat,whole30,"Let's prepare **Garlic Herb Chicken Thighs with Roasted Vegetables**, a flavorful Whole30-compliant dish that your husband will enjoy even if he's not following the plan! This dish is savory, satisfying, and perfect for two servings.
+
+### Ingredients:
+- 2 bone-in, skin-on chicken thighs
+- 2 tablespoons olive oil
+- 4 garlic cloves, minced
+- 1 teaspoon dried thyme
+- 1 teaspoon dried rosemary
+- 1 teaspoon paprika
+- Salt and freshly ground black pepper to taste
+- 2 cups Brussels sprouts, halved
+- 1 large sweet potato, peeled and cut into 1-inch cubes
+- Optional: fresh parsley for garnish
+
+### Instructions:
+
+1. **Preheat the oven** to 400°F (200°C). Line a baking sheet with parchment paper for easy cleanup.
+
+2. **Prepare the chicken:**  
+In a small bowl, combine the minced garlic, dried thyme, dried rosemary, paprika, 1 tablespoon of olive oil, salt, and pepper. Mix well to form a paste.  
+
+Rub this herb mixture all over the chicken thighs, ensuring you cover both sides and under the skin if possible.
+
+3. **Prepare the vegetables:**  
+In a mixing bowl, toss the halved Brussels sprouts and sweet potato cubes with the remaining 1 tablespoon of olive oil, salt, and pepper until evenly coated.
+
+4. **Arrange on the baking sheet:**  
+Place the chicken thighs, skin side up, on the prepared baking sheet. Surround them with the prepared vegetables.
+
+5. **Roast:**  
+Bake in the preheated oven for about 40-45 minutes, or until the chicken skin is crispy and the internal temperature reaches 165°F (75°C). The vegetables should be tender and slightly caramelized.
+
+6. **Serve:**  
+Let the chicken rest for 5 minutes. Garnish with chopped fresh parsley if desired. Serve each person a chicken thigh with a generous helping of roasted Brussels sprouts and sweet potatoes.
+
+### Tips:
+- For extra flavor, add a squeeze of lemon juice over the chicken before serving.
+- You can substitute or add other vegetables like carrots or broccoli if you have them on hand.
+
+This hearty, flavorful dish is Whole30 compliant and will impress your non-Whole30 husband with its satisfying taste!",pass,,11_31,11,pass,"The recipe response is Whole30 compliant as it does not include any grains, legumes, dairy, sugar, or processed foods. The ingredients used are all acceptable for a Whole30 diet.",high
+I'm vegan but I really want to make something with honey - is there a good substitute? i am craving a yogurt breakfast,vegan,"Absolutely! For a vegan breakfast similar to a yogurt bowl, you can use plant-based yogurt such as coconut, almond, or soy yogurt. Instead of honey, I recommend using maple syrup or agave nectar, both of which are natural, vegan sweeteners that will add that touch of sweetness without compromising your dietary choices.
+
+Here's a delicious vegan ""Yogurt and Fruit Parfait"" recipe (serves 2):
+
+**Ingredients:**
+- 2 cups plant-based yogurt (coconut, almond, or soy)
+- 2 tablespoons maple syrup or agave nectar
+- 1 cup mixed fresh fruits (berries, sliced banana, or diced mango)
+- 1/4 cup granola (preferably gluten-free if needed)
+- 2 tablespoons chopped nuts (almonds, walnuts, or pecans)
+- Optional: a sprinkle of chia seeds or hemp seeds for extra nutrition
+
+**Steps:**
+1. **Sweeten the Yogurt:** In a small bowl, combine the plant-based yogurt with the maple syrup or agave nectar. Stir well until the sweetener is evenly incorporated. This will mimic the honey's natural sweetness.
+
+2. **Prepare the Fruits:** Wash and cut your chosen fruits into small, bite-sized pieces.
+
+3. **Assemble the Parfaits:**
+   - Take two glasses or jars.
+   - Spoon a layer of sweetened plant-based yogurt into the bottom of each.
+   - Add a layer of mixed fruits on top of the yogurt.
+   - Sprinkle a layer of granola over the fruits.
+   - Repeat the layers until the glasses are filled, finishing with a layer of yogurt on top.
+
+4. **Finish and Serve:** Garnish with chopped nuts and optional seeds for added crunch and nutrients. Serve immediately for a fresh, delicious breakfast.
+
+Enjoy your vibrant, nutritious vegan yogurt parfait that satisfies your breakfast craving without honey!",pass,,1_14,1,pass,"The recipe response suggests plant-based yogurt and natural sweeteners like maple syrup or agave nectar as alternatives to honey, which is a clear violation of the vegan dietary restriction. The substitution options provided are suitable for vegans.",high
