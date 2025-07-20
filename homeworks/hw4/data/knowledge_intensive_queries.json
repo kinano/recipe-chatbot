@@ -1,0 +1,1149 @@
+{
+  "queries": [
+    "recipes that take more than 8 hours to cook",
+    "extremely long cooking time recipes over 241 hours",
+    "extremely long cooking time recipes over 48 hours",
+    "extremely long cooking time recipes over 51 hours",
+    "extremely long cooking time recipes over 49 hours",
+    "extremely long cooking time recipes over 27 hours",
+    "extremely long cooking time recipes over 28 hours",
+    "extremely long cooking time recipes over 25 hours",
+    "extremely long cooking time recipes over 24 hours",
+    "extremely long cooking time recipes over 18 hours",
+    "extremely long cooking time recipes over 13 hours",
+    "recipes that take over 4 hours to make",
+    "long cooking time recipes requiring 4 hours",
+    "extremely long cooking time recipes over 9 hours",
+    "recipes using green cardamoms",
+    "how to cook with green cardamoms",
+    "recipes using worcestershire sauce",
+    "how to cook with worcestershire sauce",
+    "recipes using white crab meat",
+    "how to cook with white crab meat",
+    "recipes using cardamom pod",
+    "how to cook with cardamom pod",
+    "recipes using coconut milk",
+    "how to cook with coconut milk",
+    "recipes using saffron",
+    "how to cook with saffron",
+    "recipes using xanthan gum",
+    "how to cook with xanthan gum",
+    "recipes using saffron threads",
+    "how to cook with saffron threads",
+    "recipes using cardamom",
+    "how to cook with cardamom",
+    "recipes using black truffle",
+    "how to cook with black truffle",
+    "recipes using ground lamb",
+    "how to cook with ground lamb",
+    "recipes using white truffle",
+    "how to cook with white truffle",
+    "recipes using amish starter",
+    "how to cook with amish starter",
+    "recipes using red curry paste",
+    "how to cook with red curry paste",
+    "recipes using kombu seaweed",
+    "how to cook with kombu seaweed",
+    "recipes using tahini",
+    "how to cook with tahini",
+    "recipes using ground cardamom",
+    "how to cook with ground cardamom",
+    "recipes using roast technique",
+    "how to roast in professional cooking",
+    "recipes using fold technique",
+    "how to fold in professional cooking",
+    "recipes using whip technique",
+    "how to whip in professional cooking",
+    "recipes using caramelize technique",
+    "how to caramelize in professional cooking",
+    "recipes using deglaze technique",
+    "how to deglaze in professional cooking",
+    "recipes using roux technique",
+    "how to roux in professional cooking",
+    "recipes using reduction technique",
+    "how to reduction in professional cooking",
+    "recipes with over 20 ingredients",
+    "extremely complex recipes requiring 27 ingredients",
+    "recipes with over 15 ingredients",
+    "complex recipes requiring 19 different ingredients",
+    "complex recipes requiring 16 different ingredients",
+    "authentic amish-mennonite recipes",
+    "traditional amish-mennonite cooking techniques",
+    "authentic asian recipes",
+    "traditional asian cooking techniques",
+    "authentic cajun recipes",
+    "traditional cajun cooking techniques",
+    "authentic french recipes",
+    "traditional french cooking techniques",
+    "authentic italian recipes",
+    "traditional italian cooking techniques",
+    "authentic indian recipes",
+    "traditional indian cooking techniques",
+    "authentic mexican recipes",
+    "traditional mexican cooking techniques",
+    "authentic moroccan recipes",
+    "traditional moroccan cooking techniques",
+    "recipe for amish cinnamon bread",
+    "how to make amish cinnamon bread friendship",
+    "recipe for a ptissier s",
+    "how to make a ptissier s black",
+    "recipe for alton brown s",
+    "how to make alton brown s brined",
+    "recipe for almond praline cake",
+    "how to make almond praline cake with",
+    "recipe for absolutely addicitve kale",
+    "how to make absolutely addicitve kale moti",
+    "recipe for the gumbo pages",
+    "how to make the gumbo pages traditional",
+    "recipe for a french country",
+    "how to make a french country affair",
+    "recipe for a symphony of",
+    "how to make a symphony of french",
+    "recipes with over 20 detailed cooking steps",
+    "complex multi-step cooking procedures",
+    "most challenging recipes requiring expert knowledge",
+    "professional chef level cooking complexity",
+    "high calorie complex recipes",
+    "recipes with detailed nutritional information",
+    "gourmet recipes with nutritional complexity",
+    "elaborate dishes with specific dietary considerations",
+    "recipes requiring specialized cooking equipment",
+    "professional kitchen technique recipes",
+    "advanced cooking tool requirements",
+    "restaurant-grade cooking methods"
+  ],
+  "query_metadata": [
+    {
+      "query": "recipes that take more than 8 hours to cook",
+      "type": "extreme_cooking_time_knowledge",
+      "cooking_time_minutes": 14460,
+      "complexity_level": "time_intensive",
+      "expected_document_ids": [
+        233539
+      ]
+    },
+    {
+      "query": "extremely long cooking time recipes over 241 hours",
+      "type": "extreme_cooking_time_knowledge",
+      "cooking_time_minutes": 14460,
+      "complexity_level": "time_intensive",
+      "expected_document_ids": [
+        233539
+      ]
+    },
+    {
+      "query": "extremely long cooking time recipes over 48 hours",
+      "type": "extreme_cooking_time_knowledge",
+      "cooking_time_minutes": 2915,
+      "complexity_level": "time_intensive",
+      "expected_document_ids": [
+        307279
+      ]
+    },
+    {
+      "query": "extremely long cooking time recipes over 51 hours",
+      "type": "extreme_cooking_time_knowledge",
+      "cooking_time_minutes": 3060,
+      "complexity_level": "time_intensive",
+      "expected_document_ids": [
+        443177
+      ]
+    },
+    {
+      "query": "extremely long cooking time recipes over 49 hours",
+      "type": "extreme_cooking_time_knowledge",
+      "cooking_time_minutes": 2940,
+      "complexity_level": "time_intensive",
+      "expected_document_ids": [
+        288998
+      ]
+    },
+    {
+      "query": "extremely long cooking time recipes over 27 hours",
+      "type": "extreme_cooking_time_knowledge",
+      "cooking_time_minutes": 1620,
+      "complexity_level": "time_intensive",
+      "expected_document_ids": [
+        45120
+      ]
+    },
+    {
+      "query": "extremely long cooking time recipes over 28 hours",
+      "type": "extreme_cooking_time_knowledge",
+      "cooking_time_minutes": 1680,
+      "complexity_level": "time_intensive",
+      "expected_document_ids": [
+        361017
+      ]
+    },
+    {
+      "query": "extremely long cooking time recipes over 25 hours",
+      "type": "extreme_cooking_time_knowledge",
+      "cooking_time_minutes": 1500,
+      "complexity_level": "time_intensive",
+      "expected_document_ids": [
+        303666
+      ]
+    },
+    {
+      "query": "extremely long cooking time recipes over 24 hours",
+      "type": "extreme_cooking_time_knowledge",
+      "cooking_time_minutes": 1485,
+      "complexity_level": "time_intensive",
+      "expected_document_ids": [
+        271012
+      ]
+    },
+    {
+      "query": "extremely long cooking time recipes over 18 hours",
+      "type": "extreme_cooking_time_knowledge",
+      "cooking_time_minutes": 1090,
+      "complexity_level": "time_intensive",
+      "expected_document_ids": [
+        303913
+      ]
+    },
+    {
+      "query": "extremely long cooking time recipes over 13 hours",
+      "type": "extreme_cooking_time_knowledge",
+      "cooking_time_minutes": 810,
+      "complexity_level": "time_intensive",
+      "expected_document_ids": [
+        245800
+      ]
+    },
+    {
+      "query": "recipes that take over 4 hours to make",
+      "type": "extreme_cooking_time_knowledge",
+      "cooking_time_minutes": 245,
+      "complexity_level": "time_intensive",
+      "expected_document_ids": [
+        65007
+      ]
+    },
+    {
+      "query": "long cooking time recipes requiring 4 hours",
+      "type": "extreme_cooking_time_knowledge",
+      "cooking_time_minutes": 245,
+      "complexity_level": "time_intensive",
+      "expected_document_ids": [
+        65007
+      ]
+    },
+    {
+      "query": "extremely long cooking time recipes over 9 hours",
+      "type": "extreme_cooking_time_knowledge",
+      "cooking_time_minutes": 555,
+      "complexity_level": "time_intensive",
+      "expected_document_ids": [
+        413145
+      ]
+    },
+    {
+      "query": "recipes using green cardamoms",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "green cardamoms",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        45120
+      ]
+    },
+    {
+      "query": "how to cook with green cardamoms",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "green cardamoms",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        45120
+      ]
+    },
+    {
+      "query": "recipes using worcestershire sauce",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "worcestershire sauce",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        361017
+      ]
+    },
+    {
+      "query": "how to cook with worcestershire sauce",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "worcestershire sauce",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        361017
+      ]
+    },
+    {
+      "query": "recipes using white crab meat",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "white crab meat",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        65007
+      ]
+    },
+    {
+      "query": "how to cook with white crab meat",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "white crab meat",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        65007
+      ]
+    },
+    {
+      "query": "recipes using cardamom pod",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "cardamom pod",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        476849
+      ]
+    },
+    {
+      "query": "how to cook with cardamom pod",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "cardamom pod",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        476849
+      ]
+    },
+    {
+      "query": "recipes using coconut milk",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "coconut milk",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        362224
+      ]
+    },
+    {
+      "query": "how to cook with coconut milk",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "coconut milk",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        362224
+      ]
+    },
+    {
+      "query": "recipes using saffron",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "saffron",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        362224
+      ]
+    },
+    {
+      "query": "how to cook with saffron",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "saffron",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        362224
+      ]
+    },
+    {
+      "query": "recipes using xanthan gum",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "xanthan gum",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        520809
+      ]
+    },
+    {
+      "query": "how to cook with xanthan gum",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "xanthan gum",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        520809
+      ]
+    },
+    {
+      "query": "recipes using saffron threads",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "saffron threads",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        341907
+      ]
+    },
+    {
+      "query": "how to cook with saffron threads",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "saffron threads",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        341907
+      ]
+    },
+    {
+      "query": "recipes using cardamom",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "cardamom",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        141035
+      ]
+    },
+    {
+      "query": "how to cook with cardamom",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "cardamom",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        141035
+      ]
+    },
+    {
+      "query": "recipes using black truffle",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "black truffle",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        191398
+      ]
+    },
+    {
+      "query": "how to cook with black truffle",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "black truffle",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        191398
+      ]
+    },
+    {
+      "query": "recipes using ground lamb",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "ground lamb",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        344915
+      ]
+    },
+    {
+      "query": "how to cook with ground lamb",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "ground lamb",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        344915
+      ]
+    },
+    {
+      "query": "recipes using white truffle",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "white truffle",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        306198
+      ]
+    },
+    {
+      "query": "how to cook with white truffle",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "white truffle",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        306198
+      ]
+    },
+    {
+      "query": "recipes using amish starter",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "amish starter",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        146096
+      ]
+    },
+    {
+      "query": "how to cook with amish starter",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "amish starter",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        146096
+      ]
+    },
+    {
+      "query": "recipes using red curry paste",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "red curry paste",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        490104
+      ]
+    },
+    {
+      "query": "how to cook with red curry paste",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "red curry paste",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        490104
+      ]
+    },
+    {
+      "query": "recipes using kombu seaweed",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "kombu seaweed",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        472184
+      ]
+    },
+    {
+      "query": "how to cook with kombu seaweed",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "kombu seaweed",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        472184
+      ]
+    },
+    {
+      "query": "recipes using tahini",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "tahini",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        131967
+      ]
+    },
+    {
+      "query": "how to cook with tahini",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "tahini",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        131967
+      ]
+    },
+    {
+      "query": "recipes using ground cardamom",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "ground cardamom",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        414783
+      ]
+    },
+    {
+      "query": "how to cook with ground cardamom",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "ground cardamom",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        414783
+      ]
+    },
+    {
+      "query": "recipes using roast technique",
+      "type": "advanced_technique_knowledge",
+      "technique": "roast",
+      "complexity_level": "professional_skill",
+      "expected_document_ids": [
+        443177
+      ]
+    },
+    {
+      "query": "how to roast in professional cooking",
+      "type": "advanced_technique_knowledge",
+      "technique": "roast",
+      "complexity_level": "professional_skill",
+      "expected_document_ids": [
+        443177
+      ]
+    },
+    {
+      "query": "recipes using fold technique",
+      "type": "advanced_technique_knowledge",
+      "technique": "fold",
+      "complexity_level": "professional_skill",
+      "expected_document_ids": [
+        288998
+      ]
+    },
+    {
+      "query": "how to fold in professional cooking",
+      "type": "advanced_technique_knowledge",
+      "technique": "fold",
+      "complexity_level": "professional_skill",
+      "expected_document_ids": [
+        288998
+      ]
+    },
+    {
+      "query": "recipes using whip technique",
+      "type": "advanced_technique_knowledge",
+      "technique": "whip",
+      "complexity_level": "professional_skill",
+      "expected_document_ids": [
+        520809
+      ]
+    },
+    {
+      "query": "how to whip in professional cooking",
+      "type": "advanced_technique_knowledge",
+      "technique": "whip",
+      "complexity_level": "professional_skill",
+      "expected_document_ids": [
+        520809
+      ]
+    },
+    {
+      "query": "recipes using caramelize technique",
+      "type": "advanced_technique_knowledge",
+      "technique": "caramelize",
+      "complexity_level": "professional_skill",
+      "expected_document_ids": [
+        146
+      ]
+    },
+    {
+      "query": "how to caramelize in professional cooking",
+      "type": "advanced_technique_knowledge",
+      "technique": "caramelize",
+      "complexity_level": "professional_skill",
+      "expected_document_ids": [
+        146
+      ]
+    },
+    {
+      "query": "recipes using deglaze technique",
+      "type": "advanced_technique_knowledge",
+      "technique": "deglaze",
+      "complexity_level": "professional_skill",
+      "expected_document_ids": [
+        499888
+      ]
+    },
+    {
+      "query": "how to deglaze in professional cooking",
+      "type": "advanced_technique_knowledge",
+      "technique": "deglaze",
+      "complexity_level": "professional_skill",
+      "expected_document_ids": [
+        499888
+      ]
+    },
+    {
+      "query": "recipes using roux technique",
+      "type": "advanced_technique_knowledge",
+      "technique": "roux",
+      "complexity_level": "professional_skill",
+      "expected_document_ids": [
+        383339
+      ]
+    },
+    {
+      "query": "how to roux in professional cooking",
+      "type": "advanced_technique_knowledge",
+      "technique": "roux",
+      "complexity_level": "professional_skill",
+      "expected_document_ids": [
+        383339
+      ]
+    },
+    {
+      "query": "recipes using reduction technique",
+      "type": "advanced_technique_knowledge",
+      "technique": "reduction",
+      "complexity_level": "professional_skill",
+      "expected_document_ids": [
+        487701
+      ]
+    },
+    {
+      "query": "how to reduction in professional cooking",
+      "type": "advanced_technique_knowledge",
+      "technique": "reduction",
+      "complexity_level": "professional_skill",
+      "expected_document_ids": [
+        487701
+      ]
+    },
+    {
+      "query": "recipes with over 20 ingredients",
+      "type": "recipe_complexity_knowledge",
+      "ingredient_count": 27,
+      "complexity_level": "very_high_complexity",
+      "expected_document_ids": [
+        307279
+      ]
+    },
+    {
+      "query": "extremely complex recipes requiring 27 ingredients",
+      "type": "recipe_complexity_knowledge",
+      "ingredient_count": 27,
+      "complexity_level": "very_high_complexity",
+      "expected_document_ids": [
+        307279
+      ]
+    },
+    {
+      "query": "recipes with over 15 ingredients",
+      "type": "recipe_complexity_knowledge",
+      "ingredient_count": 19,
+      "complexity_level": "very_high_complexity",
+      "expected_document_ids": [
+        45120
+      ]
+    },
+    {
+      "query": "complex recipes requiring 19 different ingredients",
+      "type": "recipe_complexity_knowledge",
+      "ingredient_count": 19,
+      "complexity_level": "very_high_complexity",
+      "expected_document_ids": [
+        45120
+      ]
+    },
+    {
+      "query": "complex recipes requiring 16 different ingredients",
+      "type": "recipe_complexity_knowledge",
+      "ingredient_count": 16,
+      "complexity_level": "very_high_complexity",
+      "expected_document_ids": [
+        303666
+      ]
+    },
+    {
+      "query": "authentic amish-mennonite recipes",
+      "type": "cultural_cuisine_expertise",
+      "cultural_tag": "amish-mennonite",
+      "complexity_level": "cultural_authenticity",
+      "expected_document_ids": [
+        233539
+      ]
+    },
+    {
+      "query": "traditional amish-mennonite cooking techniques",
+      "type": "cultural_cuisine_expertise",
+      "cultural_tag": "amish-mennonite",
+      "complexity_level": "cultural_authenticity",
+      "expected_document_ids": [
+        233539
+      ]
+    },
+    {
+      "query": "authentic asian recipes",
+      "type": "cultural_cuisine_expertise",
+      "cultural_tag": "asian",
+      "complexity_level": "cultural_authenticity",
+      "expected_document_ids": [
+        45120
+      ]
+    },
+    {
+      "query": "traditional asian cooking techniques",
+      "type": "cultural_cuisine_expertise",
+      "cultural_tag": "asian",
+      "complexity_level": "cultural_authenticity",
+      "expected_document_ids": [
+        45120
+      ]
+    },
+    {
+      "query": "authentic cajun recipes",
+      "type": "cultural_cuisine_expertise",
+      "cultural_tag": "cajun",
+      "complexity_level": "cultural_authenticity",
+      "expected_document_ids": [
+        361017
+      ]
+    },
+    {
+      "query": "traditional cajun cooking techniques",
+      "type": "cultural_cuisine_expertise",
+      "cultural_tag": "cajun",
+      "complexity_level": "cultural_authenticity",
+      "expected_document_ids": [
+        361017
+      ]
+    },
+    {
+      "query": "authentic french recipes",
+      "type": "cultural_cuisine_expertise",
+      "cultural_tag": "french",
+      "complexity_level": "cultural_authenticity",
+      "expected_document_ids": [
+        303666
+      ]
+    },
+    {
+      "query": "traditional french cooking techniques",
+      "type": "cultural_cuisine_expertise",
+      "cultural_tag": "french",
+      "complexity_level": "cultural_authenticity",
+      "expected_document_ids": [
+        303666
+      ]
+    },
+    {
+      "query": "authentic italian recipes",
+      "type": "cultural_cuisine_expertise",
+      "cultural_tag": "italian",
+      "complexity_level": "cultural_authenticity",
+      "expected_document_ids": [
+        65007
+      ]
+    },
+    {
+      "query": "traditional italian cooking techniques",
+      "type": "cultural_cuisine_expertise",
+      "cultural_tag": "italian",
+      "complexity_level": "cultural_authenticity",
+      "expected_document_ids": [
+        65007
+      ]
+    },
+    {
+      "query": "authentic indian recipes",
+      "type": "cultural_cuisine_expertise",
+      "cultural_tag": "indian",
+      "complexity_level": "cultural_authenticity",
+      "expected_document_ids": [
+        476849
+      ]
+    },
+    {
+      "query": "traditional indian cooking techniques",
+      "type": "cultural_cuisine_expertise",
+      "cultural_tag": "indian",
+      "complexity_level": "cultural_authenticity",
+      "expected_document_ids": [
+        476849
+      ]
+    },
+    {
+      "query": "authentic mexican recipes",
+      "type": "cultural_cuisine_expertise",
+      "cultural_tag": "mexican",
+      "complexity_level": "cultural_authenticity",
+      "expected_document_ids": [
+        38276
+      ]
+    },
+    {
+      "query": "traditional mexican cooking techniques",
+      "type": "cultural_cuisine_expertise",
+      "cultural_tag": "mexican",
+      "complexity_level": "cultural_authenticity",
+      "expected_document_ids": [
+        38276
+      ]
+    },
+    {
+      "query": "authentic moroccan recipes",
+      "type": "cultural_cuisine_expertise",
+      "cultural_tag": "moroccan",
+      "complexity_level": "cultural_authenticity",
+      "expected_document_ids": [
+        385942
+      ]
+    },
+    {
+      "query": "traditional moroccan cooking techniques",
+      "type": "cultural_cuisine_expertise",
+      "cultural_tag": "moroccan",
+      "complexity_level": "cultural_authenticity",
+      "expected_document_ids": [
+        385942
+      ]
+    },
+    {
+      "query": "recipe for amish cinnamon bread",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "amish cinnamon bread friendship bread",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        233539
+      ]
+    },
+    {
+      "query": "how to make amish cinnamon bread friendship",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "amish cinnamon bread friendship bread",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        233539
+      ]
+    },
+    {
+      "query": "recipe for a ptissier s",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "a ptissier s black forest cake",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        307279
+      ]
+    },
+    {
+      "query": "how to make a ptissier s black",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "a ptissier s black forest cake",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        307279
+      ]
+    },
+    {
+      "query": "recipe for alton brown s",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "alton brown s brined turkey",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        443177
+      ]
+    },
+    {
+      "query": "how to make alton brown s brined",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "alton brown s brined turkey",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        443177
+      ]
+    },
+    {
+      "query": "recipe for almond praline cake",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "almond praline cake with mascarpone frosting and chocolate bark",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        288998
+      ]
+    },
+    {
+      "query": "how to make almond praline cake with",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "almond praline cake with mascarpone frosting and chocolate bark",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        288998
+      ]
+    },
+    {
+      "query": "recipe for absolutely addicitve kale",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "absolutely addicitve kale moti biryani lunch that s complete",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        45120
+      ]
+    },
+    {
+      "query": "how to make absolutely addicitve kale moti",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "absolutely addicitve kale moti biryani lunch that s complete",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        45120
+      ]
+    },
+    {
+      "query": "recipe for the gumbo pages",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "the gumbo pages traditional red beans and rice",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        361017
+      ]
+    },
+    {
+      "query": "how to make the gumbo pages traditional",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "the gumbo pages traditional red beans and rice",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        361017
+      ]
+    },
+    {
+      "query": "recipe for a french country",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "a french country affair elegant omelette gateau w chive flowers",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        303666
+      ]
+    },
+    {
+      "query": "how to make a french country affair",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "a french country affair elegant omelette gateau w chive flowers",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        303666
+      ]
+    },
+    {
+      "query": "recipe for a symphony of",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "a symphony of french chocolate truffles",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        271012
+      ]
+    },
+    {
+      "query": "how to make a symphony of french",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "a symphony of french chocolate truffles",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        271012
+      ]
+    },
+    {
+      "query": "recipes with over 20 detailed cooking steps",
+      "type": "cooking_procedure_expertise",
+      "step_count": 44,
+      "complexity_level": "multi_stage_process",
+      "expected_document_ids": [
+        233539
+      ]
+    },
+    {
+      "query": "complex multi-step cooking procedures",
+      "type": "cooking_procedure_expertise",
+      "step_count": 44,
+      "complexity_level": "multi_stage_process",
+      "expected_document_ids": [
+        233539
+      ]
+    },
+    {
+      "query": "most challenging recipes requiring expert knowledge",
+      "type": "expert_culinary_knowledge",
+      "salient_facts": [
+        "extremely_long_time_14460",
+        "many_steps_44",
+        "cultural_cuisine"
+      ],
+      "complexity_level": "master_chef_level",
+      "expected_document_ids": [
+        233539
+      ]
+    },
+    {
+      "query": "professional chef level cooking complexity",
+      "type": "expert_culinary_knowledge",
+      "salient_facts": [
+        "extremely_long_time_14460",
+        "many_steps_44",
+        "cultural_cuisine"
+      ],
+      "complexity_level": "master_chef_level",
+      "expected_document_ids": [
+        233539
+      ]
+    },
+    {
+      "query": "high calorie complex recipes",
+      "type": "nutritional_knowledge",
+      "complexity_level": "dietary_expertise",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "recipes with detailed nutritional information",
+      "type": "nutritional_knowledge",
+      "complexity_level": "dietary_expertise",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "gourmet recipes with nutritional complexity",
+      "type": "nutritional_knowledge",
+      "complexity_level": "dietary_expertise",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "elaborate dishes with specific dietary considerations",
+      "type": "nutritional_knowledge",
+      "complexity_level": "dietary_expertise",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "recipes requiring specialized cooking equipment",
+      "type": "equipment_expertise",
+      "complexity_level": "professional_equipment",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "professional kitchen technique recipes",
+      "type": "equipment_expertise",
+      "complexity_level": "professional_equipment",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "advanced cooking tool requirements",
+      "type": "equipment_expertise",
+      "complexity_level": "professional_equipment",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "restaurant-grade cooking methods",
+      "type": "equipment_expertise",
+      "complexity_level": "professional_equipment",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    }
+  ],
+  "generation_metadata": {
+    "total_queries": 111,
+    "generation_method": "knowledge_intensive_salient_facts",
+    "focus": "complex_recipe_expertise_evaluation",
+    "query_types": [
+      "specialty_ingredient_knowledge",
+      "extreme_cooking_time_knowledge",
+      "cooking_procedure_expertise",
+      "nutritional_knowledge",
+      "expert_culinary_knowledge",
+      "recipe_complexity_knowledge",
+      "equipment_expertise",
+      "advanced_technique_knowledge",
+      "specific_recipe_knowledge",
+      "cultural_cuisine_expertise"
+    ]
+  }
+}
