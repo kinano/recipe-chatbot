@@ -23,4 +23,11 @@ dependencies = [
   "openinference-instrumentation-litellm>=0.1.21",
   "arize-otel>=0.8.1",
   "arize[Tracing]>=7.1.0",
+  "rank-bm25",
+  "tqdm",
+  "pydantic",
+  "typing-extensions",
+  "matplotlib",
+  "seaborn",
+  "plotly",
 ]
