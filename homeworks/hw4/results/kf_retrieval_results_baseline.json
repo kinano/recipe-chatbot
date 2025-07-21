@@ -1,0 +1,8386 @@
+{
+  "evaluation_metadata": {
+    "total_queries_evaluated": 200,
+    "evaluation_method": "bm25_knowledge_intensive",
+    "top_k_retrieved": 10,
+    "timestamp": null
+  },
+  "overall_metrics": {
+    "recall_at_1": 0.34,
+    "recall_at_3": 0.48,
+    "recall_at_5": 0.53,
+    "recall_at_10": 0.68,
+    "mean_reciprocal_rank": 0.4309,
+    "total_queries": 200,
+    "queries_found": 136,
+    "queries_not_found": 64,
+    "average_rank_when_found": 3.1324,
+    "median_rank_when_found": 1.5
+  },
+  "metrics_by_query_type": {
+    "appliance_settings": {
+      "count": 60,
+      "recall_at_1": 0.3667,
+      "recall_at_3": 0.4667,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.6667,
+      "mean_reciprocal_rank": 0.4417,
+      "success_rate": 0.6667,
+      "average_rank_when_found": 3.2,
+      "median_rank_when_found": 1.0
+    },
+    "timing_specifics": {
+      "count": 80,
+      "recall_at_1": 0.3625,
+      "recall_at_3": 0.525,
+      "recall_at_5": 0.575,
+      "recall_at_10": 0.725,
+      "mean_reciprocal_rank": 0.463,
+      "success_rate": 0.725,
+      "average_rank_when_found": 2.9483,
+      "median_rank_when_found": 1.5
+    },
+    "temperature_precision": {
+      "count": 12,
+      "recall_at_1": 0.3333,
+      "recall_at_3": 0.4167,
+      "recall_at_5": 0.4167,
+      "recall_at_10": 0.5833,
+      "mean_reciprocal_rank": 0.3937,
+      "success_rate": 0.5833,
+      "average_rank_when_found": 3.4286,
+      "median_rank_when_found": 1
+    },
+    "technique_details": {
+      "count": 48,
+      "recall_at_1": 0.2708,
+      "recall_at_3": 0.4375,
+      "recall_at_5": 0.5208,
+      "recall_at_10": 0.6458,
+      "mean_reciprocal_rank": 0.3731,
+      "success_rate": 0.6458,
+      "average_rank_when_found": 3.3226,
+      "median_rank_when_found": 2
+    }
+  },
+  "metrics_by_complexity_level": {
+    "equipment_specific": {
+      "count": 60,
+      "recall_at_1": 0.3667,
+      "recall_at_3": 0.4667,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.6667,
+      "mean_reciprocal_rank": 0.4417,
+      "success_rate": 0.6667,
+      "average_rank_when_found": 3.2,
+      "median_rank_when_found": 1.0
+    },
+    "timing_precision": {
+      "count": 80,
+      "recall_at_1": 0.3625,
+      "recall_at_3": 0.525,
+      "recall_at_5": 0.575,
+      "recall_at_10": 0.725,
+      "mean_reciprocal_rank": 0.463,
+      "success_rate": 0.725,
+      "average_rank_when_found": 2.9483,
+      "median_rank_when_found": 1.5
+    },
+    "temp_precision": {
+      "count": 12,
+      "recall_at_1": 0.3333,
+      "recall_at_3": 0.4167,
+      "recall_at_5": 0.4167,
+      "recall_at_10": 0.5833,
+      "mean_reciprocal_rank": 0.3937,
+      "success_rate": 0.5833,
+      "average_rank_when_found": 3.4286,
+      "median_rank_when_found": 1
+    },
+    "technique_mastery": {
+      "count": 48,
+      "recall_at_1": 0.2708,
+      "recall_at_3": 0.4375,
+      "recall_at_5": 0.5208,
+      "recall_at_10": 0.6458,
+      "mean_reciprocal_rank": 0.3731,
+      "success_rate": 0.6458,
+      "average_rank_when_found": 3.3226,
+      "median_rank_when_found": 2
+    }
+  },
+  "detailed_results": [
+    {
+      "query": "What temperature for oven amish?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        233539
+      ],
+      "retrieved_recipe_ids": [
+        411947,
+        146096,
+        246125,
+        81357,
+        78296,
+        80457,
+        233539,
+        397940,
+        345763,
+        312139
+      ],
+      "found_recipe_ranks": {
+        "233539": 7
+      },
+      "target_rank": 7,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.14285714285714285,
+      "bm25_scores": [
+        9.920943594773508,
+        9.507268231588455,
+        9.133183720865162,
+        8.664584839310669,
+        8.655040880257447,
+        7.95365003461413,
+        7.887952824830077,
+        7.192437251586629,
+        6.41908160413799,
+        6.328990987078086
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven amish?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        233539
+      ],
+      "retrieved_recipe_ids": [
+        246125,
+        146096,
+        233539,
+        411947,
+        397940,
+        81357,
+        78296,
+        283936,
+        80457,
+        151504
+      ],
+      "found_recipe_ranks": {
+        "233539": 3
+      },
+      "target_rank": 3,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.3333333333333333,
+      "bm25_scores": [
+        12.035070733837891,
+        9.749603726288019,
+        9.578319937126519,
+        9.06044990663597,
+        9.019945338289256,
+        8.789552524745494,
+        8.780320443575702,
+        8.02242104257154,
+        7.9953736026091535,
+        6.703313238774192
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What temperature for oven a?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        307279
+      ],
+      "retrieved_recipe_ids": [
+        345763,
+        312139,
+        518234,
+        325571,
+        505248,
+        53922,
+        284687,
+        507154,
+        338907,
+        362986
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        8.628296019243312,
+        8.499529645640102,
+        8.365411529104874,
+        8.239112796080642,
+        8.223428592059294,
+        8.030937102529746,
+        7.981429955699566,
+        7.849836005386444,
+        7.696012352379389,
+        7.551524843192917
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to oven a?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        307279
+      ],
+      "retrieved_recipe_ids": [
+        283936,
+        151504,
+        97188,
+        338356,
+        181969,
+        387136,
+        284687,
+        325571,
+        507154,
+        443177
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        10.07973981366707,
+        8.94542416885529,
+        8.904658580504456,
+        8.551019774508209,
+        8.453655775893452,
+        8.158667937144887,
+        8.156673068545608,
+        8.14980363596834,
+        8.126837573567936,
+        8.077596487777498
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What temperature for oven alton?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        443177
+      ],
+      "retrieved_recipe_ids": [
+        147694,
+        443177,
+        242952,
+        382492,
+        344915,
+        245800,
+        181969,
+        345763,
+        312139,
+        505248
+      ],
+      "found_recipe_ranks": {
+        "443177": 2
+      },
+      "target_rank": 2,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.5,
+      "bm25_scores": [
+        9.852684207973162,
+        9.441691118499094,
+        9.41982188812107,
+        8.19763083397554,
+        8.125843478048761,
+        7.696133665313448,
+        7.211851068434925,
+        6.41908160413799,
+        6.328990987078086,
+        6.033691647348878
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven alton?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        443177
+      ],
+      "retrieved_recipe_ids": [
+        443177,
+        181969,
+        147694,
+        344915,
+        242952,
+        283936,
+        382492,
+        245800,
+        151504,
+        97188
+      ],
+      "found_recipe_ranks": {
+        "443177": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        10.572404453950575,
+        9.363500719109982,
+        8.679646479686802,
+        8.312899486870103,
+        8.084327181531233,
+        8.02242104257154,
+        7.481887775778491,
+        7.179184798653895,
+        6.703313238774192,
+        6.670470353008874
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What temperature for oven almond?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        288998
+      ],
+      "retrieved_recipe_ids": [
+        53922,
+        288998,
+        242806,
+        246823,
+        192721,
+        307799,
+        290453,
+        97188,
+        118115,
+        106417
+      ],
+      "found_recipe_ranks": {
+        "288998": 2
+      },
+      "target_rank": 2,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.5,
+      "bm25_scores": [
+        9.005703684133302,
+        8.592045448268568,
+        8.010627365637195,
+        7.810180048698039,
+        7.694921149195908,
+        7.305456122654477,
+        7.192489527040862,
+        7.174154528922812,
+        6.979757237367716,
+        6.602375625291142
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven almond?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        288998
+      ],
+      "retrieved_recipe_ids": [
+        97188,
+        246823,
+        307799,
+        314774,
+        296318,
+        283936,
+        417845,
+        192721,
+        49746,
+        53922
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        9.808542048831349,
+        9.248562336532222,
+        8.815898618919968,
+        8.30205808487488,
+        8.052831714901682,
+        8.02242104257154,
+        7.816481539964013,
+        7.771983266114779,
+        7.6910384245355505,
+        7.5835435163948395
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What temperature for oven absolutely?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        45120
+      ],
+      "retrieved_recipe_ids": [
+        489497,
+        45120,
+        244193,
+        502254,
+        192721,
+        345763,
+        312139,
+        454071,
+        118115,
+        256190
+      ],
+      "found_recipe_ranks": {
+        "45120": 2
+      },
+      "target_rank": 2,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.5,
+      "bm25_scores": [
+        8.514121704392661,
+        7.858231772367863,
+        7.444562789582157,
+        7.281674432641199,
+        6.518867387128336,
+        6.41908160413799,
+        6.328990987078086,
+        6.312725777891485,
+        6.249066909907286,
+        6.036163768710425
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven absolutely?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        45120
+      ],
+      "retrieved_recipe_ids": [
+        244193,
+        283936,
+        489497,
+        151504,
+        97188,
+        192721,
+        341816,
+        454071,
+        468108,
+        338356
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        8.558974605945902,
+        8.02242104257154,
+        7.616128065572082,
+        6.703313238774192,
+        6.670470353008874,
+        6.5959295040472075,
+        6.548642188234556,
+        6.535962826983365,
+        6.489514377655292,
+        6.486300250805706
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What temperature for grill alabama?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        93802
+      ],
+      "retrieved_recipe_ids": [
+        93802,
+        174846,
+        444749,
+        235855,
+        338356,
+        484526,
+        3779,
+        344915,
+        499804,
+        390230
+      ],
+      "found_recipe_ranks": {
+        "93802": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        16.589985631395486,
+        11.980402674072845,
+        8.822455093272088,
+        8.12499004591997,
+        6.486368334281886,
+        5.996680666660009,
+        5.992979340049145,
+        5.73111655391866,
+        5.394182019042893,
+        5.3514231842971665
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to grill alabama?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        93802
+      ],
+      "retrieved_recipe_ids": [
+        93802,
+        174846,
+        283936,
+        338356,
+        312190,
+        235855,
+        334501,
+        444749,
+        344915,
+        499804
+      ],
+      "found_recipe_ranks": {
+        "93802": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        15.722355566204229,
+        13.54111747149059,
+        8.43804989102816,
+        8.138482949902567,
+        7.633706831351535,
+        6.945825413513483,
+        6.299171013876352,
+        5.9716082093376786,
+        5.918172562740004,
+        5.561880707494554
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What temperature for oven almost?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        303913
+      ],
+      "retrieved_recipe_ids": [
+        303913,
+        383339,
+        53922,
+        284687,
+        303928,
+        344915,
+        289080,
+        345763,
+        312139,
+        518146
+      ],
+      "found_recipe_ranks": {
+        "303913": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        7.879506684155008,
+        7.730207136814643,
+        7.683525356178085,
+        7.40429103581943,
+        7.055614140238207,
+        6.652065548649292,
+        6.427301515857528,
+        6.41908160413799,
+        6.328990987078086,
+        6.292750670497003
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven almost?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        303913
+      ],
+      "retrieved_recipe_ids": [
+        303913,
+        246125,
+        283936,
+        303928,
+        284687,
+        145858,
+        344915,
+        353862,
+        151504,
+        97188
+      ],
+      "found_recipe_ranks": {
+        "303913": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        8.510513184850073,
+        8.053401006799096,
+        8.02242104257154,
+        7.805873315911466,
+        7.579534148665473,
+        7.008546188537874,
+        6.8391215574706345,
+        6.811563623228838,
+        6.703313238774192,
+        6.670470353008874
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What temperature for oven 5?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        65007
+      ],
+      "retrieved_recipe_ids": [
+        406595,
+        345763,
+        325571,
+        518234,
+        505248,
+        507154,
+        104588,
+        338907,
+        450975,
+        312139
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        7.449798660616851,
+        7.391234773069454,
+        7.358512216705814,
+        7.134169439881141,
+        7.070841494489133,
+        6.979658216587329,
+        6.867202453437428,
+        6.848484066286872,
+        6.331992283608852,
+        6.328990987078086
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to oven 5?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        65007
+      ],
+      "retrieved_recipe_ids": [
+        283936,
+        97188,
+        151504,
+        181969,
+        443177,
+        387136,
+        325571,
+        507154,
+        307799,
+        246823
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        9.021653320290632,
+        8.184577225697845,
+        7.708671397253973,
+        7.619097250430674,
+        7.299705497646616,
+        7.289152829977318,
+        7.269203056593513,
+        7.256659784768822,
+        6.811134201580593,
+        6.713573285383551
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What temperature for slow cook america?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        413145
+      ],
+      "retrieved_recipe_ids": [
+        413145,
+        508092,
+        459271,
+        421411,
+        191398,
+        390230,
+        338356,
+        397940,
+        368577,
+        53312
+      ],
+      "found_recipe_ranks": {
+        "413145": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        14.551585599807021,
+        8.508745139770529,
+        7.604964915639769,
+        7.479376522842564,
+        7.178770701656534,
+        7.12750134490678,
+        7.110667934691189,
+        6.7899529598729895,
+        6.686754415973159,
+        6.66807674084815
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to slow cook america?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        413145
+      ],
+      "retrieved_recipe_ids": [
+        413145,
+        459271,
+        508092,
+        338356,
+        397940,
+        421411,
+        393717,
+        191398,
+        53312,
+        151504
+      ],
+      "found_recipe_ranks": {
+        "413145": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        15.29151288281715,
+        9.550962227062305,
+        9.209805530924632,
+        8.76278255031187,
+        8.617461046575617,
+        7.8344622211397095,
+        7.491580803909387,
+        7.401371627924494,
+        7.213006482477943,
+        7.091460942946739
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What temperature for pressure cook a?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        516267
+      ],
+      "retrieved_recipe_ids": [
+        516267,
+        287008,
+        3779,
+        390230,
+        444749,
+        518234,
+        522117,
+        505248,
+        440717,
+        502254
+      ],
+      "found_recipe_ranks": {
+        "516267": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        14.870831281309114,
+        10.228047333042477,
+        9.775175315923692,
+        9.32754207278337,
+        8.538709678977952,
+        8.365411529104874,
+        7.958827805119484,
+        7.7948048898684075,
+        7.7619010581849865,
+        7.657601771147419
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to pressure cook a?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        516267
+      ],
+      "retrieved_recipe_ids": [
+        516267,
+        287008,
+        151504,
+        312190,
+        283936,
+        3779,
+        338356,
+        327713,
+        459271,
+        367586
+      ],
+      "found_recipe_ranks": {
+        "516267": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        16.737064284441754,
+        10.075282711527493,
+        9.333571873027838,
+        9.112855753825414,
+        9.08043795004686,
+        8.352413850712507,
+        8.164092787037015,
+        8.096622661414818,
+        8.053710625734599,
+        7.992949368808884
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What temperature for oven aarsis?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        476849
+      ],
+      "retrieved_recipe_ids": [
+        476849,
+        345763,
+        312139,
+        505248,
+        518234,
+        325571,
+        406595,
+        53922,
+        284687,
+        507154
+      ],
+      "found_recipe_ranks": {
+        "476849": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        9.599894716953889,
+        6.41908160413799,
+        6.328990987078086,
+        6.033691647348878,
+        6.031252041952582,
+        5.980341418981007,
+        5.784372872699768,
+        5.780423021221365,
+        5.67793445319092,
+        5.572288542947598
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven aarsis?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        476849
+      ],
+      "retrieved_recipe_ids": [
+        476849,
+        283936,
+        151504,
+        97188,
+        338356,
+        181969,
+        303913,
+        303928,
+        325571,
+        246125
+      ],
+      "found_recipe_ranks": {
+        "476849": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        9.242195083801146,
+        8.02242104257154,
+        6.703313238774192,
+        6.670470353008874,
+        6.486300250805706,
+        6.227930531251728,
+        5.942017702763865,
+        5.9268183723660055,
+        5.891032258868706,
+        5.877987043315017
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What temperature for oven 3?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        520809
+      ],
+      "retrieved_recipe_ids": [
+        406595,
+        345763,
+        507154,
+        104588,
+        338907,
+        390230,
+        53922,
+        242,
+        325571,
+        284687
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        7.841691643795297,
+        7.391234773069454,
+        7.219393866586507,
+        7.174299656719274,
+        7.093881227503824,
+        6.9714101788548914,
+        6.910484062301888,
+        6.829636950067616,
+        6.706966486204896,
+        6.7030439710591505
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to oven 3?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        520809
+      ],
+      "retrieved_recipe_ids": [
+        283936,
+        181969,
+        97188,
+        246125,
+        507154,
+        372771,
+        145858,
+        434789,
+        284687,
+        443177
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        9.021653320290632,
+        8.01506890467699,
+        7.7566897772237695,
+        7.580949062907484,
+        7.496395434768,
+        7.187341086033722,
+        7.187307254237004,
+        6.9708027350400075,
+        6.878287083905194,
+        6.871112111055567
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What temperature for oven 50?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        511017
+      ],
+      "retrieved_recipe_ids": [
+        512939,
+        489497,
+        245800,
+        490284,
+        246823,
+        418387,
+        75650,
+        345763,
+        244292,
+        511017
+      ],
+      "found_recipe_ranks": {
+        "511017": 10
+      },
+      "target_rank": 10,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.1,
+      "bm25_scores": [
+        7.815005774462167,
+        7.041257137748991,
+        6.921455726639396,
+        6.891093360491114,
+        6.829475023477506,
+        6.6593694817805105,
+        6.460699049453182,
+        6.41908160413799,
+        6.4119003674928585,
+        6.370697830788022
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven 50?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        511017
+      ],
+      "retrieved_recipe_ids": [
+        246823,
+        283936,
+        490284,
+        512939,
+        75650,
+        151504,
+        97188,
+        338356,
+        202995,
+        244292
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        8.267857311311689,
+        8.02242104257154,
+        7.5546406142299505,
+        7.433235082135198,
+        6.857721505021363,
+        6.703313238774192,
+        6.670470353008874,
+        6.486300250805706,
+        6.484000975222179,
+        6.440853500300257
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What temperature for oven al?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        341907
+      ],
+      "retrieved_recipe_ids": [
+        383339,
+        104588,
+        345763,
+        341907,
+        351041,
+        312139,
+        218853,
+        505248,
+        518234,
+        325571
+      ],
+      "found_recipe_ranks": {
+        "341907": 4
+      },
+      "target_rank": 4,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.25,
+      "bm25_scores": [
+        8.25209696817674,
+        8.194372844853644,
+        6.41908160413799,
+        6.350066101913107,
+        6.334826728757665,
+        6.328990987078086,
+        6.044354358865903,
+        6.033691647348878,
+        6.031252041952582,
+        5.980341418981007
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven al?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        341907
+      ],
+      "retrieved_recipe_ids": [
+        283936,
+        290003,
+        383339,
+        104588,
+        516267,
+        151504,
+        97188,
+        341907,
+        338356,
+        351041
+      ],
+      "found_recipe_ranks": {
+        "341907": 8
+      },
+      "target_rank": 8,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.125,
+      "bm25_scores": [
+        8.02242104257154,
+        6.92142784677921,
+        6.904744799637589,
+        6.8654531375525165,
+        6.714317933854016,
+        6.703313238774192,
+        6.670470353008874,
+        6.623297686471309,
+        6.486300250805706,
+        6.4126404919544235
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What temperature for oven now?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        38276
+      ],
+      "retrieved_recipe_ids": [
+        406595,
+        287939,
+        284687,
+        338907,
+        444749,
+        345763,
+        312139,
+        139353,
+        93802,
+        505248
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        6.957282467110518,
+        6.953282707475366,
+        6.881219030400544,
+        6.582499671538049,
+        6.427256789259616,
+        6.41908160413799,
+        6.328990987078086,
+        6.1307410482358,
+        6.076916698362722,
+        6.033691647348878
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to oven now?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        38276
+      ],
+      "retrieved_recipe_ids": [
+        283936,
+        97188,
+        284687,
+        387136,
+        287939,
+        151504,
+        139353,
+        338356,
+        312190,
+        353862
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        8.02242104257154,
+        7.945486395530205,
+        7.056462143246586,
+        7.038575533610523,
+        6.9562978916215865,
+        6.703313238774192,
+        6.583224238630418,
+        6.486300250805706,
+        6.361444680869672,
+        6.294037454350381
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What temperature for oven all?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        312139
+      ],
+      "retrieved_recipe_ids": [
+        312139,
+        518234,
+        325571,
+        345763,
+        362986,
+        390230,
+        338907,
+        505248,
+        450975,
+        53922
+      ],
+      "found_recipe_ranks": {
+        "312139": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        8.365943397929076,
+        7.788454618092586,
+        7.6596751631743745,
+        7.391234773069454,
+        7.1911575602679605,
+        7.12750134490678,
+        7.093881227503824,
+        7.070841494489133,
+        7.000744032075779,
+        6.910484062301888
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven all?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        312139
+      ],
+      "retrieved_recipe_ids": [
+        283936,
+        97188,
+        151504,
+        246125,
+        181969,
+        325571,
+        338356,
+        372771,
+        450975,
+        123710
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        9.839258759841396,
+        8.413443271984642,
+        7.708671397253973,
+        7.69674091328668,
+        7.619097250430674,
+        7.570366003062073,
+        7.497859863852183,
+        7.364761931115146,
+        7.214444768932195,
+        7.058805355341235
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What temperature for oven amis?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        141035
+      ],
+      "retrieved_recipe_ids": [
+        141035,
+        345763,
+        312139,
+        505248,
+        518234,
+        325571,
+        406595,
+        53922,
+        284687,
+        507154
+      ],
+      "found_recipe_ranks": {
+        "141035": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        7.474176540771422,
+        6.41908160413799,
+        6.328990987078086,
+        6.033691647348878,
+        6.031252041952582,
+        5.980341418981007,
+        5.784372872699768,
+        5.780423021221365,
+        5.67793445319092,
+        5.572288542947598
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven amis?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        141035
+      ],
+      "retrieved_recipe_ids": [
+        141035,
+        283936,
+        151504,
+        97188,
+        338356,
+        181969,
+        303913,
+        303928,
+        325571,
+        246125
+      ],
+      "found_recipe_ranks": {
+        "141035": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        8.686307033039279,
+        8.02242104257154,
+        6.703313238774192,
+        6.670470353008874,
+        6.486300250805706,
+        6.227930531251728,
+        5.942017702763865,
+        5.9268183723660055,
+        5.891032258868706,
+        5.877987043315017
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What temperature for oven america?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        191398
+      ],
+      "retrieved_recipe_ids": [
+        508092,
+        434789,
+        472204,
+        421411,
+        413145,
+        345763,
+        312139,
+        191398,
+        505248,
+        518234
+      ],
+      "found_recipe_ranks": {
+        "191398": 8
+      },
+      "target_rank": 8,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.125,
+      "bm25_scores": [
+        7.445326415144457,
+        7.386891763419102,
+        7.1963259040032534,
+        7.005537744914813,
+        6.517539480678681,
+        6.41908160413799,
+        6.328990987078086,
+        6.253064409246424,
+        6.033691647348878,
+        6.031252041952582
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven america?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        191398
+      ],
+      "retrieved_recipe_ids": [
+        434789,
+        508092,
+        283936,
+        472204,
+        421411,
+        413145,
+        151504,
+        97188,
+        338356,
+        191398
+      ],
+      "found_recipe_ranks": {
+        "191398": 10
+      },
+      "target_rank": 10,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.1,
+      "bm25_scores": [
+        8.278614782004672,
+        8.146386806298558,
+        8.02242104257154,
+        7.396288908341237,
+        7.360623443211958,
+        7.257466763688809,
+        6.703313238774192,
+        6.670470353008874,
+        6.486300250805706,
+        6.475665335514384
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What temperature for oven 24?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        204393
+      ],
+      "retrieved_recipe_ids": [
+        338907,
+        325571,
+        93802,
+        382492,
+        204393,
+        472204,
+        345763,
+        312139,
+        490284,
+        505248
+      ],
+      "found_recipe_ranks": {
+        "204393": 5
+      },
+      "target_rank": 5,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.2,
+      "bm25_scores": [
+        7.983766336676557,
+        7.953355368980806,
+        7.820624047477645,
+        7.6540291687709505,
+        6.674279226735665,
+        6.450744022588895,
+        6.41908160413799,
+        6.328990987078086,
+        6.144142279200719,
+        6.033691647348878
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven 24?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        204393
+      ],
+      "retrieved_recipe_ids": [
+        283936,
+        325571,
+        50115,
+        93802,
+        382492,
+        490284,
+        141035,
+        151504,
+        97188,
+        472204
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        8.02242104257154,
+        7.864046208868505,
+        7.660940879342569,
+        6.952993982286388,
+        6.938286110573901,
+        6.8076895329395555,
+        6.735310581736792,
+        6.703313238774192,
+        6.670470353008874,
+        6.650707026926877
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What temperature for oven a1?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        397287
+      ],
+      "retrieved_recipe_ids": [
+        518234,
+        517863,
+        518146,
+        345763,
+        312139,
+        505248,
+        325571,
+        397287,
+        406595,
+        53922
+      ],
+      "found_recipe_ranks": {
+        "397287": 8
+      },
+      "target_rank": 8,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.125,
+      "bm25_scores": [
+        12.672228824689467,
+        10.23838863056141,
+        10.050713068966825,
+        6.41908160413799,
+        6.328990987078086,
+        6.033691647348878,
+        5.980341418981007,
+        5.976182950013415,
+        5.784372872699768,
+        5.780423021221365
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven a1?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        397287
+      ],
+      "retrieved_recipe_ids": [
+        517863,
+        518234,
+        518146,
+        283936,
+        151504,
+        97188,
+        338356,
+        181969,
+        397287,
+        303913
+      ],
+      "found_recipe_ranks": {
+        "397287": 9
+      },
+      "target_rank": 9,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.1111111111111111,
+      "bm25_scores": [
+        10.925199395867093,
+        10.462402792083434,
+        9.661725791305852,
+        8.02242104257154,
+        6.703313238774192,
+        6.670470353008874,
+        6.486300250805706,
+        6.227930531251728,
+        6.204917067603477,
+        5.942017702763865
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What temperature for oven agnolotti?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        306198
+      ],
+      "retrieved_recipe_ids": [
+        306198,
+        345763,
+        312139,
+        505248,
+        518234,
+        325571,
+        406595,
+        53922,
+        284687,
+        507154
+      ],
+      "found_recipe_ranks": {
+        "306198": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        8.634734344843798,
+        6.41908160413799,
+        6.328990987078086,
+        6.033691647348878,
+        6.031252041952582,
+        5.980341418981007,
+        5.784372872699768,
+        5.780423021221365,
+        5.67793445319092,
+        5.572288542947598
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven agnolotti?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        306198
+      ],
+      "retrieved_recipe_ids": [
+        306198,
+        283936,
+        151504,
+        97188,
+        338356,
+        181969,
+        303913,
+        303928,
+        325571,
+        246125
+      ],
+      "found_recipe_ranks": {
+        "306198": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        10.795890638370174,
+        8.02242104257154,
+        6.703313238774192,
+        6.670470353008874,
+        6.486300250805706,
+        6.227930531251728,
+        5.942017702763865,
+        5.9268183723660055,
+        5.891032258868706,
+        5.877987043315017
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What temperature for oven honey?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        293225
+      ],
+      "retrieved_recipe_ids": [
+        444749,
+        338356,
+        362986,
+        115160,
+        245800,
+        64372,
+        512939,
+        418387,
+        287939,
+        478546
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        8.710970239623096,
+        8.475758735781795,
+        8.051670625035326,
+        7.395986637191088,
+        7.232747207479509,
+        7.222109640656549,
+        7.122727464780268,
+        6.943480036051232,
+        6.878250721527682,
+        6.80765716278327
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to oven honey?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        293225
+      ],
+      "retrieved_recipe_ids": [
+        338356,
+        115160,
+        312190,
+        367586,
+        283936,
+        353862,
+        362986,
+        64372,
+        293225,
+        287939
+      ],
+      "found_recipe_ranks": {
+        "293225": 9
+      },
+      "target_rank": 9,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.1111111111111111,
+      "bm25_scores": [
+        10.127873351402478,
+        9.363107818437165,
+        8.343560985452898,
+        8.106764610319667,
+        8.02242104257154,
+        7.824716325554542,
+        7.772611300131469,
+        7.437203763277708,
+        7.04774420382654,
+        6.881265905673902
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What temperature for oven better?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        513531
+      ],
+      "retrieved_recipe_ids": [
+        312139,
+        518234,
+        390230,
+        147694,
+        338356,
+        123710,
+        345763,
+        3779,
+        484526,
+        505248
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        8.326703139149243,
+        8.111497186618386,
+        7.145526264896224,
+        7.053888908980825,
+        6.742118158084857,
+        6.543219802632118,
+        6.41908160413799,
+        6.2928756718215295,
+        6.13830745138449,
+        6.033691647348878
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to oven better?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        513531
+      ],
+      "retrieved_recipe_ids": [
+        338356,
+        283936,
+        123710,
+        296318,
+        151504,
+        97188,
+        181969,
+        27893,
+        312139,
+        459271
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        8.394232773705538,
+        8.02242104257154,
+        7.717649570283605,
+        6.714687895834777,
+        6.703313238774192,
+        6.670470353008874,
+        6.227930531251728,
+        6.224557520917664,
+        6.061896908733109,
+        5.995089589252494
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What temperature for oven aluminum?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        151504
+      ],
+      "retrieved_recipe_ids": [
+        450975,
+        344915,
+        507154,
+        303928,
+        484526,
+        151504,
+        283936,
+        244193,
+        518146,
+        235855
+      ],
+      "found_recipe_ranks": {
+        "151504": 6
+      },
+      "target_rank": 6,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.16666666666666666,
+      "bm25_scores": [
+        8.457714977906704,
+        8.118260925816827,
+        7.759229308738598,
+        7.667473330517863,
+        7.475091487375159,
+        7.365411044629983,
+        6.969905764828868,
+        6.951764731831663,
+        6.852389314948738,
+        6.544965398185604
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven aluminum?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        151504
+      ],
+      "retrieved_recipe_ids": [
+        151504,
+        283936,
+        450975,
+        303928,
+        344915,
+        244193,
+        507154,
+        484526,
+        65007,
+        97188
+      ],
+      "found_recipe_ranks": {
+        "151504": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        10.43390282219119,
+        10.253145718991142,
+        8.67141571476312,
+        8.417732506191122,
+        8.305316934638169,
+        8.06617654819541,
+        8.03623087692009,
+        6.942835603869931,
+        6.91136831570676,
+        6.670470353008874
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What temperature for microwave aloo?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        327713
+      ],
+      "retrieved_recipe_ids": [
+        327713,
+        404661,
+        145858,
+        397287,
+        443177,
+        383339,
+        81357,
+        78296,
+        3779,
+        287939
+      ],
+      "found_recipe_ranks": {
+        "327713": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        10.657983949604063,
+        7.548865016580718,
+        6.166294889729162,
+        6.131359102791562,
+        5.967515273804737,
+        5.851599406525412,
+        5.653015905126171,
+        5.648093087320882,
+        5.618915021338482,
+        5.593292998006003
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to microwave aloo?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        327713
+      ],
+      "retrieved_recipe_ids": [
+        327713,
+        404661,
+        145858,
+        122791,
+        443177,
+        290371,
+        397287,
+        356932,
+        283936,
+        397940
+      ],
+      "found_recipe_ranks": {
+        "327713": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        12.453007745004093,
+        9.502236877842401,
+        7.735825155401784,
+        7.337736499692135,
+        7.098228609256218,
+        6.735204824967231,
+        6.360093220381623,
+        6.260850109755957,
+        6.023886901232239,
+        5.802916171522686
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What temperature for oven amazing?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        338907
+      ],
+      "retrieved_recipe_ids": [
+        338907,
+        289080,
+        443177,
+        283936,
+        202995,
+        123710,
+        345763,
+        312139,
+        490284,
+        505248
+      ],
+      "found_recipe_ranks": {
+        "338907": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        8.064429876141084,
+        7.6806070826466275,
+        7.588095934532582,
+        7.541076733339977,
+        6.632546618047272,
+        6.503557431026236,
+        6.41908160413799,
+        6.328990987078086,
+        6.228062090522753,
+        6.033691647348878
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven amazing?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        338907
+      ],
+      "retrieved_recipe_ids": [
+        283936,
+        443177,
+        123710,
+        289080,
+        202995,
+        490284,
+        151504,
+        97188,
+        338907,
+        468108
+      ],
+      "found_recipe_ranks": {
+        "338907": 9
+      },
+      "target_rank": 9,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.1111111111111111,
+      "bm25_scores": [
+        10.82431668750225,
+        8.718809269984064,
+        7.677987198677724,
+        7.054717007039997,
+        6.893099929900897,
+        6.891609344261591,
+        6.703313238774192,
+        6.670470353008874,
+        6.664036509414384,
+        6.581713633802396
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What temperature for oven melanie?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        390230
+      ],
+      "retrieved_recipe_ids": [
+        390230,
+        345763,
+        312139,
+        505248,
+        518234,
+        325571,
+        406595,
+        53922,
+        284687,
+        507154
+      ],
+      "found_recipe_ranks": {
+        "390230": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        12.094213550661735,
+        6.41908160413799,
+        6.328990987078086,
+        6.033691647348878,
+        6.031252041952582,
+        5.980341418981007,
+        5.784372872699768,
+        5.780423021221365,
+        5.67793445319092,
+        5.572288542947598
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven melanie?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        390230
+      ],
+      "retrieved_recipe_ids": [
+        390230,
+        283936,
+        151504,
+        97188,
+        338356,
+        181969,
+        303913,
+        303928,
+        325571,
+        246125
+      ],
+      "found_recipe_ranks": {
+        "390230": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        9.044021691640094,
+        8.02242104257154,
+        6.703313238774192,
+        6.670470353008874,
+        6.486300250805706,
+        6.227930531251728,
+        5.942017702763865,
+        5.9268183723660055,
+        5.891032258868706,
+        5.877987043315017
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What temperature for microwave clean?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        53312
+      ],
+      "retrieved_recipe_ids": [
+        404661,
+        507154,
+        444749,
+        520809,
+        93802,
+        505248,
+        476655,
+        145858,
+        397287,
+        424845
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        7.548865016580718,
+        6.907894467672804,
+        6.867378062858151,
+        6.648404048133076,
+        6.5309162384876736,
+        6.201598229975851,
+        6.168153764302989,
+        6.166294889729162,
+        6.131359102791562,
+        6.116545836057164
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to microwave clean?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        53312
+      ],
+      "retrieved_recipe_ids": [
+        404661,
+        145858,
+        122791,
+        507154,
+        327713,
+        443177,
+        476655,
+        290371,
+        520809,
+        397287
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        9.502236877842401,
+        7.735825155401784,
+        7.337736499692135,
+        7.1848960358542975,
+        7.132177132033071,
+        7.098228609256218,
+        6.843667053481079,
+        6.735204824967231,
+        6.393477848209476,
+        6.360093220381623
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What temperature for oven the?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        392181
+      ],
+      "retrieved_recipe_ids": [
+        345763,
+        312139,
+        518234,
+        325571,
+        505248,
+        53922,
+        284687,
+        338907,
+        507154,
+        450975
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        8.827284960919112,
+        8.660479482154678,
+        8.417647872853536,
+        8.394468471426006,
+        8.248288049238662,
+        8.008842373594732,
+        7.981429955699566,
+        7.891512939708532,
+        7.86173150458369,
+        7.815419090212211
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to oven the?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        392181
+      ],
+      "retrieved_recipe_ids": [
+        283936,
+        151504,
+        97188,
+        338356,
+        181969,
+        325571,
+        443177,
+        387136,
+        307799,
+        246125
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        10.412005291611216,
+        9.123403031801324,
+        9.071159965742446,
+        8.880999636788722,
+        8.663617850153681,
+        8.305159311313705,
+        8.258364786786407,
+        8.241040625588138,
+        8.202936512875478,
+        8.202516800167581
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What temperature for oven 4th?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        351041
+      ],
+      "retrieved_recipe_ids": [
+        312139,
+        351041,
+        116111,
+        341816,
+        345763,
+        314774,
+        505248,
+        518234,
+        325571,
+        406595
+      ],
+      "found_recipe_ranks": {
+        "351041": 2
+      },
+      "target_rank": 2,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.5,
+      "bm25_scores": [
+        9.774121236499449,
+        8.161499277991359,
+        7.040381396598251,
+        6.578092746944778,
+        6.41908160413799,
+        6.274340646450375,
+        6.033691647348878,
+        6.031252041952582,
+        5.980341418981007,
+        5.784372872699768
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to oven 4th?",
+      "query_type": "appliance_settings",
+      "complexity_level": "equipment_specific",
+      "expected_recipe_ids": [
+        351041
+      ],
+      "retrieved_recipe_ids": [
+        314774,
+        351041,
+        283936,
+        312139,
+        341816,
+        151504,
+        97188,
+        116111,
+        338356,
+        181969
+      ],
+      "found_recipe_ranks": {
+        "351041": 2
+      },
+      "target_rank": 2,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.5,
+      "bm25_scores": [
+        8.675991728551704,
+        8.239313041188117,
+        8.02242104257154,
+        7.509315006083314,
+        7.11005363038344,
+        6.703313238774192,
+        6.670470353008874,
+        6.6309487076651985,
+        6.486300250805706,
+        6.227930531251728
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to bake amish?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        233539
+      ],
+      "retrieved_recipe_ids": [
+        246125,
+        233539,
+        146096,
+        397940,
+        80457,
+        411947,
+        81357,
+        78296,
+        283936,
+        97188
+      ],
+      "found_recipe_ranks": {
+        "233539": 2
+      },
+      "target_rank": 2,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.5,
+      "bm25_scores": [
+        12.455742055841363,
+        10.80061959039926,
+        9.080635049746043,
+        9.019945338289256,
+        8.651081378979992,
+        8.272475354964506,
+        8.137662033866105,
+        8.128073924872961,
+        6.023886901232239,
+        5.773955407165614
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the bake time for amish?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        233539
+      ],
+      "retrieved_recipe_ids": [
+        246125,
+        233539,
+        411947,
+        81357,
+        78296,
+        80457,
+        146096,
+        338907,
+        397940,
+        390230
+      ],
+      "found_recipe_ranks": {
+        "233539": 2
+      },
+      "target_rank": 2,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.5,
+      "bm25_scores": [
+        14.289069730625474,
+        13.961644031360825,
+        13.798413380831853,
+        12.99456553279238,
+        12.979830968220066,
+        12.470480039311916,
+        12.061195759918565,
+        10.852208290706066,
+        10.479744786371423,
+        10.44843752633897
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to chill a?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        307279
+      ],
+      "retrieved_recipe_ids": [
+        372771,
+        27893,
+        307279,
+        516267,
+        283936,
+        288998,
+        53922,
+        116111,
+        242806,
+        406595
+      ],
+      "found_recipe_ranks": {
+        "307279": 3
+      },
+      "target_rank": 3,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.3333333333333333,
+      "bm25_scores": [
+        9.036825206496413,
+        8.702308250855815,
+        8.679825894093177,
+        8.230796026469068,
+        8.08120567232777,
+        7.902946439637366,
+        7.866535434662252,
+        7.815980492715553,
+        7.646110692729215,
+        7.596856047761785
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the chill time for a?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        307279
+      ],
+      "retrieved_recipe_ids": [
+        307279,
+        390230,
+        372771,
+        406595,
+        444749,
+        114061,
+        192721,
+        426816,
+        242179,
+        45120
+      ],
+      "found_recipe_ranks": {
+        "307279": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        12.849770495500664,
+        12.648478254215561,
+        12.590191755645384,
+        12.462398082143554,
+        12.403763861682645,
+        12.183411852800319,
+        11.890172856038019,
+        11.793570592203562,
+        11.787178672443806,
+        11.70308794833197
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to roast alton?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        443177
+      ],
+      "retrieved_recipe_ids": [
+        443177,
+        450975,
+        151504,
+        362986,
+        181969,
+        65007,
+        507154,
+        338356,
+        242952,
+        147694
+      ],
+      "found_recipe_ranks": {
+        "443177": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        11.502074315721437,
+        9.327792986042263,
+        8.934366632248347,
+        7.678379801582564,
+        7.468485664073574,
+        7.372890509260516,
+        7.257049087202409,
+        7.245001402384755,
+        7.0481135460572055,
+        6.988042726520656
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the roast time for alton?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        443177
+      ],
+      "retrieved_recipe_ids": [
+        443177,
+        450975,
+        242952,
+        147694,
+        362986,
+        317265,
+        511017,
+        151504,
+        382492,
+        390230
+      ],
+      "found_recipe_ranks": {
+        "443177": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        14.55612541651785,
+        14.122263776733625,
+        13.596716023726112,
+        12.926127531003896,
+        12.752430154749609,
+        11.872240286858215,
+        11.58207235336495,
+        11.153436926327059,
+        10.56366269285573,
+        10.44843752633897
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to chill almond?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        288998
+      ],
+      "retrieved_recipe_ids": [
+        288998,
+        307279,
+        53922,
+        192721,
+        242806,
+        97188,
+        246823,
+        372771,
+        314774,
+        296318
+      ],
+      "found_recipe_ranks": {
+        "288998": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        10.240784515701502,
+        8.997972618129326,
+        8.841302016265807,
+        8.607768516907214,
+        8.363584601096415,
+        7.8258076787731925,
+        7.723391238172465,
+        7.582195979835664,
+        7.233035031224851,
+        7.201763843146537
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the chill time for almond?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        288998
+      ],
+      "retrieved_recipe_ids": [
+        192721,
+        307279,
+        288998,
+        53922,
+        242806,
+        372771,
+        296318,
+        290453,
+        406595,
+        97188
+      ],
+      "found_recipe_ranks": {
+        "288998": 3
+      },
+      "target_rank": 3,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.3333333333333333,
+      "bm25_scores": [
+        13.732914783733776,
+        13.167917219536813,
+        13.041498620136245,
+        12.47624401415283,
+        11.462133739584768,
+        11.135562528984634,
+        11.077687357535059,
+        11.02444062395854,
+        10.796972294226471,
+        10.620323516976171
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to boil absolutely?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        45120
+      ],
+      "retrieved_recipe_ids": [
+        468108,
+        244193,
+        45120,
+        489497,
+        283936,
+        118115,
+        502254,
+        341816,
+        454071,
+        287008
+      ],
+      "found_recipe_ranks": {
+        "45120": 3
+      },
+      "target_rank": 3,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.3333333333333333,
+      "bm25_scores": [
+        6.9740095810703036,
+        6.873992194201864,
+        6.794567206277945,
+        6.636463487595144,
+        6.489825784751364,
+        6.306554094765462,
+        5.59630267108977,
+        5.562484490178221,
+        5.532497723312332,
+        5.479253910143427
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the boil time for absolutely?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        45120
+      ],
+      "retrieved_recipe_ids": [
+        45120,
+        502254,
+        287008,
+        468108,
+        390230,
+        489497,
+        454071,
+        192721,
+        76915,
+        244193
+      ],
+      "found_recipe_ranks": {
+        "45120": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        13.969345801396507,
+        11.243998150168654,
+        11.198726428897988,
+        11.008514599902549,
+        10.891983215537966,
+        10.850832774676533,
+        10.301074287969389,
+        10.218857317423554,
+        9.406014626070478,
+        9.343639466473295
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to boil the?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        361017
+      ],
+      "retrieved_recipe_ids": [
+        283936,
+        151504,
+        372771,
+        312190,
+        246125,
+        97188,
+        404661,
+        338356,
+        443177,
+        307799
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        8.87941003379104,
+        7.689666892494933,
+        7.687113543544129,
+        7.462457317831912,
+        7.331428597104928,
+        7.08842559568429,
+        7.085024014936737,
+        7.0540415585811065,
+        7.047657076072879,
+        6.984993181780498
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What's the boil time for the?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        361017
+      ],
+      "retrieved_recipe_ids": [
+        390230,
+        45120,
+        76915,
+        287008,
+        104588,
+        338907,
+        93802,
+        242952,
+        522117,
+        505248
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        13.183178043783501,
+        12.369581792760552,
+        11.70918999901328,
+        11.703626766792329,
+        11.702940925894787,
+        11.649840002910773,
+        11.637276215685585,
+        11.59864784323699,
+        11.51284197882508,
+        11.500034298268702
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to cook a?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        303666
+      ],
+      "retrieved_recipe_ids": [
+        151504,
+        312190,
+        283936,
+        338356,
+        327713,
+        459271,
+        367586,
+        516267,
+        27893,
+        372771
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        9.333571873027838,
+        9.112855753825414,
+        9.08043795004686,
+        8.164092787037015,
+        8.096622661414818,
+        8.053710625734599,
+        7.992949368808884,
+        7.8953972302727315,
+        7.831661541272402,
+        7.829332928545983
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What's the cook time for a?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        303666
+      ],
+      "retrieved_recipe_ids": [
+        390230,
+        45120,
+        287008,
+        57204,
+        383339,
+        104588,
+        505248,
+        450975,
+        362986,
+        362832
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        14.424556414825176,
+        13.157506254102975,
+        12.978084918237162,
+        12.79213025256486,
+        12.576149238015372,
+        12.571347699939295,
+        12.512324688229588,
+        12.36241113543582,
+        12.346515871456104,
+        12.306403907666661
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to boil a?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        271012
+      ],
+      "retrieved_recipe_ids": [
+        283936,
+        151504,
+        312190,
+        404661,
+        246125,
+        97188,
+        443177,
+        50115,
+        314774,
+        372771
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        8.547144555846893,
+        7.511688029548898,
+        7.4245691634543505,
+        7.1871145995496075,
+        7.168616986346705,
+        6.921924210446301,
+        6.866888777063969,
+        6.860779357490305,
+        6.831845905455066,
+        6.803307165356727
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What's the boil time for a?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        271012
+      ],
+      "retrieved_recipe_ids": [
+        390230,
+        45120,
+        287008,
+        242952,
+        522117,
+        104588,
+        76915,
+        93802,
+        505248,
+        338907
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        13.092023943414556,
+        12.264082394391457,
+        11.634854600675592,
+        11.550601846915576,
+        11.53632429761414,
+        11.52937954603727,
+        11.525349083654417,
+        11.507929680479286,
+        11.475174841089334,
+        11.45433941558163
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to rest alton?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        382492
+      ],
+      "retrieved_recipe_ids": [
+        443177,
+        181969,
+        382492,
+        245800,
+        242952,
+        147694,
+        344915,
+        312190,
+        283936,
+        307799
+      ],
+      "found_recipe_ranks": {
+        "382492": 3
+      },
+      "target_rank": 3,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.3333333333333333,
+      "bm25_scores": [
+        10.202856712586728,
+        7.468485664073574,
+        7.405339370364427,
+        7.053934798248511,
+        7.0481135460572055,
+        6.988042726520656,
+        6.704263192006126,
+        6.477972532143606,
+        6.023886901232239,
+        5.959046669116144
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the rest time for alton?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        382492
+      ],
+      "retrieved_recipe_ids": [
+        242952,
+        443177,
+        147694,
+        382492,
+        390230,
+        245800,
+        287939,
+        325571,
+        450975,
+        181969
+      ],
+      "found_recipe_ranks": {
+        "382492": 4
+      },
+      "target_rank": 4,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.25,
+      "bm25_scores": [
+        13.596716023726112,
+        13.25690781338314,
+        12.926127531003896,
+        12.417826318557625,
+        10.44843752633897,
+        10.166219439734718,
+        9.737924395384585,
+        9.59228998061906,
+        9.586217857909752,
+        9.558685939630998
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to boil alabama?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        93802
+      ],
+      "retrieved_recipe_ids": [
+        93802,
+        174846,
+        283936,
+        372771,
+        151504,
+        312190,
+        246125,
+        404661,
+        97188,
+        338356
+      ],
+      "found_recipe_ranks": {
+        "93802": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        11.225988169863617,
+        8.27270674220156,
+        6.489825784751364,
+        5.348677938695977,
+        5.2695770994678,
+        5.1592336831363905,
+        5.006898840252364,
+        4.970314293850327,
+        4.687735982950718,
+        4.659342172598091
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the boil time for alabama?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        93802
+      ],
+      "retrieved_recipe_ids": [
+        93802,
+        174846,
+        390230,
+        45120,
+        76915,
+        242952,
+        104588,
+        287008,
+        505248,
+        338907
+      ],
+      "found_recipe_ranks": {
+        "93802": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        16.154603145743984,
+        11.40641533124818,
+        10.891983215537966,
+        10.020145951486725,
+        9.406014626070478,
+        9.315216747897539,
+        9.313435092350634,
+        9.303682258741784,
+        9.285437896378918,
+        9.273800927692296
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to rise almost?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        303913
+      ],
+      "retrieved_recipe_ids": [
+        303913,
+        246125,
+        303928,
+        284687,
+        325571,
+        139353,
+        141035,
+        288427,
+        181106,
+        414783
+      ],
+      "found_recipe_ranks": {
+        "303913": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        9.300049903881838,
+        8.863810784026944,
+        8.712970322425235,
+        8.154647259756478,
+        7.580579021363112,
+        7.5062259570413,
+        7.461314930966128,
+        7.1556655154095665,
+        6.685188214168409,
+        6.2843329529474925
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the rise time for almost?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        303913
+      ],
+      "retrieved_recipe_ids": [
+        141035,
+        181106,
+        383339,
+        303928,
+        325571,
+        139353,
+        339431,
+        284687,
+        45120,
+        246125
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        12.173239042893163,
+        12.126199005863581,
+        11.433800706065107,
+        11.391964309617851,
+        11.3844119676061,
+        11.310920918233926,
+        11.140390929598063,
+        10.826728039598681,
+        10.793483503900184,
+        10.697138458811057
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to bake 5?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        65007
+      ],
+      "retrieved_recipe_ids": [
+        97188,
+        283936,
+        325571,
+        181969,
+        233539,
+        345763,
+        65007,
+        27893,
+        246125,
+        246823
+      ],
+      "found_recipe_ranks": {
+        "65007": 7
+      },
+      "target_rank": 7,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.14285714285714285,
+      "bm25_scores": [
+        7.288062279854586,
+        7.0231191789513305,
+        6.842863252570215,
+        6.688071604922388,
+        6.484580150230893,
+        6.4377077573212675,
+        6.423818287286341,
+        6.3501471721089775,
+        6.298658365318489,
+        6.2860465834557235
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the bake time for 5?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        65007
+      ],
+      "retrieved_recipe_ids": [
+        338907,
+        104588,
+        505248,
+        242952,
+        383339,
+        325571,
+        390230,
+        444749,
+        418387,
+        45120
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        12.185218492502884,
+        11.454098205523739,
+        11.359737590659426,
+        11.333085546352192,
+        11.064610915697715,
+        10.646696198813203,
+        10.44843752633897,
+        10.335325776138932,
+        10.309732164534902,
+        10.251477057051178
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to cook america?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        413145
+      ],
+      "retrieved_recipe_ids": [
+        413145,
+        508092,
+        421411,
+        191398,
+        151504,
+        283936,
+        312190,
+        434789,
+        372771,
+        338356
+      ],
+      "found_recipe_ranks": {
+        "413145": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        9.389522191321412,
+        9.209805530924632,
+        7.8344622211397095,
+        7.401371627924494,
+        7.091460942946739,
+        7.0231191789513305,
+        6.847520273507454,
+        6.557137602092715,
+        6.374703701885234,
+        6.099373263334513
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the cook time for america?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        413145
+      ],
+      "retrieved_recipe_ids": [
+        413145,
+        508092,
+        421411,
+        390230,
+        191398,
+        45120,
+        57204,
+        287008,
+        383339,
+        104588
+      ],
+      "found_recipe_ranks": {
+        "413145": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        13.271188237091993,
+        13.041906399504985,
+        12.83621356349878,
+        12.224515686948585,
+        11.972825522624131,
+        10.913569811198244,
+        10.713524261261435,
+        10.646912576303354,
+        10.383499047011423,
+        10.35540324625266
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to boil ajiaco?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        204012
+      ],
+      "retrieved_recipe_ids": [
+        204012,
+        283936,
+        372771,
+        151504,
+        312190,
+        246125,
+        404661,
+        97188,
+        338356,
+        443177
+      ],
+      "found_recipe_ranks": {
+        "204012": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        13.156553543739065,
+        6.489825784751364,
+        5.348677938695977,
+        5.2695770994678,
+        5.1592336831363905,
+        5.006898840252364,
+        4.970314293850327,
+        4.687735982950718,
+        4.659342172598091,
+        4.63620949283301
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the boil time for ajiaco?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        204012
+      ],
+      "retrieved_recipe_ids": [
+        204012,
+        390230,
+        45120,
+        76915,
+        93802,
+        242952,
+        104588,
+        287008,
+        505248,
+        338907
+      ],
+      "found_recipe_ranks": {
+        "204012": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        15.018109111656292,
+        10.891983215537966,
+        10.020145951486725,
+        9.406014626070478,
+        9.337579870241035,
+        9.315216747897539,
+        9.313435092350634,
+        9.303682258741784,
+        9.285437896378918,
+        9.273800927692296
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to cook all?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        57204
+      ],
+      "retrieved_recipe_ids": [
+        283936,
+        312190,
+        372771,
+        151504,
+        31008,
+        57204,
+        338356,
+        450975,
+        367586,
+        204012
+      ],
+      "found_recipe_ranks": {
+        "57204": 6
+      },
+      "target_rank": 6,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.16666666666666666,
+      "bm25_scores": [
+        8.839956896221187,
+        8.535806863878518,
+        8.390787694304404,
+        8.096819101426519,
+        7.660837013752759,
+        7.307638355472358,
+        7.11093287638099,
+        7.0723941803965324,
+        6.95257458961264,
+        6.916227026420319
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the cook time for all?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        57204
+      ],
+      "retrieved_recipe_ids": [
+        390230,
+        57204,
+        362986,
+        372771,
+        383339,
+        450975,
+        287008,
+        45120,
+        518234,
+        505248
+      ],
+      "found_recipe_ranks": {
+        "57204": 2
+      },
+      "target_rank": 2,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.5,
+      "bm25_scores": [
+        14.0005938475582,
+        12.661271074650784,
+        11.986148588531147,
+        11.944154243453372,
+        11.918869790697581,
+        11.866864971087892,
+        11.737939413009693,
+        11.705895362822183,
+        11.476718829991116,
+        11.359737590659426
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to rise a?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        288427
+      ],
+      "retrieved_recipe_ids": [
+        325571,
+        139353,
+        246125,
+        303913,
+        284687,
+        303928,
+        181969,
+        387136,
+        141035,
+        339431
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        9.839350398462747,
+        9.822866606057707,
+        8.850114966637205,
+        8.791658680889292,
+        8.731786179636615,
+        8.601943611863677,
+        8.419469784370811,
+        8.298522372795887,
+        8.168207348810723,
+        8.086901662243836
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What's the rise time for a?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        288427
+      ],
+      "retrieved_recipe_ids": [
+        325571,
+        139353,
+        339431,
+        141035,
+        390230,
+        181106,
+        435816,
+        287939,
+        45120,
+        287008
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        13.643183344705735,
+        13.627561567250332,
+        13.480168826442608,
+        12.880131460737758,
+        12.648478254215561,
+        12.591808051746472,
+        12.470673709170185,
+        12.079258226355648,
+        11.70308794833197,
+        11.634854600675592
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to bake aarsis?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        476849
+      ],
+      "retrieved_recipe_ids": [
+        476849,
+        246125,
+        283936,
+        97188,
+        303928,
+        233539,
+        244193,
+        288427,
+        345763,
+        325571
+      ],
+      "found_recipe_ranks": {
+        "476849": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        8.435471482436107,
+        6.298658365318489,
+        6.023886901232239,
+        5.773955407165614,
+        5.7635887445678975,
+        5.675501352241952,
+        5.551993236083609,
+        5.508792533856731,
+        5.465554588389804,
+        5.464692454845408
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the bake time for aarsis?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        476849
+      ],
+      "retrieved_recipe_ids": [
+        476849,
+        338907,
+        390230,
+        505248,
+        383339,
+        242952,
+        104588,
+        362986,
+        45120,
+        287008
+      ],
+      "found_recipe_ranks": {
+        "476849": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        11.807549124307362,
+        10.852208290706066,
+        10.44843752633897,
+        10.322587743519172,
+        9.956369609511489,
+        9.868247208482384,
+        9.700474781395915,
+        9.513609006592038,
+        9.459151505427238,
+        9.303682258741784
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to boil african?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        362224
+      ],
+      "retrieved_recipe_ids": [
+        287939,
+        362986,
+        367586,
+        387136,
+        362224,
+        283936,
+        385942,
+        372771,
+        151504,
+        312190
+      ],
+      "found_recipe_ranks": {
+        "362224": 5
+      },
+      "target_rank": 5,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.2,
+      "bm25_scores": [
+        9.231797761559296,
+        8.261233277709636,
+        7.884266390029948,
+        7.482524691898567,
+        7.475141128820657,
+        6.489825784751364,
+        5.591097220447146,
+        5.348677938695977,
+        5.2695770994678,
+        5.1592336831363905
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the boil time for african?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        362224
+      ],
+      "retrieved_recipe_ids": [
+        287939,
+        362224,
+        362986,
+        390230,
+        387136,
+        367586,
+        45120,
+        76915,
+        93802,
+        242952
+      ],
+      "found_recipe_ranks": {
+        "362224": 2
+      },
+      "target_rank": 2,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.5,
+      "bm25_scores": [
+        13.552974980091594,
+        13.394560916796475,
+        13.335283630876678,
+        10.891983215537966,
+        10.288796151909501,
+        10.051582323494545,
+        10.020145951486725,
+        9.406014626070478,
+        9.337579870241035,
+        9.315216747897539
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to bake 3?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        520809
+      ],
+      "retrieved_recipe_ids": [
+        246125,
+        372771,
+        233539,
+        181969,
+        283936,
+        97188,
+        312190,
+        145858,
+        345763,
+        27893
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        8.001620384910956,
+        7.187341086033722,
+        7.148583434169005,
+        7.084043259168704,
+        7.0231191789513305,
+        6.86017483138051,
+        6.847520273507454,
+        6.527230221566918,
+        6.4377077573212675,
+        6.3501471721089775
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What's the bake time for 3?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        520809
+      ],
+      "retrieved_recipe_ids": [
+        338907,
+        390230,
+        104588,
+        242952,
+        372771,
+        45120,
+        242,
+        141035,
+        505248,
+        233539
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        12.430615653719837,
+        12.068424520896695,
+        11.761195408805586,
+        11.567362449485877,
+        10.740707635182693,
+        10.662235811012508,
+        10.593071844451952,
+        10.3339944017266,
+        10.322587743519172,
+        10.30960787513057
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to roast 50?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        511017
+      ],
+      "retrieved_recipe_ids": [
+        450975,
+        151504,
+        511017,
+        490284,
+        362986,
+        65007,
+        507154,
+        338356,
+        443177,
+        246823
+      ],
+      "found_recipe_ranks": {
+        "511017": 3
+      },
+      "target_rank": 3,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.3333333333333333,
+      "bm25_scores": [
+        9.327792986042263,
+        8.934366632248347,
+        8.877269041139893,
+        8.010476505153832,
+        7.678379801582564,
+        7.372890509260516,
+        7.257049087202409,
+        7.245001402384755,
+        6.776587065317401,
+        6.742686212951932
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the roast time for 50?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        511017
+      ],
+      "retrieved_recipe_ids": [
+        450975,
+        511017,
+        490284,
+        362986,
+        317265,
+        45120,
+        151504,
+        390230,
+        507154,
+        290453
+      ],
+      "found_recipe_ranks": {
+        "511017": 2
+      },
+      "target_rank": 2,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.5,
+      "bm25_scores": [
+        14.122263776733625,
+        13.778298068294426,
+        13.141253931994614,
+        12.752430154749609,
+        11.872240286858215,
+        11.373424157794348,
+        11.153436926327059,
+        10.44843752633897,
+        10.420539515937609,
+        9.989545180207633
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to rest almond?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        64372
+      ],
+      "retrieved_recipe_ids": [
+        307799,
+        97188,
+        246823,
+        314774,
+        296318,
+        118115,
+        64372,
+        242806,
+        312190,
+        141035
+      ],
+      "found_recipe_ranks": {
+        "64372": 7
+      },
+      "target_rank": 7,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.14285714285714285,
+      "bm25_scores": [
+        9.004722758832697,
+        7.8258076787731925,
+        7.723391238172465,
+        7.233035031224851,
+        7.201763843146537,
+        7.037244422225891,
+        6.632224379081151,
+        6.5345735969955525,
+        6.477972532143606,
+        6.4172369351918865
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the rest time for almond?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        64372
+      ],
+      "retrieved_recipe_ids": [
+        192721,
+        141035,
+        296318,
+        290453,
+        97188,
+        390230,
+        66012,
+        106417,
+        307799,
+        64372
+      ],
+      "found_recipe_ranks": {
+        "64372": 10
+      },
+      "target_rank": 10,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.1,
+      "bm25_scores": [
+        11.394911079491127,
+        11.12916104711892,
+        11.077687357535059,
+        11.02444062395854,
+        10.620323516976171,
+        10.44843752633897,
+        10.37746452359309,
+        10.283661716790673,
+        10.114760257453165,
+        10.080655950323871
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to steep al?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        341907
+      ],
+      "retrieved_recipe_ids": [
+        341907,
+        289080,
+        290003,
+        516267,
+        218853,
+        283936,
+        383339,
+        372771,
+        104588,
+        339440
+      ],
+      "found_recipe_ranks": {
+        "341907": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        10.510340414031917,
+        7.2699184317411225,
+        6.92142784677921,
+        6.714317933854016,
+        6.350619887030847,
+        6.023886901232239,
+        5.36937405595143,
+        5.348677938695977,
+        5.339268176881957,
+        5.278589993720704
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the steep time for al?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        341907
+      ],
+      "retrieved_recipe_ids": [
+        341907,
+        383339,
+        218853,
+        104588,
+        289080,
+        390230,
+        45120,
+        287008,
+        505248,
+        338907
+      ],
+      "found_recipe_ranks": {
+        "341907": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        14.858942931453706,
+        11.955690537427204,
+        11.719934302585964,
+        11.682573637668876,
+        10.634960487048444,
+        10.44843752633897,
+        9.459151505427238,
+        9.303682258741784,
+        9.285437896378918,
+        9.273800927692296
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to simmer now?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        38276
+      ],
+      "retrieved_recipe_ids": [
+        312190,
+        362832,
+        393717,
+        522117,
+        283936,
+        97188,
+        397940,
+        204012,
+        38276,
+        173730
+      ],
+      "found_recipe_ranks": {
+        "38276": 9
+      },
+      "target_rank": 9,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.1111111111111111,
+      "bm25_scores": [
+        6.361444680869672,
+        6.325931375157088,
+        6.229232136824523,
+        6.043155242442045,
+        6.023886901232239,
+        5.962752025472049,
+        5.722809146585746,
+        5.694714463373888,
+        5.666516317622303,
+        5.6204911489462335
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the simmer time for now?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        38276
+      ],
+      "retrieved_recipe_ids": [
+        390230,
+        362832,
+        522117,
+        45120,
+        173730,
+        338907,
+        499888,
+        93802,
+        76915,
+        381040
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        11.700909760594783,
+        11.232337162178299,
+        10.88981975491702,
+        10.389191759448902,
+        10.377942314079883,
+        10.34082673474029,
+        10.307653985635815,
+        10.137901609051832,
+        10.112520157463898,
+        9.921335888318984
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to chill all?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        312139
+      ],
+      "retrieved_recipe_ids": [
+        372771,
+        283936,
+        288998,
+        307279,
+        114061,
+        406595,
+        312190,
+        246125,
+        53922,
+        27893
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        9.598279972254833,
+        7.840724618502096,
+        7.5181756135415565,
+        7.304405111506846,
+        6.931992409283819,
+        6.9306625375637925,
+        6.847520273507454,
+        6.825652710224027,
+        6.746082394434394,
+        6.545213011049945
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What's the chill time for all?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        312139
+      ],
+      "retrieved_recipe_ids": [
+        372771,
+        390230,
+        114061,
+        406595,
+        307279,
+        312139,
+        57204,
+        338907,
+        426816,
+        225426
+      ],
+      "found_recipe_ranks": {
+        "312139": 6
+      },
+      "target_rank": 6,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.16666666666666666,
+      "bm25_scores": [
+        13.151646521403803,
+        12.224515686948585,
+        11.812948469397835,
+        11.796204571945562,
+        11.474349712914332,
+        11.329336997220292,
+        10.962993736045432,
+        10.852208290706066,
+        10.773797146537998,
+        10.49425935962693
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to rise amis?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        141035
+      ],
+      "retrieved_recipe_ids": [
+        141035,
+        325571,
+        139353,
+        303928,
+        303913,
+        246125,
+        284687,
+        181969,
+        283936,
+        387136
+      ],
+      "found_recipe_ranks": {
+        "141035": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        10.335842984568124,
+        7.580579021363112,
+        7.5062259570413,
+        6.833915378879775,
+        6.731554421795632,
+        6.688396820542865,
+        6.428290677127968,
+        6.193744539729088,
+        6.023886901232239,
+        5.976218971528239
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the rise time for amis?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        141035
+      ],
+      "retrieved_recipe_ids": [
+        141035,
+        325571,
+        139353,
+        339431,
+        181106,
+        390230,
+        435816,
+        287939,
+        303928,
+        45120
+      ],
+      "found_recipe_ranks": {
+        "141035": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        15.047767096495159,
+        11.3844119676061,
+        11.310920918233926,
+        11.140390929598063,
+        10.453612972243432,
+        10.44843752633897,
+        10.189259121007744,
+        9.825043928697465,
+        9.51290936607239,
+        9.459151505427238
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to marinate a?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        368577
+      ],
+      "retrieved_recipe_ids": [
+        368577,
+        283936,
+        151504,
+        312190,
+        404661,
+        246125,
+        97188,
+        372771,
+        338356,
+        233539
+      ],
+      "found_recipe_ranks": {
+        "368577": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        9.1399852406933,
+        8.08120567232777,
+        7.511688029548898,
+        7.4245691634543505,
+        7.1871145995496075,
+        7.168616986346705,
+        6.921924210446301,
+        6.803307165356727,
+        6.724061696300593,
+        6.605729640180069
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the marinate time for a?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        368577
+      ],
+      "retrieved_recipe_ids": [
+        368577,
+        390230,
+        45120,
+        287008,
+        505248,
+        338907,
+        362832,
+        57204,
+        242952,
+        383339
+      ],
+      "found_recipe_ranks": {
+        "368577": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        14.276694876383033,
+        12.648478254215561,
+        11.70308794833197,
+        11.634854600675592,
+        11.475174841089334,
+        11.45433941558163,
+        11.209808066914485,
+        11.093852913959507,
+        11.067418672026394,
+        11.040778494329212
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to bake 24?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        204393
+      ],
+      "retrieved_recipe_ids": [
+        325571,
+        50115,
+        93802,
+        141035,
+        516267,
+        246125,
+        338907,
+        472204,
+        204393,
+        283936
+      ],
+      "found_recipe_ranks": {
+        "204393": 9
+      },
+      "target_rank": 9,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.1111111111111111,
+      "bm25_scores": [
+        7.437706404845207,
+        7.237969983486392,
+        6.952993982286388,
+        6.735310581736792,
+        6.6271671666368945,
+        6.298658365318489,
+        6.2272383230896065,
+        6.222849174134467,
+        6.063122952664514,
+        6.023886901232239
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the bake time for 24?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        204393
+      ],
+      "retrieved_recipe_ids": [
+        338907,
+        93802,
+        141035,
+        325571,
+        382492,
+        390230,
+        505248,
+        204393,
+        50115,
+        490284
+      ],
+      "found_recipe_ranks": {
+        "204393": 8
+      },
+      "target_rank": 8,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.125,
+      "bm25_scores": [
+        13.320500762892568,
+        11.881608958166757,
+        11.447234693663827,
+        11.241539351088196,
+        11.031620640697618,
+        10.44843752633897,
+        10.322587743519172,
+        10.314855776470306,
+        10.145699969212838,
+        9.976928726688552
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to roast a1?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        397287
+      ],
+      "retrieved_recipe_ids": [
+        517863,
+        450975,
+        151504,
+        518234,
+        518146,
+        362986,
+        65007,
+        507154,
+        338356,
+        443177
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        9.393924837169713,
+        9.327792986042263,
+        8.934366632248347,
+        8.93214886686876,
+        7.7244973024404775,
+        7.678379801582564,
+        7.372890509260516,
+        7.257049087202409,
+        7.245001402384755,
+        6.776587065317401
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What's the roast time for a1?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        397287
+      ],
+      "retrieved_recipe_ids": [
+        518234,
+        450975,
+        362986,
+        517863,
+        317265,
+        511017,
+        518146,
+        151504,
+        390230,
+        507154
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        14.830239111373322,
+        14.122263776733625,
+        12.752430154749609,
+        12.219831594564944,
+        11.872240286858215,
+        11.58207235336495,
+        11.181998421698655,
+        11.153436926327059,
+        10.44843752633897,
+        10.420539515937609
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to bake alton?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        344915
+      ],
+      "retrieved_recipe_ids": [
+        443177,
+        181969,
+        242952,
+        344915,
+        147694,
+        382492,
+        246125,
+        245800,
+        283936,
+        97188
+      ],
+      "found_recipe_ranks": {
+        "344915": 4
+      },
+      "target_rank": 4,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.25,
+      "bm25_scores": [
+        8.884117863579512,
+        8.432475073601696,
+        8.084327181531233,
+        7.6437941867109185,
+        6.988042726520656,
+        6.562735357709009,
+        6.298658365318489,
+        6.240229633057032,
+        6.023886901232239,
+        5.773955407165614
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the bake time for alton?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        344915
+      ],
+      "retrieved_recipe_ids": [
+        242952,
+        147694,
+        443177,
+        382492,
+        338907,
+        181969,
+        390230,
+        344915,
+        505248,
+        383339
+      ],
+      "found_recipe_ranks": {
+        "344915": 8
+      },
+      "target_rank": 8,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.125,
+      "bm25_scores": [
+        14.632929659200139,
+        12.926127531003896,
+        11.938168964375924,
+        11.575222305902207,
+        10.852208290706066,
+        10.522675349159117,
+        10.44843752633897,
+        10.433738420903971,
+        10.322587743519172,
+        9.956369609511489
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to rise agnolotti?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        306198
+      ],
+      "retrieved_recipe_ids": [
+        306198,
+        325571,
+        139353,
+        303928,
+        303913,
+        246125,
+        284687,
+        181969,
+        283936,
+        387136
+      ],
+      "found_recipe_ranks": {
+        "306198": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        12.941389109169375,
+        7.580579021363112,
+        7.5062259570413,
+        6.833915378879775,
+        6.731554421795632,
+        6.688396820542865,
+        6.428290677127968,
+        6.193744539729088,
+        6.023886901232239,
+        5.976218971528239
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the rise time for agnolotti?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        306198
+      ],
+      "retrieved_recipe_ids": [
+        306198,
+        325571,
+        139353,
+        339431,
+        141035,
+        181106,
+        390230,
+        435816,
+        287939,
+        303928
+      ],
+      "found_recipe_ranks": {
+        "306198": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        16.06329649187284,
+        11.3844119676061,
+        11.310920918233926,
+        11.140390929598063,
+        10.665064994540893,
+        10.453612972243432,
+        10.44843752633897,
+        10.189259121007744,
+        9.825043928697465,
+        9.51290936607239
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to bake honey?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        293225
+      ],
+      "retrieved_recipe_ids": [
+        115160,
+        312190,
+        338356,
+        353862,
+        444749,
+        362986,
+        367586,
+        64372,
+        418387,
+        246125
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        8.70327394331787,
+        8.343560985452898,
+        8.300915273194862,
+        7.824716325554542,
+        7.3842819378842846,
+        7.105479738028549,
+        6.977814941930982,
+        6.784780997472145,
+        6.6916468797055835,
+        6.298658365318489
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What's the bake time for honey?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        293225
+      ],
+      "retrieved_recipe_ids": [
+        444749,
+        362986,
+        418387,
+        338356,
+        338907,
+        115160,
+        181106,
+        390230,
+        242,
+        505248
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        12.809639377602227,
+        12.179530091195595,
+        11.563762583992613,
+        10.980039928581203,
+        10.852208290706066,
+        10.82424297604313,
+        10.576446937153033,
+        10.44843752633897,
+        10.419871185339375,
+        10.322587743519172
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to cook better?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        513531
+      ],
+      "retrieved_recipe_ids": [
+        338356,
+        27893,
+        459271,
+        361017,
+        151504,
+        283936,
+        123710,
+        312190,
+        513531,
+        322512
+      ],
+      "found_recipe_ranks": {
+        "513531": 9
+      },
+      "target_rank": 9,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.1111111111111111,
+      "bm25_scores": [
+        8.007305786234346,
+        7.754811446132338,
+        7.669422176824913,
+        7.601042752427309,
+        7.091460942946739,
+        7.0231191789513305,
+        6.91012502038879,
+        6.847520273507454,
+        6.785053878570354,
+        6.6578925617848785
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the cook time for better?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        513531
+      ],
+      "retrieved_recipe_ids": [
+        390230,
+        518234,
+        123710,
+        218853,
+        361017,
+        459271,
+        45120,
+        57204,
+        141035,
+        338356
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        14.018618767547643,
+        11.799761398516916,
+        11.677035595829103,
+        11.503196498677603,
+        11.031482545763561,
+        10.956903654285734,
+        10.913569811198244,
+        10.713524261261435,
+        10.704657792115643,
+        10.686430441620686
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to roast aluminum?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        151504
+      ],
+      "retrieved_recipe_ids": [
+        151504,
+        450975,
+        65007,
+        507154,
+        511017,
+        283936,
+        362986,
+        338356,
+        490284,
+        443177
+      ],
+      "found_recipe_ranks": {
+        "151504": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        12.664956215665345,
+        12.405513337832613,
+        9.612694118111682,
+        9.443989852993408,
+        8.71039052355711,
+        8.254611577651842,
+        7.678379801582564,
+        7.245001402384755,
+        6.80686055532695,
+        6.776587065317401
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the roast time for aluminum?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        151504
+      ],
+      "retrieved_recipe_ids": [
+        450975,
+        151504,
+        511017,
+        362986,
+        507154,
+        490284,
+        317265,
+        65007,
+        390230,
+        338356
+      ],
+      "found_recipe_ranks": {
+        "151504": 2
+      },
+      "target_rank": 2,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.5,
+      "bm25_scores": [
+        17.199984128523973,
+        14.884026509744057,
+        13.611419550711641,
+        12.752430154749609,
+        12.60748028172861,
+        11.937637982167733,
+        11.872240286858215,
+        11.671897797309205,
+        10.44843752633897,
+        9.924126057771096
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to cook aloo?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        327713
+      ],
+      "retrieved_recipe_ids": [
+        327713,
+        151504,
+        283936,
+        312190,
+        372771,
+        338356,
+        367586,
+        459271,
+        516267,
+        31008
+      ],
+      "found_recipe_ranks": {
+        "327713": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        11.131170349055843,
+        7.091460942946739,
+        7.0231191789513305,
+        6.847520273507454,
+        6.374703701885234,
+        6.099373263334513,
+        5.823624921223955,
+        5.766520168353146,
+        5.7629395072732255,
+        5.678787331046374
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the cook time for aloo?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        327713
+      ],
+      "retrieved_recipe_ids": [
+        327713,
+        390230,
+        45120,
+        57204,
+        287008,
+        383339,
+        104588,
+        505248,
+        450975,
+        362832
+      ],
+      "found_recipe_ranks": {
+        "327713": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        12.753605801328312,
+        12.224515686948585,
+        10.913569811198244,
+        10.713524261261435,
+        10.646912576303354,
+        10.383499047011423,
+        10.35540324625266,
+        10.322587743519172,
+        10.246115565128468,
+        10.193917956137566
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to bake amazing?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        338907
+      ],
+      "retrieved_recipe_ids": [
+        283936,
+        443177,
+        202995,
+        289080,
+        468108,
+        123710,
+        338907,
+        246125,
+        302143,
+        97188
+      ],
+      "found_recipe_ranks": {
+        "338907": 7
+      },
+      "target_rank": 7,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.14285714285714285,
+      "bm25_scores": [
+        8.82578254616295,
+        7.030522679613,
+        6.893099929900897,
+        6.6280540989798675,
+        6.581713633802396,
+        6.457889231142312,
+        6.307901862554132,
+        6.298658365318489,
+        6.112719610635445,
+        5.773955407165614
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the bake time for amazing?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        338907
+      ],
+      "retrieved_recipe_ids": [
+        338907,
+        123710,
+        302143,
+        202995,
+        468108,
+        390230,
+        505248,
+        283936,
+        443177,
+        490284
+      ],
+      "found_recipe_ranks": {
+        "338907": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        13.401164302357095,
+        11.224799806582626,
+        11.141955313741919,
+        10.74921781693852,
+        10.616218652634643,
+        10.44843752633897,
+        10.322587743519172,
+        10.206063962269823,
+        10.084573780409412,
+        10.060848538010585
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to simmer american?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        490104
+      ],
+      "retrieved_recipe_ids": [
+        31008,
+        372771,
+        283936,
+        246125,
+        459271,
+        362832,
+        490104,
+        404661,
+        361017,
+        204012
+      ],
+      "found_recipe_ranks": {
+        "490104": 7
+      },
+      "target_rank": 7,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.14285714285714285,
+      "bm25_scores": [
+        6.368158907338783,
+        6.341407405955671,
+        6.023886901232239,
+        5.888475892083184,
+        5.8531209309553045,
+        5.78712059710157,
+        5.753256399984542,
+        5.721570140750841,
+        5.567888032049106,
+        5.556840449576863
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the simmer time for american?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        490104
+      ],
+      "retrieved_recipe_ids": [
+        390230,
+        362832,
+        505248,
+        338907,
+        57204,
+        518234,
+        287008,
+        372771,
+        93802,
+        450975
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        11.700909760594783,
+        10.69352638412278,
+        10.285772942644435,
+        10.1835300072594,
+        10.174257017264951,
+        10.086309280362471,
+        10.048266837765999,
+        9.89477395510464,
+        9.872874390291152,
+        9.746166402102238
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to cook melanie?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        390230
+      ],
+      "retrieved_recipe_ids": [
+        390230,
+        151504,
+        283936,
+        312190,
+        372771,
+        338356,
+        367586,
+        327713,
+        459271,
+        516267
+      ],
+      "found_recipe_ranks": {
+        "390230": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        10.820099852249708,
+        7.091460942946739,
+        7.0231191789513305,
+        6.847520273507454,
+        6.374703701885234,
+        6.099373263334513,
+        5.823624921223955,
+        5.810339736084821,
+        5.766520168353146,
+        5.7629395072732255
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the cook time for melanie?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        390230
+      ],
+      "retrieved_recipe_ids": [
+        390230,
+        45120,
+        57204,
+        287008,
+        383339,
+        104588,
+        505248,
+        450975,
+        362832,
+        362986
+      ],
+      "found_recipe_ranks": {
+        "390230": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        18.967306053313152,
+        10.913569811198244,
+        10.713524261261435,
+        10.646912576303354,
+        10.383499047011423,
+        10.35540324625266,
+        10.322587743519172,
+        10.246115565128468,
+        10.193917956137566,
+        10.180740568694956
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to cook clean?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        53312
+      ],
+      "retrieved_recipe_ids": [
+        459271,
+        151504,
+        283936,
+        312190,
+        362986,
+        507154,
+        372771,
+        118115,
+        414783,
+        338356
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        7.355690376146995,
+        7.091460942946739,
+        7.0231191789513305,
+        6.847520273507454,
+        6.659024037161062,
+        6.610085599876049,
+        6.374703701885234,
+        6.165158627246965,
+        6.119326807512864,
+        6.099373263334513
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What's the cook time for clean?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        53312
+      ],
+      "retrieved_recipe_ids": [
+        390230,
+        505248,
+        362986,
+        45120,
+        173730,
+        57204,
+        287008,
+        459271,
+        93802,
+        444749
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        12.224515686948585,
+        11.956267875477288,
+        11.733074390328106,
+        10.913569811198244,
+        10.83666411751383,
+        10.713524261261435,
+        10.646912576303354,
+        10.643171853607816,
+        10.591901149176785,
+        10.53848445939386
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How long to rest amazing?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        123710
+      ],
+      "retrieved_recipe_ids": [
+        283936,
+        443177,
+        490284,
+        123710,
+        468108,
+        312190,
+        307799,
+        325571,
+        27893,
+        289080
+      ],
+      "found_recipe_ranks": {
+        "123710": 4
+      },
+      "target_rank": 4,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.25,
+      "bm25_scores": [
+        8.82578254616295,
+        8.349261528620216,
+        6.696696716075088,
+        6.689264218708433,
+        6.581713633802396,
+        6.477972532143606,
+        5.959046669116144,
+        5.788457034376072,
+        5.564413188344134,
+        5.5090092784563485
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the rest time for amazing?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        123710
+      ],
+      "retrieved_recipe_ids": [
+        490284,
+        338907,
+        123710,
+        443177,
+        468108,
+        390230,
+        283936,
+        302143,
+        348870,
+        287939
+      ],
+      "found_recipe_ranks": {
+        "123710": 3
+      },
+      "target_rank": 3,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.3333333333333333,
+      "bm25_scores": [
+        11.82747414291587,
+        11.822756939343325,
+        11.456174794148748,
+        11.403312629416629,
+        10.616218652634643,
+        10.44843752633897,
+        10.206063962269823,
+        10.084746676065363,
+        9.765900559292328,
+        9.737924395384585
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How long to cook 4th?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        351041
+      ],
+      "retrieved_recipe_ids": [
+        351041,
+        314774,
+        369773,
+        151504,
+        283936,
+        312190,
+        116111,
+        372771,
+        338356,
+        367586
+      ],
+      "found_recipe_ranks": {
+        "351041": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        8.633786472921354,
+        7.606968674901676,
+        7.318369597521587,
+        7.091460942946739,
+        7.0231191789513305,
+        6.847520273507454,
+        6.6309487076651985,
+        6.374703701885234,
+        6.099373263334513,
+        5.823624921223955
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What's the cook time for 4th?",
+      "query_type": "timing_specifics",
+      "complexity_level": "timing_precision",
+      "expected_recipe_ids": [
+        351041
+      ],
+      "retrieved_recipe_ids": [
+        390230,
+        351041,
+        45120,
+        57204,
+        287008,
+        369773,
+        312139,
+        383339,
+        104588,
+        505248
+      ],
+      "found_recipe_ranks": {
+        "351041": 2
+      },
+      "target_rank": 2,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.5,
+      "bm25_scores": [
+        12.224515686948585,
+        11.940279565275352,
+        10.913569811198244,
+        10.713524261261435,
+        10.646912576303354,
+        10.641110834455771,
+        10.431869087091163,
+        10.383499047011423,
+        10.35540324625266,
+        10.322587743519172
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What internal temp for medium-rare turkey?",
+      "query_type": "temperature_precision",
+      "complexity_level": "temp_precision",
+      "expected_recipe_ids": [
+        443177
+      ],
+      "retrieved_recipe_ids": [
+        490284,
+        507154,
+        444749,
+        93802,
+        344915,
+        144829,
+        191398,
+        443177,
+        151504,
+        517863
+      ],
+      "found_recipe_ranks": {
+        "443177": 8
+      },
+      "target_rank": 8,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.125,
+      "bm25_scores": [
+        16.49973196809495,
+        15.701607577781207,
+        9.495026350194316,
+        9.118278854404533,
+        8.740663122359848,
+        8.579199395824208,
+        8.54524504379068,
+        8.50827712426543,
+        7.761175796424107,
+        7.556447967714395
+      ],
+      "found_any": true
+    },
+    {
+      "query": "Cooking temperature for turkey?",
+      "query_type": "temperature_precision",
+      "complexity_level": "temp_precision",
+      "expected_recipe_ids": [
+        443177
+      ],
+      "retrieved_recipe_ids": [
+        507154,
+        443177,
+        151504,
+        490284,
+        144829,
+        361017,
+        242179,
+        517863,
+        390230,
+        53312
+      ],
+      "found_recipe_ranks": {
+        "443177": 2
+      },
+      "target_rank": 2,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.5,
+      "bm25_scores": [
+        10.29177306599905,
+        9.351002979672295,
+        8.864460238046783,
+        8.53990510885172,
+        8.401732377163567,
+        6.371073111310867,
+        6.172062349744262,
+        6.025173409017016,
+        5.915171275298141,
+        5.599556312971476
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What internal temp for medium-rare chicken?",
+      "query_type": "temperature_precision",
+      "complexity_level": "temp_precision",
+      "expected_recipe_ids": [
+        93802
+      ],
+      "retrieved_recipe_ids": [
+        93802,
+        490284,
+        507154,
+        444749,
+        344915,
+        191398,
+        362832,
+        390230,
+        362224,
+        338356
+      ],
+      "found_recipe_ranks": {
+        "93802": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        12.31900202157121,
+        10.743935278490145,
+        9.879942159767308,
+        9.495026350194316,
+        8.740663122359848,
+        8.54524504379068,
+        8.24880781266821,
+        7.603406862329953,
+        7.182989503721184,
+        7.101591056192781
+      ],
+      "found_any": true
+    },
+    {
+      "query": "Cooking temperature for chicken?",
+      "query_type": "temperature_precision",
+      "complexity_level": "temp_precision",
+      "expected_recipe_ids": [
+        93802
+      ],
+      "retrieved_recipe_ids": [
+        93802,
+        511017,
+        390230,
+        173730,
+        235855,
+        362224,
+        338356,
+        367586,
+        174846,
+        53312
+      ],
+      "found_recipe_ranks": {
+        "93802": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        7.38297489201692,
+        7.124576400982032,
+        6.5153830650207425,
+        6.412799180479916,
+        6.313031634634912,
+        6.151821185084458,
+        5.942297868130175,
+        5.932970661292934,
+        5.697926728832243,
+        5.52244214505423
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What internal temp for medium-rare fish?",
+      "query_type": "temperature_precision",
+      "complexity_level": "temp_precision",
+      "expected_recipe_ids": [
+        245800
+      ],
+      "retrieved_recipe_ids": [
+        444749,
+        490284,
+        369773,
+        507154,
+        62037,
+        93802,
+        118115,
+        490104,
+        344915,
+        191398
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        14.760611606954829,
+        10.743935278490145,
+        10.049278630612985,
+        9.879942159767308,
+        9.852029468285835,
+        9.118278854404533,
+        8.786165262907598,
+        8.763302872358961,
+        8.740663122359848,
+        8.54524504379068
+      ],
+      "found_any": false
+    },
+    {
+      "query": "Cooking temperature for fish?",
+      "query_type": "temperature_precision",
+      "complexity_level": "temp_precision",
+      "expected_recipe_ids": [
+        245800
+      ],
+      "retrieved_recipe_ids": [
+        444749,
+        118115,
+        62037,
+        369773,
+        490104,
+        472184,
+        372771,
+        353806,
+        245260,
+        507154
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        8.781613507852644,
+        8.5422284108149,
+        8.123057596946708,
+        8.06654426055483,
+        7.287162625448061,
+        6.0782094189467974,
+        5.202258987910849,
+        5.0263034935594915,
+        4.608159940431641,
+        4.470107647985153
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What internal temp for medium-rare beef?",
+      "query_type": "temperature_precision",
+      "complexity_level": "temp_precision",
+      "expected_recipe_ids": [
+        57204
+      ],
+      "retrieved_recipe_ids": [
+        191398,
+        490284,
+        344915,
+        507154,
+        444749,
+        93802,
+        499804,
+        450975,
+        518234,
+        338356
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        11.42610042793633,
+        10.743935278490145,
+        10.156232284778255,
+        9.879942159767308,
+        9.495026350194316,
+        9.118278854404533,
+        7.941004623016722,
+        7.050175464003287,
+        6.789025224830288,
+        6.641352938322799
+      ],
+      "found_any": false
+    },
+    {
+      "query": "Cooking temperature for beef?",
+      "query_type": "temperature_precision",
+      "complexity_level": "temp_precision",
+      "expected_recipe_ids": [
+        57204
+      ],
+      "retrieved_recipe_ids": [
+        368577,
+        283936,
+        270955,
+        31008,
+        508092,
+        344915,
+        338356,
+        53312,
+        218853,
+        351041
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        6.561333662882928,
+        6.449419629221164,
+        6.106987831538648,
+        6.021078524013636,
+        5.672885653054843,
+        5.497060473941688,
+        5.482059750260193,
+        5.42382158586401,
+        5.412125129367782,
+        5.283738804017775
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What internal temp for medium-rare pork?",
+      "query_type": "temperature_precision",
+      "complexity_level": "temp_precision",
+      "expected_recipe_ids": [
+        322512
+      ],
+      "retrieved_recipe_ids": [
+        191398,
+        490284,
+        507154,
+        440717,
+        444749,
+        338356,
+        93802,
+        344915,
+        502254,
+        393717
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        10.804604644870324,
+        10.743935278490145,
+        9.879942159767308,
+        9.545303517592135,
+        9.495026350194316,
+        9.302123841900212,
+        9.118278854404533,
+        8.740663122359848,
+        6.810556388860173,
+        6.105870046581515
+      ],
+      "found_any": false
+    },
+    {
+      "query": "Cooking temperature for pork?",
+      "query_type": "temperature_precision",
+      "complexity_level": "temp_precision",
+      "expected_recipe_ids": [
+        322512
+      ],
+      "retrieved_recipe_ids": [
+        338356,
+        440717,
+        283936,
+        53312,
+        218853,
+        204012,
+        242179,
+        508092,
+        459271,
+        322512
+      ],
+      "found_recipe_ranks": {
+        "322512": 10
+      },
+      "target_rank": 10,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.1,
+      "bm25_scores": [
+        8.142830653837606,
+        7.314035848587763,
+        7.210010564281104,
+        6.284477916091831,
+        6.268832832661397,
+        5.9790537426948,
+        5.876117639690815,
+        5.823457722257851,
+        5.406131636508093,
+        5.251342967795042
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What internal temp for medium-rare lamb?",
+      "query_type": "temperature_precision",
+      "complexity_level": "temp_precision",
+      "expected_recipe_ids": [
+        344915
+      ],
+      "retrieved_recipe_ids": [
+        344915,
+        490284,
+        78296,
+        507154,
+        81357,
+        444749,
+        93802,
+        191398,
+        327713,
+        385942
+      ],
+      "found_recipe_ranks": {
+        "344915": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        14.484390916289794,
+        10.743935278490145,
+        9.921566284538416,
+        9.879942159767308,
+        9.706613016017634,
+        9.495026350194316,
+        9.118278854404533,
+        8.54524504379068,
+        7.323060854846183,
+        6.702129904255758
+      ],
+      "found_any": true
+    },
+    {
+      "query": "Cooking temperature for lamb?",
+      "query_type": "temperature_precision",
+      "complexity_level": "temp_precision",
+      "expected_recipe_ids": [
+        344915
+      ],
+      "retrieved_recipe_ids": [
+        344915,
+        78296,
+        81357,
+        327713,
+        472184,
+        290003,
+        385942,
+        507154,
+        284687,
+        93802
+      ],
+      "found_recipe_ranks": {
+        "344915": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        9.825219105453225,
+        8.805784570257257,
+        8.588658016167818,
+        6.5257792254516325,
+        6.411095671703798,
+        5.760026172253427,
+        5.26928855383531,
+        4.470107647985153,
+        4.406663003493498,
+        4.182251724850243
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How to get tender a?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        307279
+      ],
+      "retrieved_recipe_ids": [
+        338356,
+        151504,
+        404661,
+        473002,
+        327713,
+        204012,
+        31008,
+        499888,
+        353862,
+        312190
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        8.79921976455268,
+        8.359373291275558,
+        8.115275109716755,
+        7.982606161128317,
+        7.91954714768724,
+        7.81014890178818,
+        7.711545735142866,
+        7.500470070586529,
+        7.485090051150019,
+        7.4245691634543505
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What makes a tender?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        307279
+      ],
+      "retrieved_recipe_ids": [
+        57204,
+        450975,
+        362224,
+        499888,
+        123710,
+        518234,
+        93802,
+        440717,
+        3779,
+        76915
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        7.419046902082388,
+        7.027132827394112,
+        6.703741045971223,
+        6.68424326642794,
+        6.097610899146604,
+        5.622608827755222,
+        5.543050601646809,
+        5.011841758942646,
+        4.977066010541885,
+        4.974376846293856
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How to get seared alton?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        443177
+      ],
+      "retrieved_recipe_ids": [
+        443177,
+        242952,
+        147694,
+        151504,
+        404661,
+        382492,
+        344915,
+        372771,
+        245800,
+        353862
+      ],
+      "found_recipe_ranks": {
+        "443177": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        8.884117863579512,
+        7.921815141237726,
+        7.8547034864285035,
+        6.11726236119446,
+        5.898474804017476,
+        5.551175744662531,
+        5.409610192600033,
+        5.348677938695977,
+        5.314339020446903,
+        5.305746107424706
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What makes alton seared?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        443177
+      ],
+      "retrieved_recipe_ids": [
+        242952,
+        147694,
+        443177,
+        362224,
+        57204,
+        450975,
+        382492,
+        181969,
+        344915,
+        245800
+      ],
+      "found_recipe_ranks": {
+        "443177": 3
+      },
+      "target_rank": 3,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.3333333333333333,
+      "bm25_scores": [
+        6.361011838340808,
+        6.320943619517501,
+        4.725487250404036,
+        4.544483842845071,
+        3.848551036337385,
+        3.538960196507216,
+        3.290301879418562,
+        3.1355701878582543,
+        3.0560142553923195,
+        3.011646158581006
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How to get tender almond?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        288998
+      ],
+      "retrieved_recipe_ids": [
+        97188,
+        246823,
+        314774,
+        290453,
+        307799,
+        118115,
+        49746,
+        106417,
+        338356,
+        271012
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        7.905191722355831,
+        7.723391238172465,
+        7.233035031224851,
+        7.167570038623152,
+        7.112581433032648,
+        7.100878221115442,
+        7.084217190169462,
+        6.842312913712984,
+        6.734500240850178,
+        6.482371732366801
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What makes almond tender?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        288998
+      ],
+      "retrieved_recipe_ids": [
+        57204,
+        118115,
+        450975,
+        290453,
+        97188,
+        362224,
+        499888,
+        288998,
+        192721,
+        123710
+      ],
+      "found_recipe_ranks": {
+        "288998": 8
+      },
+      "target_rank": 8,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.125,
+      "bm25_scores": [
+        5.340440910778963,
+        4.924013934435388,
+        4.9108372570867616,
+        4.909237786009537,
+        4.703369151239883,
+        4.544483842845071,
+        4.506383815566377,
+        4.173560917461285,
+        4.09236435778829,
+        3.808881470584023
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How to get tender absolutely?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        45120
+      ],
+      "retrieved_recipe_ids": [
+        489497,
+        45120,
+        244193,
+        338356,
+        287008,
+        468108,
+        118115,
+        151504,
+        502254,
+        404661
+      ],
+      "found_recipe_ranks": {
+        "45120": 2
+      },
+      "target_rank": 2,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.5,
+      "bm25_scores": [
+        7.025576932327936,
+        6.901635864830512,
+        6.873992194201864,
+        6.734500240850178,
+        6.611821974268073,
+        6.49251989532622,
+        6.370187893655013,
+        6.11726236119446,
+        6.014369812047527,
+        5.898474804017476
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What makes absolutely tender?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        45120
+      ],
+      "retrieved_recipe_ids": [
+        45120,
+        502254,
+        57204,
+        450975,
+        362224,
+        499888,
+        118115,
+        489497,
+        123710,
+        287008
+      ],
+      "found_recipe_ranks": {
+        "45120": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        5.802600313912822,
+        5.3790133230942665,
+        5.340440910778963,
+        4.9108372570867616,
+        4.544483842845071,
+        4.506383815566377,
+        4.1933236069749595,
+        3.9673682480013435,
+        3.808881470584023,
+        3.5758155309026933
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How to get tender the?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        361017
+      ],
+      "retrieved_recipe_ids": [
+        338356,
+        151504,
+        473002,
+        404661,
+        327713,
+        204012,
+        31008,
+        499888,
+        372771,
+        322512
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        9.129199626833193,
+        8.537352154221594,
+        8.223228774302337,
+        8.013184525103886,
+        7.963475249242854,
+        7.904693364126422,
+        7.835890683451962,
+        7.711757020631558,
+        7.687113543544129,
+        7.558903847268576
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What makes the tender?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        361017
+      ],
+      "retrieved_recipe_ids": [
+        57204,
+        450975,
+        362224,
+        499888,
+        123710,
+        518234,
+        93802,
+        76915,
+        473002,
+        246125
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        7.673791542360859,
+        7.346261721182616,
+        6.954706680790752,
+        6.895530216472968,
+        6.234156543427465,
+        5.674845171503883,
+        5.672397136853108,
+        5.1582177616527165,
+        5.144946205563345,
+        5.136513926802726
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How to get caramelized alton?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        382492
+      ],
+      "retrieved_recipe_ids": [
+        443177,
+        283936,
+        242952,
+        147694,
+        146,
+        465810,
+        151504,
+        404661,
+        382492,
+        344915
+      ],
+      "found_recipe_ranks": {
+        "382492": 9
+      },
+      "target_rank": 9,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.1111111111111111,
+      "bm25_scores": [
+        8.884117863579512,
+        8.089593886428272,
+        7.921815141237726,
+        7.8547034864285035,
+        6.396682579259707,
+        6.2802258384554515,
+        6.11726236119446,
+        5.898474804017476,
+        5.551175744662531,
+        5.409610192600033
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What makes alton caramelized?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        382492
+      ],
+      "retrieved_recipe_ids": [
+        242952,
+        147694,
+        443177,
+        362224,
+        146,
+        465810,
+        283936,
+        57204,
+        450975,
+        382492
+      ],
+      "found_recipe_ranks": {
+        "382492": 10
+      },
+      "target_rank": 10,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.1,
+      "bm25_scores": [
+        6.361011838340808,
+        6.320943619517501,
+        4.725487250404036,
+        4.544483842845071,
+        4.05039354607548,
+        4.039797961999764,
+        4.032764982784844,
+        3.848551036337385,
+        3.538960196507216,
+        3.290301879418562
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How to get tender alabama?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        93802
+      ],
+      "retrieved_recipe_ids": [
+        93802,
+        174846,
+        338356,
+        151504,
+        404661,
+        473002,
+        31008,
+        327713,
+        204012,
+        372771
+      ],
+      "found_recipe_ranks": {
+        "93802": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        10.769871480919157,
+        6.782968561738202,
+        6.734500240850178,
+        6.11726236119446,
+        5.898474804017476,
+        5.8027989731442045,
+        5.729496052436481,
+        5.6332642223572424,
+        5.538162831304133,
+        5.348677938695977
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What makes alabama tender?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        93802
+      ],
+      "retrieved_recipe_ids": [
+        93802,
+        57204,
+        450975,
+        174846,
+        362224,
+        499888,
+        123710,
+        518234,
+        76915,
+        65007
+      ],
+      "found_recipe_ranks": {
+        "93802": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        10.18972406691151,
+        5.340440910778963,
+        4.9108372570867616,
+        4.732676289216902,
+        4.544483842845071,
+        4.506383815566377,
+        3.808881470584023,
+        3.28844934060293,
+        2.855042388709916,
+        2.8122056807728644
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How to get seared almost?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        303913
+      ],
+      "retrieved_recipe_ids": [
+        246125,
+        353862,
+        151504,
+        404661,
+        383339,
+        468108,
+        3779,
+        372771,
+        312190,
+        53922
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        7.071142030377446,
+        7.013799107910476,
+        6.11726236119446,
+        5.898474804017476,
+        5.781917206275491,
+        5.421031384939175,
+        5.371517931509433,
+        5.348677938695977,
+        5.1592336831363905,
+        5.08435235896253
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What makes almost seared?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        303913
+      ],
+      "retrieved_recipe_ids": [
+        362224,
+        246125,
+        303913,
+        3779,
+        383339,
+        284687,
+        478546,
+        57204,
+        450975,
+        512939
+      ],
+      "found_recipe_ranks": {
+        "303913": 3
+      },
+      "target_rank": 3,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.3333333333333333,
+      "bm25_scores": [
+        6.181658206417538,
+        4.98739813343424,
+        4.957917512353866,
+        4.342800924149575,
+        4.292963356147853,
+        3.9578800827653877,
+        3.956994793646735,
+        3.848551036337385,
+        3.538960196507216,
+        3.4150428115395366
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How to get crispy 5?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        65007
+      ],
+      "retrieved_recipe_ids": [
+        429949,
+        151504,
+        493780,
+        270955,
+        287008,
+        393717,
+        499804,
+        325571,
+        312190,
+        303666
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        7.874824257747627,
+        7.122620519674241,
+        7.058120287918494,
+        6.6121617118707166,
+        6.611821974268073,
+        6.55328103592121,
+        6.536403873174595,
+        6.329728271982473,
+        6.183428590645418,
+        5.99192544789387
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What makes 5 crispy?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        65007
+      ],
+      "retrieved_recipe_ids": [
+        493780,
+        57204,
+        123710,
+        429949,
+        362224,
+        450975,
+        393717,
+        147694,
+        508092,
+        348870
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        5.456036687929258,
+        4.883830148814974,
+        4.834078752661307,
+        4.677755007222583,
+        4.544483842845071,
+        4.490957853999712,
+        4.380226149564544,
+        4.374434643782198,
+        3.950721684409647,
+        3.8851413650824482
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How to get crispy america?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        413145
+      ],
+      "retrieved_recipe_ids": [
+        191398,
+        413145,
+        508092,
+        287008,
+        393717,
+        429949,
+        151504,
+        493780,
+        147694,
+        404661
+      ],
+      "found_recipe_ranks": {
+        "413145": 2
+      },
+      "target_rank": 2,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.5,
+      "bm25_scores": [
+        8.167569637601964,
+        7.257466763688809,
+        7.160880063379594,
+        6.611821974268073,
+        6.55328103592121,
+        6.135372816318253,
+        6.11726236119446,
+        6.020032535860977,
+        5.9081945106932015,
+        5.898474804017476
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What makes america crispy?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        413145
+      ],
+      "retrieved_recipe_ids": [
+        508092,
+        191398,
+        413145,
+        123710,
+        362224,
+        493780,
+        393717,
+        147694,
+        57204,
+        472204
+      ],
+      "found_recipe_ranks": {
+        "413145": 3
+      },
+      "target_rank": 3,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.3333333333333333,
+      "bm25_scores": [
+        6.9524950317770635,
+        6.032908886547429,
+        5.0366384670782995,
+        4.834078752661307,
+        4.544483842845071,
+        4.41794893587174,
+        4.380226149564544,
+        4.374434643782198,
+        3.848551036337385,
+        3.6978002998081596
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How to get tender ajiaco?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        204012
+      ],
+      "retrieved_recipe_ids": [
+        204012,
+        338356,
+        151504,
+        404661,
+        473002,
+        31008,
+        327713,
+        372771,
+        499888,
+        353862
+      ],
+      "found_recipe_ranks": {
+        "204012": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        14.407956260343646,
+        6.734500240850178,
+        6.11726236119446,
+        5.898474804017476,
+        5.8027989731442045,
+        5.729496052436481,
+        5.6332642223572424,
+        5.348677938695977,
+        5.322610619724966,
+        5.305746107424706
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What makes ajiaco tender?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        204012
+      ],
+      "retrieved_recipe_ids": [
+        204012,
+        57204,
+        450975,
+        362224,
+        499888,
+        123710,
+        93802,
+        518234,
+        76915,
+        65007
+      ],
+      "found_recipe_ranks": {
+        "204012": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        10.719834535282105,
+        5.340440910778963,
+        4.9108372570867616,
+        4.544483842845071,
+        4.506383815566377,
+        3.808881470584023,
+        3.372700791408558,
+        3.28844934060293,
+        2.855042388709916,
+        2.8122056807728644
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How to get tender all?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        57204
+      ],
+      "retrieved_recipe_ids": [
+        338356,
+        31008,
+        372771,
+        204012,
+        473002,
+        151504,
+        312190,
+        353862,
+        246125,
+        325571
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        7.7460598538966545,
+        7.711545735142866,
+        7.364761931115146,
+        7.234205621976689,
+        7.188089832445929,
+        7.122620519674241,
+        6.847520273507454,
+        6.748491987961467,
+        6.714481936865029,
+        6.630891218451033
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What makes all tender?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        57204
+      ],
+      "retrieved_recipe_ids": [
+        57204,
+        450975,
+        362224,
+        499888,
+        123710,
+        518234,
+        246125,
+        93802,
+        76915,
+        390230
+      ],
+      "found_recipe_ranks": {
+        "57204": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        7.288187724168313,
+        6.531586663046184,
+        5.944131642568445,
+        5.581413654085317,
+        5.445675383473747,
+        5.0456519167429335,
+        4.630738039921824,
+        4.503875395475865,
+        4.481148834380796,
+        4.271734228478895
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How to get seared african?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        362224
+      ],
+      "retrieved_recipe_ids": [
+        362224,
+        367586,
+        287939,
+        362986,
+        387136,
+        151504,
+        404661,
+        385942,
+        372771,
+        353862
+      ],
+      "found_recipe_ranks": {
+        "362224": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        8.20196659693158,
+        7.884266390029948,
+        7.86321679194196,
+        7.73417390531524,
+        7.482524691898567,
+        6.11726236119446,
+        5.898474804017476,
+        5.591097220447146,
+        5.348677938695977,
+        5.305746107424706
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What makes african seared?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        362224
+      ],
+      "retrieved_recipe_ids": [
+        362224,
+        287939,
+        362986,
+        57204,
+        367586,
+        450975,
+        387136,
+        385942,
+        246125,
+        3779
+      ],
+      "found_recipe_ranks": {
+        "362224": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        9.304774965416044,
+        7.175144322845771,
+        6.325394717776385,
+        3.848551036337385,
+        3.8396295734700128,
+        3.538960196507216,
+        3.483351973947449,
+        3.416295008320489,
+        2.8119841699501618,
+        2.7382391746362136
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How to get tender 3?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        520809
+      ],
+      "retrieved_recipe_ids": [
+        327713,
+        372771,
+        404661,
+        312190,
+        473002,
+        338356,
+        246125,
+        252621,
+        499888,
+        353862
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        7.5195117762393835,
+        7.187341086033722,
+        6.999276933542044,
+        6.847520273507454,
+        6.76115485601173,
+        6.734500240850178,
+        6.598690086485834,
+        6.4356016933133775,
+        6.397640458243906,
+        6.319986969040566
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What makes 3 tender?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        520809
+      ],
+      "retrieved_recipe_ids": [
+        499888,
+        57204,
+        450975,
+        123710,
+        362224,
+        246125,
+        93802,
+        116111,
+        65007,
+        252621
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        5.581413654085317,
+        5.340440910778963,
+        4.9108372570867616,
+        4.613423851543651,
+        4.544483842845071,
+        4.514946189542629,
+        4.503875395475865,
+        4.489086833895346,
+        4.377502304116967,
+        4.313632276270072
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How to get seared al?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        341907
+      ],
+      "retrieved_recipe_ids": [
+        516267,
+        341907,
+        218853,
+        383339,
+        151504,
+        404661,
+        290003,
+        372771,
+        104588,
+        353862
+      ],
+      "found_recipe_ranks": {
+        "341907": 2
+      },
+      "target_rank": 2,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.5,
+      "bm25_scores": [
+        6.714317933854016,
+        6.623297686471309,
+        6.350619887030847,
+        6.303807037637588,
+        6.11726236119446,
+        5.898474804017476,
+        5.380910501514432,
+        5.348677938695977,
+        5.339268176881957,
+        5.305746107424706
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What makes al seared?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        341907
+      ],
+      "retrieved_recipe_ids": [
+        508092,
+        383339,
+        104588,
+        362224,
+        341907,
+        218853,
+        57204,
+        450975,
+        290003,
+        306198
+      ],
+      "found_recipe_ranks": {
+        "341907": 5
+      },
+      "target_rank": 5,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.2,
+      "bm25_scores": [
+        4.90872224594713,
+        4.814853187509951,
+        4.773378231995388,
+        4.544483842845071,
+        4.365899533334222,
+        4.288047939729673,
+        3.848551036337385,
+        3.538960196507216,
+        3.1347999010379333,
+        3.11658871191994
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How to get tender now?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        38276
+      ],
+      "retrieved_recipe_ids": [
+        499888,
+        338356,
+        204012,
+        353862,
+        312190,
+        151504,
+        76915,
+        97188,
+        404661,
+        38276
+      ],
+      "found_recipe_ranks": {
+        "38276": 10
+      },
+      "target_rank": 10,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.1,
+      "bm25_scores": [
+        7.357203769561529,
+        6.734500240850178,
+        6.552191288215203,
+        6.496272939032019,
+        6.361444680869672,
+        6.11726236119446,
+        6.082304289474268,
+        6.0421360690546875,
+        5.898474804017476,
+        5.82784550138856
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What makes now tender?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        38276
+      ],
+      "retrieved_recipe_ids": [
+        499888,
+        362224,
+        57204,
+        450975,
+        93802,
+        76915,
+        3779,
+        123710,
+        508092,
+        348870
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        6.54097696540294,
+        5.685607688122896,
+        5.340440910778963,
+        4.9108372570867616,
+        4.700485707537251,
+        4.480131144768578,
+        4.357469354486327,
+        3.808881470584023,
+        3.8044185586452017,
+        3.6464683281378667
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How to get caramelized all?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        312139
+      ],
+      "retrieved_recipe_ids": [
+        283936,
+        465810,
+        146,
+        372771,
+        151504,
+        312190,
+        353862,
+        246125,
+        325571,
+        31008
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        9.906431603698127,
+        7.94726398929662,
+        7.828630256965813,
+        7.364761931115146,
+        7.122620519674241,
+        6.847520273507454,
+        6.748491987961467,
+        6.714481936865029,
+        6.630891218451033,
+        6.1477280248919906
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What makes all caramelized?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        312139
+      ],
+      "retrieved_recipe_ids": [
+        362224,
+        283936,
+        57204,
+        465810,
+        146,
+        450975,
+        246125,
+        123710,
+        390230,
+        502254
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        5.944131642568445,
+        5.8496027000547,
+        5.796297849726734,
+        5.706836112840933,
+        5.482341223781585,
+        5.15970960246664,
+        4.630738039921824,
+        4.286288878668966,
+        4.271734228478895,
+        4.129482926588496
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How to get tender amis?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        141035
+      ],
+      "retrieved_recipe_ids": [
+        141035,
+        338356,
+        151504,
+        404661,
+        473002,
+        31008,
+        327713,
+        204012,
+        372771,
+        499888
+      ],
+      "found_recipe_ranks": {
+        "141035": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        7.668389135699012,
+        6.734500240850178,
+        6.11726236119446,
+        5.898474804017476,
+        5.8027989731442045,
+        5.729496052436481,
+        5.6332642223572424,
+        5.538162831304133,
+        5.348677938695977,
+        5.322610619724966
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What makes amis tender?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        141035
+      ],
+      "retrieved_recipe_ids": [
+        57204,
+        450975,
+        362224,
+        499888,
+        141035,
+        123710,
+        93802,
+        518234,
+        76915,
+        65007
+      ],
+      "found_recipe_ranks": {
+        "141035": 5
+      },
+      "target_rank": 5,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.2,
+      "bm25_scores": [
+        5.340440910778963,
+        4.9108372570867616,
+        4.544483842845071,
+        4.506383815566377,
+        4.382702101954266,
+        3.808881470584023,
+        3.372700791408558,
+        3.28844934060293,
+        2.855042388709916,
+        2.8122056807728644
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How to get caramelized 24?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        204393
+      ],
+      "retrieved_recipe_ids": [
+        283936,
+        50115,
+        325571,
+        516267,
+        146,
+        465810,
+        151504,
+        404661,
+        141035,
+        338907
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        8.089593886428272,
+        7.097408475296302,
+        6.924571424257465,
+        6.6271671666368945,
+        6.396682579259707,
+        6.2802258384554515,
+        6.11726236119446,
+        5.898474804017476,
+        5.7173926843965255,
+        5.415293024782406
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What makes 24 caramelized?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        204393
+      ],
+      "retrieved_recipe_ids": [
+        93802,
+        362224,
+        146,
+        465810,
+        283936,
+        338907,
+        57204,
+        450975,
+        325571,
+        472204
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        4.814112899819097,
+        4.544483842845071,
+        4.05039354607548,
+        4.039797961999764,
+        4.032764982784844,
+        3.8686858389132017,
+        3.848551036337385,
+        3.538960196507216,
+        3.0924095156279687,
+        2.9522184183938003
+      ],
+      "found_any": false
+    },
+    {
+      "query": "How to get tender a1?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        397287
+      ],
+      "retrieved_recipe_ids": [
+        518234,
+        517863,
+        518146,
+        338356,
+        397287,
+        151504,
+        404661,
+        473002,
+        31008,
+        327713
+      ],
+      "found_recipe_ranks": {
+        "397287": 5
+      },
+      "target_rank": 5,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.2,
+      "bm25_scores": [
+        10.52150895197401,
+        9.393924837169713,
+        7.7244973024404775,
+        6.734500240850178,
+        6.204917067603477,
+        6.11726236119446,
+        5.898474804017476,
+        5.8027989731442045,
+        5.729496052436481,
+        5.6332642223572424
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What makes a1 tender?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        397287
+      ],
+      "retrieved_recipe_ids": [
+        518234,
+        517863,
+        518146,
+        57204,
+        450975,
+        362224,
+        499888,
+        397287,
+        123710,
+        93802
+      ],
+      "found_recipe_ranks": {
+        "397287": 8
+      },
+      "target_rank": 8,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.125,
+      "bm25_scores": [
+        9.929426123339816,
+        7.175839513166651,
+        5.4766450270260325,
+        5.340440910778963,
+        4.9108372570867616,
+        4.544483842845071,
+        4.506383815566377,
+        3.94822681342033,
+        3.808881470584023,
+        3.372700791408558
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How to get tender agnolotti?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        306198
+      ],
+      "retrieved_recipe_ids": [
+        306198,
+        338356,
+        151504,
+        404661,
+        473002,
+        31008,
+        327713,
+        204012,
+        372771,
+        499888
+      ],
+      "found_recipe_ranks": {
+        "306198": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        10.795890638370174,
+        6.734500240850178,
+        6.11726236119446,
+        5.898474804017476,
+        5.8027989731442045,
+        5.729496052436481,
+        5.6332642223572424,
+        5.538162831304133,
+        5.348677938695977,
+        5.322610619724966
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What makes agnolotti tender?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        306198
+      ],
+      "retrieved_recipe_ids": [
+        306198,
+        57204,
+        450975,
+        362224,
+        499888,
+        123710,
+        93802,
+        518234,
+        76915,
+        65007
+      ],
+      "found_recipe_ranks": {
+        "306198": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        8.634734344843798,
+        5.340440910778963,
+        4.9108372570867616,
+        4.544483842845071,
+        4.506383815566377,
+        3.808881470584023,
+        3.372700791408558,
+        3.28844934060293,
+        2.855042388709916,
+        2.8122056807728644
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How to get tender america?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        508092
+      ],
+      "retrieved_recipe_ids": [
+        413145,
+        421411,
+        508092,
+        338356,
+        151504,
+        404661,
+        472204,
+        473002,
+        31008,
+        327713
+      ],
+      "found_recipe_ranks": {
+        "508092": 3
+      },
+      "target_rank": 3,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.3333333333333333,
+      "bm25_scores": [
+        8.773974931849413,
+        7.403820188402067,
+        7.160880063379594,
+        6.734500240850178,
+        6.11726236119446,
+        5.898474804017476,
+        5.881182834761935,
+        5.8027989731442045,
+        5.729496052436481,
+        5.6332642223572424
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What makes america tender?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        508092
+      ],
+      "retrieved_recipe_ids": [
+        508092,
+        413145,
+        57204,
+        421411,
+        450975,
+        362224,
+        499888,
+        123710,
+        472204,
+        93802
+      ],
+      "found_recipe_ranks": {
+        "508092": 1
+      },
+      "target_rank": 1,
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 1.0,
+      "bm25_scores": [
+        6.9524950317770635,
+        6.553146635238903,
+        5.340440910778963,
+        5.176331958570257,
+        4.9108372570867616,
+        4.544483842845071,
+        4.506383815566377,
+        3.808881470584023,
+        3.6978002998081596,
+        3.372700791408558
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How to get tender amish?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        146096
+      ],
+      "retrieved_recipe_ids": [
+        246125,
+        233539,
+        411947,
+        146096,
+        81357,
+        78296,
+        397940,
+        80457,
+        338356,
+        151504
+      ],
+      "found_recipe_ranks": {
+        "146096": 4
+      },
+      "target_rank": 4,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.25,
+      "bm25_scores": [
+        11.05281175741624,
+        9.578319937126519,
+        8.936869838098355,
+        8.932436942322331,
+        8.630737068579439,
+        8.620190430077187,
+        7.576429442113582,
+        6.901911443297347,
+        6.734500240850178,
+        6.11726236119446
+      ],
+      "found_any": true
+    },
+    {
+      "query": "What makes amish tender?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        146096
+      ],
+      "retrieved_recipe_ids": [
+        246125,
+        146096,
+        411947,
+        81357,
+        78296,
+        57204,
+        397940,
+        233539,
+        450975,
+        80457
+      ],
+      "found_recipe_ranks": {
+        "146096": 2
+      },
+      "target_rank": 2,
+      "recall_1": 0.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.5,
+      "bm25_scores": [
+        8.969067860473034,
+        7.927238306937493,
+        7.16788921979978,
+        6.433890715321734,
+        6.424277944694332,
+        5.340440910778963,
+        5.336682857195868,
+        5.125118238157308,
+        4.9108372570867616,
+        4.749366684139287
+      ],
+      "found_any": true
+    },
+    {
+      "query": "How to get flaky honey?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        293225
+      ],
+      "retrieved_recipe_ids": [
+        312190,
+        338356,
+        353862,
+        367586,
+        317265,
+        290453,
+        225707,
+        115160,
+        468870,
+        151504
+      ],
+      "found_recipe_ranks": {},
+      "target_rank": null,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 0.0,
+      "reciprocal_rank": 0.0,
+      "bm25_scores": [
+        8.343560985452898,
+        8.300915273194862,
+        8.02695181023618,
+        6.977814941930982,
+        6.352805498379159,
+        6.3122700220122585,
+        6.222274593007775,
+        6.175285951356145,
+        6.167822689748531,
+        6.11726236119446
+      ],
+      "found_any": false
+    },
+    {
+      "query": "What makes honey flaky?",
+      "query_type": "technique_details",
+      "complexity_level": "technique_mastery",
+      "expected_recipe_ids": [
+        293225
+      ],
+      "retrieved_recipe_ids": [
+        468870,
+        444749,
+        350400,
+        312190,
+        81,
+        293225,
+        478546,
+        418387,
+        225707,
+        362224
+      ],
+      "found_recipe_ranks": {
+        "293225": 6
+      },
+      "target_rank": 6,
+      "recall_1": 0.0,
+      "recall_3": 0.0,
+      "recall_5": 0.0,
+      "recall_10": 1.0,
+      "reciprocal_rank": 0.16666666666666666,
+      "bm25_scores": [
+        5.978961155350099,
+        5.918937930610812,
+        5.671604931306511,
+        5.413859820539299,
+        5.136641850831252,
+        4.9794808217901885,
+        4.971934321386124,
+        4.818211168229375,
+        4.611174947023796,
+        4.544483842845071
+      ],
+      "found_any": true
+    }
+  ]
+}
