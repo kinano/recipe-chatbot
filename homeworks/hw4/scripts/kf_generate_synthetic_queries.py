@@ -162,350 +162,227 @@ def analyze_recipe_complexity(recipes: List[Dict[str, Any]]) -> List[Dict[str, A
 def generate_knowledge_intensive_queries(
     complex_recipes: List[Dict[str, Any]], num_queries: int = 200
 ) -> tuple[List[str], List[Dict[str, Any]]]:
-    """Generate queries requiring specific recipe knowledge and salient facts."""
+    """Generate queries targeting specific recipe knowledge types."""
 
     queries = []
     query_metadata = []
 
-    # 1. Extreme cooking time knowledge queries
-    for recipe in complex_recipes[:25]:
-        minutes = recipe["minutes"]
+    # 1. Appliance Settings Queries
+    appliance_patterns = {
+        "air fryer": ["air fryer", "air frying", "air-fry"],
+        "oven": ["oven", "bake", "baking", "roast", "roasting"],
+        "grill": ["grill", "grilling", "grilled"],
+        "pressure cook": ["pressure cook", "pressure cooker", "instant pot"],
+        "slow cook": ["slow cook", "slow cooker", "crockpot"],
+        "microwave": ["microwave", "microwaving"],
+        "broil": ["broil", "broiling", "broiler"],
+        "sauté": ["sauté", "sautéing", "pan fry", "frying pan"]
+    }
+    
+    for recipe in complex_recipes[:50]:
         recipe_id = recipe["id"]
-
-        if minutes > 480:  # Over 8 hours
-            time_queries = [
-                f"recipes that take more than 8 hours to cook",
-                f"extremely long cooking time recipes over {minutes//60} hours",
-                f"all day cooking projects requiring {minutes} minutes",
-                f"recipes with cooking time exceeding 8 hours",
-            ]
-        elif minutes > 240:  # Over 4 hours
-            time_queries = [
-                f"recipes that take over 4 hours to make",
-                f"long cooking time recipes requiring {minutes//60} hours",
-                f"slow cooking recipes taking {minutes} minutes",
-            ]
-        elif minutes <= 5:
-            time_queries = [
-                f"ultra quick {minutes} minute recipes",
-                f"recipes ready in under 5 minutes",
-                f"fastest recipes taking only {minutes} minutes",
-            ]
-        else:
-            continue
-
-        for tq in time_queries[:2]:
-            queries.append(tq)
-            query_metadata.append(
-                {
-                    "query": tq,
-                    "type": "extreme_cooking_time_knowledge",
-                    "cooking_time_minutes": minutes,
-                    "complexity_level": "time_intensive",
-                    "expected_document_ids": [recipe_id],
-                }
-            )
-
-    # 2. Specialty ingredient knowledge queries
-    for recipe in complex_recipes:
-        if recipe["specialty_ingredients"]:
-            recipe_id = recipe["id"]
-
-            for ing in recipe["specialty_ingredients"][:3]:
-                ing_queries = [
-                    f"recipes using {ing}",
-                    f"how to cook with {ing}",
-                    f"specialty dishes featuring {ing}",
-                    f"gourmet recipes with {ing}",
-                    f"what cuisine uses {ing}",
+        name = recipe["name"].lower()
+        ingredients = [ing.lower() for ing in recipe.get("ingredients", [])]
+        steps = [step.lower() for step in recipe.get("steps", [])]
+        all_text = f"{name} {' '.join(ingredients)} {' '.join(steps)}"
+        
+        # Check for appliance mentions
+        for appliance, patterns in appliance_patterns.items():
+            if any(pattern in all_text for pattern in patterns):
+                appliance_queries = [
+                    f"What temperature for {appliance} {recipe['name'].split()[0] if recipe['name'] else 'recipe'}?",
+                    f"How long to {appliance} {recipe['name'].split()[0] if recipe['name'] else 'food'}?",
+                    f"{appliance.title()} settings for {recipe['name'].split()[0] if recipe['name'] else 'cooking'}?",
+                    f"Best {appliance} temperature and time?",
                 ]
+                
+                for aq in appliance_queries[:2]:
+                    queries.append(aq)
+                    query_metadata.append({
+                        "query": aq,
+                        "type": "appliance_settings",
+                        "appliance": appliance,
+                        "complexity_level": "equipment_specific",
+                        "expected_document_ids": [recipe_id]
+                    })
+                break  # Only match one appliance per recipe
 
-                for iq in ing_queries[:3]:
-                    queries.append(iq)
-                    query_metadata.append(
-                        {
-                            "query": iq,
-                            "type": "specialty_ingredient_knowledge",
-                            "specialty_ingredient": ing,
-                            "complexity_level": "rare_ingredient",
-                            "expected_document_ids": [recipe_id],
-                        }
-                    )
-
-    # 3. Advanced cooking technique queries
-    for recipe in complex_recipes:
-        if recipe["advanced_techniques"]:
-            recipe_id = recipe["id"]
-
-            for technique in recipe["advanced_techniques"][:2]:
-                tech_queries = [
-                    f"recipes using {technique} technique",
-                    f"how to {technique} in professional cooking",
-                    f"advanced {technique} cooking methods",
-                    f"dishes requiring {technique} skills",
-                    f"{technique} technique in recipe preparation",
-                ]
-
-                for tq in tech_queries[:2]:
-                    queries.append(tq)
-                    query_metadata.append(
-                        {
+    # 2. Timing Specifics Queries
+    timing_keywords = ["marinate", "rest", "rise", "chill", "steep", "simmer", "boil", "cook", "bake", "roast"]
+    
+    for recipe in complex_recipes[:50]:
+        recipe_id = recipe["id"]
+        steps = recipe.get("steps", [])
+        name_words = recipe["name"].split()
+        main_ingredient = name_words[0] if name_words else "food"
+        
+        # Look for timing mentions in recipe steps
+        for step in steps:
+            step_lower = step.lower()
+            for keyword in timing_keywords:
+                if keyword in step_lower and any(time_word in step_lower for time_word in ["minute", "hour", "overnight", "until"]):
+                    timing_queries = [
+                        f"How long to {keyword} {main_ingredient}?",
+                        f"What's the {keyword} time for {main_ingredient}?",
+                        f"How long should I {keyword} {main_ingredient}?",
+                        f"Timing for {keyword}ing {main_ingredient}?"
+                    ]
+                    
+                    for tq in timing_queries[:2]:
+                        queries.append(tq)
+                        query_metadata.append({
                             "query": tq,
-                            "type": "advanced_technique_knowledge",
-                            "technique": technique,
-                            "complexity_level": "professional_skill",
-                            "expected_document_ids": [recipe_id],
-                        }
-                    )
+                            "type": "timing_specifics",
+                            "technique": keyword,
+                            "complexity_level": "timing_precision",
+                            "expected_document_ids": [recipe_id]
+                        })
+                    break  # Only one timing query per recipe
+            else:
+                continue
+            break  # Found timing, move to next recipe
 
-    # 4. High complexity recipe queries
-    for recipe in complex_recipes[:15]:
+    # 3. Temperature Precision Queries
+    protein_patterns = ["chicken", "beef", "pork", "turkey", "salmon", "fish", "steak", "lamb", "duck", "shrimp"]
+    
+    for recipe in complex_recipes[:50]:
         recipe_id = recipe["id"]
-        ing_count = len(recipe["ingredients"])
-
-        if ing_count > 20:
-            complexity_queries = [
-                f"recipes with over 20 ingredients",
-                f"extremely complex recipes requiring {ing_count} ingredients",
-                f"elaborate dishes with extensive ingredient lists",
-                f"most complex recipes in professional cooking",
-            ]
-        elif ing_count > 15:
-            complexity_queries = [
-                f"recipes with over 15 ingredients",
-                f"complex recipes requiring {ing_count} different ingredients",
-            ]
-        else:
-            continue
-
-        for cq in complexity_queries[:2]:
-            queries.append(cq)
-            query_metadata.append(
-                {
-                    "query": cq,
-                    "type": "recipe_complexity_knowledge",
-                    "ingredient_count": ing_count,
-                    "complexity_level": "very_high_complexity",
-                    "expected_document_ids": [recipe_id],
-                }
-            )
-
-    # 5. Cultural cuisine expertise queries
-    for recipe in complex_recipes:
-        if recipe["cultural_tags"]:
-            recipe_id = recipe["id"]
-
-            for tag in recipe["cultural_tags"][:1]:
-                culture_queries = [
-                    f"authentic {tag} recipes",
-                    f"traditional {tag} cooking techniques",
-                    f"genuine {tag} cuisine dishes",
-                    f"classic {tag} recipe methods",
-                    f"expert {tag} cooking knowledge",
-                ]
-
-                for cul_q in culture_queries[:2]:
-                    queries.append(cul_q)
-                    query_metadata.append(
-                        {
-                            "query": cul_q,
-                            "type": "cultural_cuisine_expertise",
-                            "cultural_tag": tag,
-                            "complexity_level": "cultural_authenticity",
-                            "expected_document_ids": [recipe_id],
-                        }
-                    )
-
-    # 6. Specific recipe name knowledge
-    for recipe in complex_recipes[:20]:
-        recipe_id = recipe["id"]
-        name = recipe["name"]
-        words = name.split()
-
-        if len(words) >= 4:
-            name_queries = [
-                f"recipe for {' '.join(words[:3])}",
-                f"how to make {' '.join(words[:4])}",
-                f"ingredients needed for {' '.join(words[:3])}",
-                f"cooking instructions for {' '.join(words[:3])}",
-                f"preparation steps for {' '.join(words[:2])}",
-            ]
-
-            for nq in name_queries[:2]:
-                queries.append(nq)
-                query_metadata.append(
-                    {
-                        "query": nq,
-                        "type": "specific_recipe_knowledge",
-                        "full_recipe_name": name,
-                        "complexity_level": "specific_dish_expertise",
-                        "expected_document_ids": [recipe_id],
-                    }
-                )
-
-    # 7. Multi-step procedure knowledge
-    for recipe in complex_recipes:
-        if len(recipe["steps"]) > 20:
-            recipe_id = recipe["id"]
-            step_count = len(recipe["steps"])
-
-            procedure_queries = [
-                f"recipes with over 20 detailed cooking steps",
-                f"complex multi-step cooking procedures",
-                f"elaborate recipes requiring {step_count} steps",
-                f"detailed cooking processes with many stages",
-            ]
-
-            for pq in procedure_queries[:2]:
-                queries.append(pq)
-                query_metadata.append(
-                    {
-                        "query": pq,
-                        "type": "cooking_procedure_expertise",
-                        "step_count": step_count,
-                        "complexity_level": "multi_stage_process",
-                        "expected_document_ids": [recipe_id],
-                    }
-                )
-
-    # 8. Combined complexity expertise queries
-    for recipe in complex_recipes[:10]:
-        recipe_id = recipe["id"]
-        salient_facts = recipe["salient_facts"]
-
-        if len(salient_facts) >= 3:
-            expert_queries = [
-                f"most challenging recipes requiring expert knowledge",
-                f"professional chef level cooking complexity",
-                f"recipes combining multiple advanced techniques",
-                f"expert-level culinary knowledge requirements",
-                f"master chef complexity recipe challenges",
-            ]
-
-            for eq in expert_queries[:2]:
-                queries.append(eq)
-                query_metadata.append(
-                    {
-                        "query": eq,
-                        "type": "expert_culinary_knowledge",
-                        "salient_facts": salient_facts,
-                        "complexity_level": "master_chef_level",
-                        "expected_document_ids": [recipe_id],
-                    }
-                )
-
-    # 9. Nutritional and dietary knowledge queries
-    nutrition_queries = [
-        "high calorie complex recipes",
-        "recipes with detailed nutritional information",
-        "gourmet recipes with nutritional complexity",
-        "elaborate dishes with specific dietary considerations",
-        "complex recipes with precise nutrition data",
-        "recipes requiring nutritional calculations",
-        "dietary-specific complex cooking",
-        "sophisticated recipes with nutrition focus",
-    ]
-
-    for nq in nutrition_queries:
-        queries.append(nq)
-        query_metadata.append(
-            {
-                "query": nq,
-                "type": "nutritional_knowledge",
-                "complexity_level": "dietary_expertise",
-                "expected_document_ids": [r["id"] for r in complex_recipes[:3]],
-            }
-        )
-
-    # 10. Equipment and technique expertise queries
-    equipment_queries = [
-        "recipes requiring specialized cooking equipment",
-        "professional kitchen technique recipes",
-        "advanced cooking tool requirements",
-        "restaurant-grade cooking methods",
-        "complex recipes needing special tools",
-        "professional chef equipment recipes",
-        "sophisticated cooking apparatus requirements",
-        "high-end kitchen technique recipes",
-        "specialized appliance cooking methods",
-        "commercial kitchen recipe techniques",
-    ]
-
-    for eq in equipment_queries:
-        queries.append(eq)
-        query_metadata.append(
-            {
-                "query": eq,
-                "type": "equipment_expertise",
-                "complexity_level": "professional_equipment",
-                "expected_document_ids": [r["id"] for r in complex_recipes[:3]],
-            }
-        )
-
-    # 11. Additional complexity-based queries to reach 200
-    additional_queries = []
-    for recipe in complex_recipes[:30]:
-        recipe_id = recipe["id"]
-        name = recipe["name"]
-        ing_count = recipe.get("n_ingredients", 0)
-        step_count = recipe.get("n_steps", 0)
-        minutes = recipe.get("minutes", 0)
+        name = recipe["name"].lower()
+        ingredients = [ing.lower() for ing in recipe.get("ingredients", [])]
+        steps = [step.lower() for step in recipe.get("steps", [])]
+        all_text = f"{name} {' '.join(ingredients)} {' '.join(steps)}"
         
-        # Generate varied queries based on different aspects
-        if ing_count > 10:
-            additional_queries.append({
-                "query": f"complex recipes with {ing_count} ingredients like {' '.join(name.split()[:2])}",
-                "type": "recipe_complexity_knowledge",
-                "complexity_level": "ingredient_complexity",
-                "expected_document_ids": [recipe_id]
-            })
+        # Find protein types in the recipe
+        protein_found = None
+        for protein in protein_patterns:
+            if protein in all_text:
+                protein_found = protein
+                break
         
-        if step_count > 10:
-            additional_queries.append({
-                "query": f"multi-step recipes requiring {step_count} detailed steps",
-                "type": "cooking_procedure_expertise", 
-                "complexity_level": "procedural_complexity",
-                "expected_document_ids": [recipe_id]
-            })
+        # Generate temperature queries for any protein-containing recipe
+        if protein_found:
+            temp_queries = [
+                f"What internal temp for medium-rare {protein_found}?",
+                f"Cooking temperature for {protein_found}?",
+                f"What temperature should {protein_found} reach?",
+                f"Internal temperature for safe {protein_found}?"
+            ]
             
-        if minutes > 60:
-            additional_queries.append({
-                "query": f"time-intensive recipes taking {minutes} minutes to complete",
-                "type": "extreme_cooking_time_knowledge",
-                "complexity_level": "time_complexity", 
-                "expected_document_ids": [recipe_id]
-            })
-    
-    # Add additional queries to main list
-    for aq in additional_queries:
-        queries.append(aq["query"])
-        query_metadata.append({
-            "query": aq["query"],
-            "type": aq["type"],
-            "complexity_level": aq["complexity_level"],
-            "expected_document_ids": aq["expected_document_ids"]
-        })
+            for temp_q in temp_queries[:2]:
+                queries.append(temp_q)
+                query_metadata.append({
+                    "query": temp_q,
+                    "type": "temperature_precision",
+                    "protein": protein_found,
+                    "complexity_level": "temp_precision",
+                    "expected_document_ids": [recipe_id]
+                })
+                if len([q for q in query_metadata if q["type"] == "temperature_precision"]) >= 50:
+                    break
+            if len([q for q in query_metadata if q["type"] == "temperature_precision"]) >= 50:
+                break
 
-    # 12. Final padding queries to ensure we reach 200
-    padding_queries = [
-        "extremely complex gourmet recipes",
-        "master chef level recipe challenges",
-        "sophisticated culinary technique requirements", 
-        "professional cooking complexity standards",
-        "advanced recipe preparation methods",
-        "expert-level cooking knowledge needed",
-        "complex recipe execution skills",
-        "high-complexity culinary challenges"
-    ]
+    # 4. Technique Details Queries
+    technique_patterns = {
+        "crispy": ["crispy", "crisp", "crunchy"],
+        "tender": ["tender", "soft", "moist"],
+        "caramelized": ["caramelize", "caramelized", "golden"],
+        "seared": ["sear", "seared", "brown"],
+        "flaky": ["flaky", "layers", "pastry"],
+        "juicy": ["juicy", "moist", "succulent"]
+    }
     
-    for pq in padding_queries:
-        queries.append(pq)
-        query_metadata.append({
-            "query": pq,
-            "type": "expert_culinary_knowledge",
-            "complexity_level": "master_chef_level",
-            "expected_document_ids": [r["id"] for r in complex_recipes[:3]]
-        })
+    for recipe in complex_recipes[:50]:
+        recipe_id = recipe["id"]
+        name = recipe["name"].lower()
+        steps = [step.lower() for step in recipe.get("steps", [])]
+        all_text = f"{name} {' '.join(steps)}"
+        name_words = recipe["name"].split()
+        main_dish = name_words[0] if name_words else "dish"
+        
+        # Check for technique mentions
+        for technique, patterns in technique_patterns.items():
+            if any(pattern in all_text for pattern in patterns):
+                technique_queries = [
+                    f"How to get {technique} {main_dish}?",
+                    f"What makes {main_dish} {technique}?",
+                    f"Technique for {technique} {main_dish}?",
+                    f"How to achieve {technique} texture?"
+                ]
+                
+                for tech_q in technique_queries[:2]:
+                    queries.append(tech_q)
+                    query_metadata.append({
+                        "query": tech_q,
+                        "type": "technique_details",
+                        "technique": technique,
+                        "complexity_level": "technique_mastery",
+                        "expected_document_ids": [recipe_id]
+                    })
+                break  # Only one technique query per recipe
+
+    # Add padding queries to reach target number
+    current_count = len(queries)
+    remaining = max(0, num_queries - current_count)
+    
+    if remaining > 0:
+        # Generate additional queries from the four main types
+        padding_appliance = [
+            "Air fryer temperature for crispy vegetables?",
+            "Oven settings for perfect roast?", 
+            "Grill temperature for medium steaks?",
+            "Pressure cooker timing for tender meat?",
+            "Slow cooker settings for stews?"
+        ]
+        
+        padding_timing = [
+            "How long to marinate chicken for teriyaki?",
+            "Rest time for bread dough?",
+            "Simmer time for perfect sauce?", 
+            "Chill time for setting desserts?",
+            "Rise time for pizza dough?"
+        ]
+        
+        padding_temperature = [
+            "What internal temp for medium-rare steak?",
+            "Safe cooking temperature for chicken?",
+            "Perfect temperature for fish?",
+            "Internal temp for pork tenderloin?",
+            "Temperature for medium turkey?"
+        ]
+        
+        padding_technique = [
+            "How to get crispy skin on roasted chicken?",
+            "Technique for tender braised meat?",
+            "How to achieve caramelized onions?",
+            "Method for flaky pastry?",
+            "How to sear meat perfectly?"
+        ]
+        
+        all_padding = padding_appliance + padding_timing + padding_temperature + padding_technique
+        
+        for i, padding_query in enumerate(all_padding[:remaining]):
+            queries.append(padding_query)
+            # Determine type based on which padding list it came from
+            if i < len(padding_appliance):
+                query_type = "appliance_settings"
+                complexity = "equipment_specific"
+            elif i < len(padding_appliance) + len(padding_timing):
+                query_type = "timing_specifics"
+                complexity = "timing_precision"
+            elif i < len(padding_appliance) + len(padding_timing) + len(padding_temperature):
+                query_type = "temperature_precision"
+                complexity = "temp_precision"
+            else:
+                query_type = "technique_details"
+                complexity = "technique_mastery"
+                
+            query_metadata.append({
+                "query": padding_query,
+                "type": query_type,
+                "complexity_level": complexity,
+                "expected_document_ids": [complex_recipes[0]["id"]] if complex_recipes else [1]
+            })
 
     # Remove duplicates while preserving metadata
     seen_queries = set()
