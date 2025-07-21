@@ -34,11 +34,21 @@ This repository uses **uv** for Python package management and dependency resolut
 ### Recipe Data Structure
 
 The processed_recipes.json contains 200 recipes with:
+
 - `id`, `name`, `description`
 - `ingredients` (list), `n_ingredients` (count)
-- `steps` (list), `n_steps` (count) 
+- `steps` (list), `n_steps` (count)
 - `minutes` (cooking time), `tags`, `nutrition`
 - `full_text` (searchable content)
 
 Complex recipes defined as having:
+
 - ≥10 ingredients OR ≥120 minutes OR ≥15 steps
+
+# Debugging
+
+To run commands in this repo, always use uv and python modules. Example:
+
+```
+uv python -m backend/...
+```

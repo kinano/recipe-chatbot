@@ -14,40 +14,65 @@
     "recipes that take over 4 hours to make",
     "long cooking time recipes requiring 4 hours",
     "extremely long cooking time recipes over 9 hours",
+    "long cooking time recipes requiring 5 hours",
+    "long cooking time recipes requiring 6 hours",
     "recipes using green cardamoms",
     "how to cook with green cardamoms",
+    "specialty dishes featuring green cardamoms",
     "recipes using worcestershire sauce",
     "how to cook with worcestershire sauce",
+    "specialty dishes featuring worcestershire sauce",
     "recipes using white crab meat",
     "how to cook with white crab meat",
+    "specialty dishes featuring white crab meat",
     "recipes using cardamom pod",
     "how to cook with cardamom pod",
+    "specialty dishes featuring cardamom pod",
     "recipes using coconut milk",
     "how to cook with coconut milk",
+    "specialty dishes featuring coconut milk",
     "recipes using saffron",
     "how to cook with saffron",
+    "specialty dishes featuring saffron",
+    "recipes using green cardamom pods",
+    "how to cook with green cardamom pods",
+    "specialty dishes featuring green cardamom pods",
     "recipes using xanthan gum",
     "how to cook with xanthan gum",
+    "specialty dishes featuring xanthan gum",
     "recipes using saffron threads",
     "how to cook with saffron threads",
+    "specialty dishes featuring saffron threads",
     "recipes using cardamom",
     "how to cook with cardamom",
+    "specialty dishes featuring cardamom",
     "recipes using black truffle",
     "how to cook with black truffle",
+    "specialty dishes featuring black truffle",
     "recipes using ground lamb",
     "how to cook with ground lamb",
+    "specialty dishes featuring ground lamb",
     "recipes using white truffle",
     "how to cook with white truffle",
+    "specialty dishes featuring white truffle",
     "recipes using amish starter",
     "how to cook with amish starter",
+    "specialty dishes featuring amish starter",
     "recipes using red curry paste",
     "how to cook with red curry paste",
+    "specialty dishes featuring red curry paste",
+    "recipes using thai fish sauce",
+    "how to cook with thai fish sauce",
+    "specialty dishes featuring thai fish sauce",
     "recipes using kombu seaweed",
     "how to cook with kombu seaweed",
+    "specialty dishes featuring kombu seaweed",
     "recipes using tahini",
     "how to cook with tahini",
+    "specialty dishes featuring tahini",
     "recipes using ground cardamom",
     "how to cook with ground cardamom",
+    "specialty dishes featuring ground cardamom",
     "recipes using roast technique",
     "how to roast in professional cooking",
     "recipes using fold technique",
@@ -67,6 +92,7 @@
     "recipes with over 15 ingredients",
     "complex recipes requiring 19 different ingredients",
     "complex recipes requiring 16 different ingredients",
+    "extremely complex recipes requiring 24 ingredients",
     "authentic amish-mennonite recipes",
     "traditional amish-mennonite cooking techniques",
     "authentic asian recipes",
@@ -99,6 +125,24 @@
     "how to make a french country affair",
     "recipe for a symphony of",
     "how to make a symphony of french",
+    "how to make alton brown s pizza",
+    "recipe for almost no knead",
+    "how to make almost no knead bread",
+    "how to make almost no knead rye",
+    "recipe for alton browns basic",
+    "how to make alton browns basic bread",
+    "recipe for 5 cheese crab",
+    "how to make 5 cheese crab lasagna",
+    "recipe for america s test",
+    "how to make america s test kitchen",
+    "recipe for all american county",
+    "how to make all american county fair",
+    "recipe for a yummy chicken",
+    "how to make a yummy chicken noodle",
+    "recipe for a ramchandani special",
+    "how to make a ramchandani special subru",
+    "recipe for a new england",
+    "how to make a new england holiday",
     "recipes with over 20 detailed cooking steps",
     "complex multi-step cooking procedures",
     "most challenging recipes requiring expert knowledge",
@@ -107,10 +151,55 @@
     "recipes with detailed nutritional information",
     "gourmet recipes with nutritional complexity",
     "elaborate dishes with specific dietary considerations",
+    "complex recipes with precise nutrition data",
+    "recipes requiring nutritional calculations",
+    "dietary-specific complex cooking",
+    "sophisticated recipes with nutrition focus",
     "recipes requiring specialized cooking equipment",
     "professional kitchen technique recipes",
     "advanced cooking tool requirements",
-    "restaurant-grade cooking methods"
+    "restaurant-grade cooking methods",
+    "complex recipes needing special tools",
+    "professional chef equipment recipes",
+    "sophisticated cooking apparatus requirements",
+    "high-end kitchen technique recipes",
+    "specialized appliance cooking methods",
+    "commercial kitchen recipe techniques",
+    "time-intensive recipes taking 14460 minutes to complete",
+    "time-intensive recipes taking 2915 minutes to complete",
+    "time-intensive recipes taking 3060 minutes to complete",
+    "time-intensive recipes taking 2940 minutes to complete",
+    "time-intensive recipes taking 1620 minutes to complete",
+    "time-intensive recipes taking 1680 minutes to complete",
+    "time-intensive recipes taking 1500 minutes to complete",
+    "time-intensive recipes taking 1485 minutes to complete",
+    "time-intensive recipes taking 1447 minutes to complete",
+    "time-intensive recipes taking 1530 minutes to complete",
+    "time-intensive recipes taking 1090 minutes to complete",
+    "time-intensive recipes taking 810 minutes to complete",
+    "time-intensive recipes taking 245 minutes to complete",
+    "time-intensive recipes taking 555 minutes to complete",
+    "time-intensive recipes taking 310 minutes to complete",
+    "time-intensive recipes taking 360 minutes to complete",
+    "time-intensive recipes taking 315 minutes to complete",
+    "time-intensive recipes taking 220 minutes to complete",
+    "time-intensive recipes taking 275 minutes to complete",
+    "time-intensive recipes taking 180 minutes to complete",
+    "time-intensive recipes taking 90 minutes to complete",
+    "time-intensive recipes taking 65 minutes to complete",
+    "time-intensive recipes taking 125 minutes to complete",
+    "time-intensive recipes taking 165 minutes to complete",
+    "time-intensive recipes taking 120 minutes to complete",
+    "time-intensive recipes taking 260 minutes to complete",
+    "time-intensive recipes taking 75 minutes to complete",
+    "extremely complex gourmet recipes",
+    "master chef level recipe challenges",
+    "sophisticated culinary technique requirements",
+    "professional cooking complexity standards",
+    "advanced recipe preparation methods",
+    "expert-level cooking knowledge needed",
+    "complex recipe execution skills",
+    "high-complexity culinary challenges"
   ],
   "query_metadata": [
     {
@@ -240,6 +329,24 @@
       ]
     },
     {
+      "query": "long cooking time recipes requiring 5 hours",
+      "type": "extreme_cooking_time_knowledge",
+      "cooking_time_minutes": 310,
+      "complexity_level": "time_intensive",
+      "expected_document_ids": [
+        204012
+      ]
+    },
+    {
+      "query": "long cooking time recipes requiring 6 hours",
+      "type": "extreme_cooking_time_knowledge",
+      "cooking_time_minutes": 360,
+      "complexity_level": "time_intensive",
+      "expected_document_ids": [
+        57204
+      ]
+    },
+    {
       "query": "recipes using green cardamoms",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "green cardamoms",
@@ -250,6 +357,15 @@
     },
     {
       "query": "how to cook with green cardamoms",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "green cardamoms",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        45120
+      ]
+    },
+    {
+      "query": "specialty dishes featuring green cardamoms",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "green cardamoms",
       "complexity_level": "rare_ingredient",
@@ -276,6 +392,15 @@
       ]
     },
     {
+      "query": "specialty dishes featuring worcestershire sauce",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "worcestershire sauce",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        361017
+      ]
+    },
+    {
       "query": "recipes using white crab meat",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "white crab meat",
@@ -286,6 +411,15 @@
     },
     {
       "query": "how to cook with white crab meat",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "white crab meat",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        65007
+      ]
+    },
+    {
+      "query": "specialty dishes featuring white crab meat",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "white crab meat",
       "complexity_level": "rare_ingredient",
@@ -312,6 +446,15 @@
       ]
     },
     {
+      "query": "specialty dishes featuring cardamom pod",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "cardamom pod",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        476849
+      ]
+    },
+    {
       "query": "recipes using coconut milk",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "coconut milk",
@@ -322,6 +465,15 @@
     },
     {
       "query": "how to cook with coconut milk",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "coconut milk",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        362224
+      ]
+    },
+    {
+      "query": "specialty dishes featuring coconut milk",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "coconut milk",
       "complexity_level": "rare_ingredient",
@@ -348,6 +500,42 @@
       ]
     },
     {
+      "query": "specialty dishes featuring saffron",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "saffron",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        362224
+      ]
+    },
+    {
+      "query": "recipes using green cardamom pods",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "green cardamom pods",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        362224
+      ]
+    },
+    {
+      "query": "how to cook with green cardamom pods",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "green cardamom pods",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        362224
+      ]
+    },
+    {
+      "query": "specialty dishes featuring green cardamom pods",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "green cardamom pods",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        362224
+      ]
+    },
+    {
       "query": "recipes using xanthan gum",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "xanthan gum",
@@ -358,6 +546,15 @@
     },
     {
       "query": "how to cook with xanthan gum",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "xanthan gum",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        520809
+      ]
+    },
+    {
+      "query": "specialty dishes featuring xanthan gum",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "xanthan gum",
       "complexity_level": "rare_ingredient",
@@ -384,6 +581,15 @@
       ]
     },
     {
+      "query": "specialty dishes featuring saffron threads",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "saffron threads",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        341907
+      ]
+    },
+    {
       "query": "recipes using cardamom",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "cardamom",
@@ -394,6 +600,15 @@
     },
     {
       "query": "how to cook with cardamom",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "cardamom",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        141035
+      ]
+    },
+    {
+      "query": "specialty dishes featuring cardamom",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "cardamom",
       "complexity_level": "rare_ingredient",
@@ -420,6 +635,15 @@
       ]
     },
     {
+      "query": "specialty dishes featuring black truffle",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "black truffle",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        191398
+      ]
+    },
+    {
       "query": "recipes using ground lamb",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "ground lamb",
@@ -430,6 +654,15 @@
     },
     {
       "query": "how to cook with ground lamb",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "ground lamb",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        344915
+      ]
+    },
+    {
+      "query": "specialty dishes featuring ground lamb",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "ground lamb",
       "complexity_level": "rare_ingredient",
@@ -456,6 +689,15 @@
       ]
     },
     {
+      "query": "specialty dishes featuring white truffle",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "white truffle",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        306198
+      ]
+    },
+    {
       "query": "recipes using amish starter",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "amish starter",
@@ -466,6 +708,15 @@
     },
     {
       "query": "how to cook with amish starter",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "amish starter",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        146096
+      ]
+    },
+    {
+      "query": "specialty dishes featuring amish starter",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "amish starter",
       "complexity_level": "rare_ingredient",
@@ -492,6 +743,42 @@
       ]
     },
     {
+      "query": "specialty dishes featuring red curry paste",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "red curry paste",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        490104
+      ]
+    },
+    {
+      "query": "recipes using thai fish sauce",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "thai fish sauce",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        490104
+      ]
+    },
+    {
+      "query": "how to cook with thai fish sauce",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "thai fish sauce",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        490104
+      ]
+    },
+    {
+      "query": "specialty dishes featuring thai fish sauce",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "thai fish sauce",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        490104
+      ]
+    },
+    {
       "query": "recipes using kombu seaweed",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "kombu seaweed",
@@ -502,6 +789,15 @@
     },
     {
       "query": "how to cook with kombu seaweed",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "kombu seaweed",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        472184
+      ]
+    },
+    {
+      "query": "specialty dishes featuring kombu seaweed",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "kombu seaweed",
       "complexity_level": "rare_ingredient",
@@ -528,6 +824,15 @@
       ]
     },
     {
+      "query": "specialty dishes featuring tahini",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "tahini",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        131967
+      ]
+    },
+    {
       "query": "recipes using ground cardamom",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "ground cardamom",
@@ -538,6 +843,15 @@
     },
     {
       "query": "how to cook with ground cardamom",
+      "type": "specialty_ingredient_knowledge",
+      "specialty_ingredient": "ground cardamom",
+      "complexity_level": "rare_ingredient",
+      "expected_document_ids": [
+        414783
+      ]
+    },
+    {
+      "query": "specialty dishes featuring ground cardamom",
       "type": "specialty_ingredient_knowledge",
       "specialty_ingredient": "ground cardamom",
       "complexity_level": "rare_ingredient",
@@ -714,6 +1028,15 @@
       "complexity_level": "very_high_complexity",
       "expected_document_ids": [
         303666
+      ]
+    },
+    {
+      "query": "extremely complex recipes requiring 24 ingredients",
+      "type": "recipe_complexity_knowledge",
+      "ingredient_count": 24,
+      "complexity_level": "very_high_complexity",
+      "expected_document_ids": [
+        65007
       ]
     },
     {
@@ -1005,6 +1328,168 @@
       ]
     },
     {
+      "query": "how to make alton brown s pizza",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "alton brown s pizza",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        382492
+      ]
+    },
+    {
+      "query": "recipe for almost no knead",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "almost no knead bread with olives rosemary and parmesan",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        303913
+      ]
+    },
+    {
+      "query": "how to make almost no knead bread",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "almost no knead bread with olives rosemary and parmesan",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        303913
+      ]
+    },
+    {
+      "query": "how to make almost no knead rye",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "almost no knead rye bread",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        303928
+      ]
+    },
+    {
+      "query": "recipe for alton browns basic",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "alton browns basic bread",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        245800
+      ]
+    },
+    {
+      "query": "how to make alton browns basic bread",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "alton browns basic bread",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        245800
+      ]
+    },
+    {
+      "query": "recipe for 5 cheese crab",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "5 cheese crab lasagna with roasted garlic and vegetables",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        65007
+      ]
+    },
+    {
+      "query": "how to make 5 cheese crab lasagna",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "5 cheese crab lasagna with roasted garlic and vegetables",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        65007
+      ]
+    },
+    {
+      "query": "recipe for america s test",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "america s test kitchen slow cooker beef burgundy",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        413145
+      ]
+    },
+    {
+      "query": "how to make america s test kitchen",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "america s test kitchen slow cooker beef burgundy",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        413145
+      ]
+    },
+    {
+      "query": "recipe for all american county",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "all american county fair prize winning chili",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        57204
+      ]
+    },
+    {
+      "query": "how to make all american county fair",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "all american county fair prize winning chili",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        57204
+      ]
+    },
+    {
+      "query": "recipe for a yummy chicken",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "a yummy chicken noodle soup 8 qt pressure cooker",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        516267
+      ]
+    },
+    {
+      "query": "how to make a yummy chicken noodle",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "a yummy chicken noodle soup 8 qt pressure cooker",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        516267
+      ]
+    },
+    {
+      "query": "recipe for a ramchandani special",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "a ramchandani special subru uncle s traditional sindhi curry mo",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        76915
+      ]
+    },
+    {
+      "query": "how to make a ramchandani special subru",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "a ramchandani special subru uncle s traditional sindhi curry mo",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        76915
+      ]
+    },
+    {
+      "query": "recipe for a new england",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "a new england holiday bread with olde world roots",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        288427
+      ]
+    },
+    {
+      "query": "how to make a new england holiday",
+      "type": "specific_recipe_knowledge",
+      "full_recipe_name": "a new england holiday bread with olde world roots",
+      "complexity_level": "specific_dish_expertise",
+      "expected_document_ids": [
+        288427
+      ]
+    },
+    {
       "query": "recipes with over 20 detailed cooking steps",
       "type": "cooking_procedure_expertise",
       "step_count": 44,
@@ -1089,6 +1574,46 @@
       ]
     },
     {
+      "query": "complex recipes with precise nutrition data",
+      "type": "nutritional_knowledge",
+      "complexity_level": "dietary_expertise",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "recipes requiring nutritional calculations",
+      "type": "nutritional_knowledge",
+      "complexity_level": "dietary_expertise",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "dietary-specific complex cooking",
+      "type": "nutritional_knowledge",
+      "complexity_level": "dietary_expertise",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "sophisticated recipes with nutrition focus",
+      "type": "nutritional_knowledge",
+      "complexity_level": "dietary_expertise",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
       "query": "recipes requiring specialized cooking equipment",
       "type": "equipment_expertise",
       "complexity_level": "professional_equipment",
@@ -1127,23 +1652,379 @@
         307279,
         443177
       ]
+    },
+    {
+      "query": "complex recipes needing special tools",
+      "type": "equipment_expertise",
+      "complexity_level": "professional_equipment",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "professional chef equipment recipes",
+      "type": "equipment_expertise",
+      "complexity_level": "professional_equipment",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "sophisticated cooking apparatus requirements",
+      "type": "equipment_expertise",
+      "complexity_level": "professional_equipment",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "high-end kitchen technique recipes",
+      "type": "equipment_expertise",
+      "complexity_level": "professional_equipment",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "specialized appliance cooking methods",
+      "type": "equipment_expertise",
+      "complexity_level": "professional_equipment",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "commercial kitchen recipe techniques",
+      "type": "equipment_expertise",
+      "complexity_level": "professional_equipment",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 14460 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        233539
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 2915 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        307279
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 3060 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        443177
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 2940 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        288998
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 1620 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        45120
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 1680 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        361017
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 1500 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        303666
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 1485 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        271012
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 1447 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        382492
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 1530 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        93802
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 1090 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        303913
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 810 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        245800
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 245 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        65007
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 555 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        413145
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 310 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        204012
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 360 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        57204
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 315 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        516267
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 220 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        76915
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 275 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        288427
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 180 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        476849
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 90 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        362224
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 65 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        520809
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 125 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        511017
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 165 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        64372
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 120 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        341907
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 260 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        308592
+      ]
+    },
+    {
+      "query": "time-intensive recipes taking 75 minutes to complete",
+      "type": "extreme_cooking_time_knowledge",
+      "complexity_level": "time_complexity",
+      "expected_document_ids": [
+        141035
+      ]
+    },
+    {
+      "query": "extremely complex gourmet recipes",
+      "type": "expert_culinary_knowledge",
+      "complexity_level": "master_chef_level",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "master chef level recipe challenges",
+      "type": "expert_culinary_knowledge",
+      "complexity_level": "master_chef_level",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "sophisticated culinary technique requirements",
+      "type": "expert_culinary_knowledge",
+      "complexity_level": "master_chef_level",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "professional cooking complexity standards",
+      "type": "expert_culinary_knowledge",
+      "complexity_level": "master_chef_level",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "advanced recipe preparation methods",
+      "type": "expert_culinary_knowledge",
+      "complexity_level": "master_chef_level",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "expert-level cooking knowledge needed",
+      "type": "expert_culinary_knowledge",
+      "complexity_level": "master_chef_level",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "complex recipe execution skills",
+      "type": "expert_culinary_knowledge",
+      "complexity_level": "master_chef_level",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
+    },
+    {
+      "query": "high-complexity culinary challenges",
+      "type": "expert_culinary_knowledge",
+      "complexity_level": "master_chef_level",
+      "expected_document_ids": [
+        233539,
+        307279,
+        443177
+      ]
     }
   ],
   "generation_metadata": {
-    "total_queries": 111,
+    "total_queries": 200,
     "generation_method": "knowledge_intensive_salient_facts",
     "focus": "complex_recipe_expertise_evaluation",
     "query_types": [
-      "specialty_ingredient_knowledge",
       "extreme_cooking_time_knowledge",
       "cooking_procedure_expertise",
       "nutritional_knowledge",
-      "expert_culinary_knowledge",
-      "recipe_complexity_knowledge",
       "equipment_expertise",
-      "advanced_technique_knowledge",
+      "recipe_complexity_knowledge",
+      "cultural_cuisine_expertise",
+      "expert_culinary_knowledge",
+      "specialty_ingredient_knowledge",
       "specific_recipe_knowledge",
-      "cultural_cuisine_expertise"
+      "advanced_technique_knowledge"
     ]
   }
 }
